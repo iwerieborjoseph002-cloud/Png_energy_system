@@ -71,7 +71,7 @@ The diagram illustrates the coupling between renewable energy sources, hybrid co
 
 Load distribution between PNG and renewable sources is expressed as:
 
-2
+L_total = αL_ren + (1 - α)L_PNG
 
 Where:
 
