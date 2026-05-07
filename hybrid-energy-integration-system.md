@@ -56,6 +56,7 @@ Where:
 - \( P_{out} \) = useful output power  
 
 ---
+Figure 5.1:Hybrid Energy Integration System 
 
 ![Figure 5.1](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/dc7ea8f3a4b9691699d6ab5bf3ad79e75aad1979ba5598f37b694324006af739.png?raw=true)
 
