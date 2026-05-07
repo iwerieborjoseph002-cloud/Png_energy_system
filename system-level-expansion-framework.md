@@ -1,26 +1,26 @@
-### 5. System-Level Expansion Framework 
+### System-Level Expansion Framework 
 
 The System-Level Expansion Framework represents the future development pathway of the PNG (Pure Natural Gas) Energy System beyond its current single-source chemical-to-energy architecture. It is not part of the current operational system but defines the conceptual direction for scalability and integration.
 
-#### 5.1 Core Reference Reaction
+#### 5.0 Core Reference Reaction
 The PNG system is fundamentally anchored on the chemical conversion process:
 
 C + H₂O(g) → CO + H₂
 
-#### 5.2 Scope Definition
+#### 5.1 Scope Definition
 This module explores potential extensions of the PNG system into broader energy system architectures without altering the core chemical conversion pipeline.
 
-#### 5.3 Future Integration Concepts
+#### 5.2 Future Integration Concepts
 - Conceptual interaction between PNG-based systems and external energy infrastructures  
 - High-level hybrid architecture modelling (non-implemented)  
 - System coupling strategies for future multi-domain energy frameworks  
 
-#### 5.4 Emission and Efficiency Studies (Conceptual)
+#### 5.3 Emission and Efficiency Studies (Conceptual)
 - Theoretical emission reduction pathways across extended energy systems  
 - System-wide efficiency projection models  
 - Comparative analysis frameworks between standalone PNG and extended architectures  
 
-#### 5.5 Boundary Clarification
+#### 5.4 Boundary Clarification
 This module does not modify or interfere with:
 - Fuel atomization processes  
 - Catalytic process optimization  
@@ -29,7 +29,7 @@ This module does not modify or interfere with:
 
 It exists strictly as a forward-looking system design layer.
 
-#### 5.6 Reference Integration Modules
+#### 5.5 Reference Integration Modules
 This framework conceptually connects with the following completed PNG Energy System modules:
 
 - Fuel Atomization  
@@ -48,10 +48,10 @@ This framework conceptually connects with the following completed PNG Energy Sys
   Reference Module:  
   https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combustion-stability-and-knock-analysis.md
 
-#### 5.7 Conclusion
+#### 5.6 Conclusion
 The System-Level Expansion Framework serves as a future-oriented conceptual layer for extending the PNG Energy System beyond its current operational architecture. While the present PNG system remains a single-source chemical-to-energy conversion pipeline, this framework establishes a structured pathway for future scalability, integration studies, and advanced system-level exploration.
 
-#### 5.8 System Role
+#### 5.7 System Role
 - Type: Conceptual / Future Framework  
 - Status: Not implemented  
 - Dependency: Standalone roadmap layer
