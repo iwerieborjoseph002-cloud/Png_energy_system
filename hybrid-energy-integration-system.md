@@ -135,9 +135,9 @@ The Hybrid Energy Integration System is built upon the following upstream module
 - **Fuel Injection Dynamics**  
   [fuel-injection-dynamics.md](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics.md)  
   Defines injection pressure behavior, transient spray formation, and fuel delivery timing dynamics.
-
-- **Combustion Stability and Knocking Analysis**  
-  [combustion-stability-knocking-analysis.md](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combustion-stability-knocking-analysis.md)  
+  
+  - **Combustion Stability and Knock Analysis**  
+  [Combustion-stability-and-knock-analysis.md](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/Combustion-stability-and-knock-analysis.md)  
   Defines ignition stability limits, pressure wave formation, and knocking thresholds.
 
 These modules define the physical constraints and performance boundaries of the PNG system.
