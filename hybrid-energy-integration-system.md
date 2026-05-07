@@ -110,33 +110,33 @@ This module establishes the system-level energy framework of the PNG architectur
 
 ---
 
-#5.7 Internal References (Core PNG Subsystem Modules)
+# 5.7 Internal References (Core PNG Subsystem Modules)
 
 This section links the Hybrid Energy Integration System to the foundational PNG Energy System modules that define its physical and chemical behavior.
 
-##5.7.1 Core Supporting Modules
+## 5.7.1 Core Supporting Modules
 
 The Hybrid Energy Integration System is built upon the following upstream modules:
 
 - **Fuel Atomization and Spray Formation**  
-  [Fuel-atomization.md](Fuel-atomization.md)  
+  [Fuel-atomization.md](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/Fuel-atomization.md)  
   Defines droplet breakup physics, Sauter Mean Diameter (SMD), and spray dispersion characteristics controlling evaporation and combustion efficiency.
 
 - **Catalyst Process Optimization**  
-  [catalyst-process-optimization.md](catalyst-process-optimization.md)  
+  [catalyst-process-optimization.md](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization.md)  
   Governs reaction kinetics, surface activity, and catalytic enhancement of fuel conversion efficiency.
 
 - **Fuel Injection Dynamics**  
-  [fuel-injection-dynamics.md](fuel-injection-dynamics.md)  
+  [fuel-injection-dynamics.md](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics.md)  
   Defines injection pressure behavior, transient spray formation, and fuel delivery timing dynamics.
 
 - **Combustion Stability and Knocking Analysis**  
-  [combustion-stability-knocking-analysis.md](combustion-stability-knocking-analysis.md)  
+  [combustion-stability-knocking-analysis.md](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combustion-stability-knocking-analysis.md)  
   Defines ignition stability limits, pressure wave formation, and knocking thresholds.
 
 These modules define the physical constraints and performance boundaries of the PNG system.
 
-##5.7.2 System-Level Dependency Meaning
+## 5.7.2 System-Level Dependency Meaning
 
 - Injection dynamics define fuel delivery conditions  
 - Atomization controls droplet formation and evaporation rate  
@@ -146,15 +146,15 @@ These modules define the physical constraints and performance boundaries of the 
 
 ---
 
-#5.8 PNG Energy System Dependency Map
+# 5.8 PNG Energy System Dependency Map
 
 This section defines the causal structure of the PNG Energy System.
 
-##5.8.1 Functional Dependency Chain
+## 5.8.1 Functional Dependency Chain
 
 Fuel Injection Dynamics → Fuel Atomization → Combustion Stability and Knocking Behaviour → Catalyst Process Optimization → Hybrid Energy Integration System
 
-##5.8.2 System Flow Representation
+## 5.8.2 System Flow Representation
 
 Fuel Injection Dynamics  
 ↓  
@@ -166,16 +166,17 @@ Catalyst Process Optimization
 ↓  
 Hybrid Energy Integration System (Module 5)
 
-##5.8.3 Engineering Interpretation
+## 5.8.3 Engineering Interpretation
 
 - Lower-level injection physics sets initial system constraints  
 - Atomization determines fuel-air interaction quality  
 - Combustion stability defines safe operating limits  
 - Catalysis improves reaction efficiency within constraints  
-- Hybrid system performs global energy balancing and optimization
+- Hybrid system performs global energy balancing and optimization  
 
- --- 
+---
 
 ## 5.9 Conclusion
 
 The Hybrid Energy Integration System defines a structured coupling between PNG and renewable energy sources. Through power balancing, load sharing, and emission modelling, the system enables adaptive and efficient energy management within a hybrid architecture.
+
