@@ -87,16 +87,16 @@ This model defines proportional energy allocation within the hybrid system.
 
 ## 5.5 Emission Reduction Model
 
-
 Emission reduction is evaluated by comparing standalone PNG operation with hybrid operation:
 
 E_hybrid = (1 - α)E_PNG
 
 Where:
 
-- \(E_{hybrid}\) = emissions under hybrid operation  
-- \(E_{PNG}\) = emissions from PNG-only operation  
-- \( \alpha \) = renewable contribution factor  
+- E_hybrid = emissions under hybrid operation  
+- E_PNG = emissions from PNG-only operation  
+- α = renewable contribution factor (0 ≤ α ≤ 1)
+  
 
 Higher renewable penetration leads to lower effective emissions.
 
