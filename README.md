@@ -57,7 +57,7 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combusti
 
 ---
 
-### 5. System-Level Expansion Framework (Completed)
+### 5. System-Level Expansion Framework (In Development)
 
 - Future exploration of PNG integration with external energy systems
 - Conceptual hybrid architecture modelling (non-implemented)
