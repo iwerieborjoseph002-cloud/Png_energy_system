@@ -57,10 +57,10 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combusti
 
 ---
 
-### 5. Hybrid Energy Integration System (Pending)
-- PNG and renewable energy coupling  
-- Hybrid power architecture  
-- Emission reduction modelling  
+### 5. System-Level Expansion Framework (Pending)
+- Future exploration of PNG integration with external energy systems
+- Conceptual hybrid architecture modelling (non-implemented)
+- Emission reduction pathway analysis at system level
 
 ---
 
