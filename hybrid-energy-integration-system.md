@@ -57,9 +57,9 @@ Where:
 
 ---
 
-### Figure 5.1: Hybrid Energy Integration System Architec
+### Figure 5.1: Hybrid Energy Integration System Architecture
 
-
+![Figure 5.1](images/fig5_1_hybrid_architecture.png)
 
 The diagram illustrates the coupling between renewable energy sources, hybrid control unit, PNG subsystem, and storage elements leading to system output.
 
