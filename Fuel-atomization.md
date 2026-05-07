@@ -269,7 +269,7 @@ https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-perform
 
 This module is also supported and informed by external research findings available in:
 
-- Zenodo Research Record: https://zenodo.org/records/20056957
+Zenodo Research Record: https://zenodo.org/records/20056957
 
 This reference contributes to understanding of spray dynamics, atomization behavior, and fuel dispersion mechanisms relevant to PNG fuel injection systems.
 
