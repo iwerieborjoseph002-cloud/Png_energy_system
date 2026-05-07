@@ -25,14 +25,14 @@ The system enables dynamic energy allocation depending on availability and deman
 
 Energy coupling is governed by the total power balance equation:
 
-0
+P_total = P_PNG + P_ren - P_loss
 
 Where:
 
-- \(P_{total}\) = total usable system power  
-- \(P_{PNG}\) = power generated from PNG subsystem  
-- \(P_{ren}\) = renewable energy input  
-- \(P_{loss}\) = system losses (conversion, transmission, storage)
+- P_total = total usable system power  
+- P_PNG = power generated from the PNG subsystem  
+- P_ren = renewable energy input  
+- P_loss = system losses (conversion, transmission, and storage losses)
 
 This relationship defines how energy contributions are shared between subsystems under operational conditions.
 
