@@ -69,27 +69,31 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-l
 ---
 
 ### 6. Sensor and Atomization Alert System (Pending)
-- Real-time combustion monitoring  
-- Injection quality detection  
-- System fault alerts  
-
----
+- Real-time fuel injection monitoring  
+- Atomization quality detection  
+- Combustion stability and fault alerts  
+- Engine performance feedback monitoring  
 
 ### 7. Advanced Process Optimization (Pending)
-- System-wide efficiency modeling  
-- Integrated performance optimization  
-- Energy loss minimization strategies  
-
----
+- System-wide efficiency evaluation  
+- Integrated fuel-to-energy performance optimization  
+- Energy loss and combustion inefficiency analysis  
+- Long-term operational performance assessment  
 
 ## System Integration Insight
 
-The PNG Energy System is designed as an interconnected process:
+The PNG Energy System operates as a structured single-source conversion pipeline:
 
-Fuel Injection → Atomization → Catalytic Conversion → Combustion → Energy Output → Monitoring & Optimization
+Catalytic Conversion → Fuel Injection → Fuel Atomization → Combustion Dynamics → Energy Output → Monitoring & Optimization Feedback
 
-Each module contributes to overall system efficiency and performance.
+Each stage contributes to a continuous transformation chain from chemical fuel formation to usable energy output.
 
+The catalytic conversion stage defines the chemical production of PNG fuel:
+
+C + H₂O(g) → CO + H₂
+
+Sensor and optimization modules provide observational and analytical feedback across the system without modifying core physical or chemical processes.
+ 
 ---
 
 ## Repository Structure
