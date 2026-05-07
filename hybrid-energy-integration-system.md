@@ -76,8 +76,10 @@ L_total = αL_ren + (1 - α)L_PNG
 
 Where:
 
-- \(L_{total}\) = total system load  
-- \( \alpha \) = renewable penetration factor (0 ≤ α ≤ 1)
+- L_total = total system load  
+- L_ren = load contribution supplied by renewable energy sources  
+- L_PNG = load contribution supplied by the PNG subsystem  
+- α = renewable penetration factor (0 ≤ α ≤ 1)
 
 This model defines proportional energy allocation within the hybrid system.
 
