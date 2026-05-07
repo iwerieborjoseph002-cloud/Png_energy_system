@@ -258,25 +258,18 @@ The transition from coarse to fine atomization:
 In modern energy systems, especially PNG-based concepts, atomization is not only a mechanical process but a critical design variable in next-generation fuel technologies.
 
 ---
-## 9.0 External Integration
 
-This module is supported by a detailed blog post that expands on the principles of fuel atomization, including spray behavior, performance implications, and real-world engineering insights.
+## 9.0 External Research Support (Fuel Atomization)
 
-🔗 Blog Reference:  
-https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html
+This module is supported by external research and applied engineering references that enhance understanding of atomization behavior.
 
-### External Research Reference
+- Blog Reference: https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html  
+- Zenodo Research Record: https://zenodo.org/records/20056957  
 
-This module is also supported and informed by external research findings available in:
-
-Zenodo Research Record: https://zenodo.org/records/20056957
-
-This reference contributes to understanding of spray dynamics, atomization behavior, and fuel dispersion mechanisms relevant to PNG fuel injection systems.
-
-The insights from this work are used to support analysis of:
-- Droplet formation behavior
-- Spray breakup dynamics
-- Fuel–air mixing efficiency
+These sources contribute to the following analysis areas:
+- Droplet formation behavior  
+- Spray breakup dynamics  
+- Fuel–air mixing efficiency  
 - Atomization stability under pressure-driven injection
 
 ## Related Modules (PNG System)
