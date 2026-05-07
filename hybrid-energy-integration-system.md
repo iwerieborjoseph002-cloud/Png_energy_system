@@ -84,9 +84,10 @@ This model defines proportional energy allocation within the hybrid system.
 
 ## 5.5 Emission Reduction Model
 
+
 Emission reduction is evaluated by comparing standalone PNG operation with hybrid operation:
 
-3
+E_hybrid = (1 - α)E_PNG
 
 Where:
 
