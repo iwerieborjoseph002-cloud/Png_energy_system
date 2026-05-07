@@ -2,7 +2,14 @@
 
 ## Overview
 
-PNG (Pure Natural Gas) Energy System is a modular engineering research project focused on fuel atomization, catalytic process optimization, combustion analysis, and end-to-end fuel-to-energy conversion modeling.
+PNG (Pure Natural Gas) Energy System is a modular engineering research project.
+
+It focuses on:
+- fuel atomization  
+- catalytic process optimization  
+- combustion analysis  
+- end-to-end fuel-to-energy conversion modeling
+
 ---
 
 ## System Modules (7 Total)
