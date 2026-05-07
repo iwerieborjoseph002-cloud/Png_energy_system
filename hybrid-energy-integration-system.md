@@ -59,7 +59,10 @@ Where:
 
 ### Figure 5.1: Hybrid Energy Integration System Architecture
 
-![Figure 5.1: Hybrid Energy Integration System Architecture](images/module5_hybrid_energy_architecture.png)
+![Figure 5.1: Hybrid Energy Integration System Architecture](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/ff39eaf87c889e417aeae5a23bfcd8091608342953c7945fea87363da7ec8111.png?raw=true)
+
+The diagram illustrates the coupling between renewable energy sources, hybrid control unit, PNG subsystem, and storage elements leading to system output.
+
 
 The diagram illustrates the coupling between renewable energy sources, hybrid control unit, PNG subsystem, and storage elements leading to system output.
 
