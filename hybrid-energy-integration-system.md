@@ -48,12 +48,13 @@ The hybrid system operates under three configurations:
 
 System efficiency is defined as:
 
-1
+η_system = P_out / P_in
 
 Where:
 
-- \( \eta_{system} \) = overall system efficiency  
-- \( P_{out} \) = useful output power  
+- η_system = overall system efficiency  
+- P_out = useful output power  
+- P_in = total input power
 
 ---
 Figure 5.1:Hybrid Energy Integration System 
