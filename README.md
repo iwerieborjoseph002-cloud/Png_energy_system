@@ -102,6 +102,17 @@ This repository serves as the central hub for all PNG Energy System engineering 
 
 ---
 
+### Documentation Structure
+
+The repository includes a dedicated documentation layer for system-level engineering analysis and architectural definitions.
+
+#### Available Documentation
+- [Dependency Graph](docs/dependency-graph.md)
+
+The dependency graph defines the causal relationships and process flow between the chemical, combustion, monitoring, and optimization layers of the PNG Energy System.
+
+---
+
 ## Reference Document
 
 The foundational research document is available in the main repository:
