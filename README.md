@@ -88,9 +88,23 @@ Catalytic Conversion → Fuel Injection → Fuel Atomization → Combustion Dyna
 
 Each stage contributes to a continuous transformation chain from chemical fuel formation to usable energy output.
 
-The catalytic conversion stage defines the chemical production of PNG fuel:
+The catalytic conversion stage defines the chemical production pathway of PNG fuel through syngas generation and catalytic hydrocarbon synthesis.
+
+### Syngas Formation Stage
+
+Reactive carbon reacts with steam at elevated temperature to produce synthesis gas (syngas):
 
 C + H₂O(g) → CO + H₂
+
+This stage forms the primary chemical feedstock required for downstream catalytic fuel synthesis.
+
+### Catalytic Hydrocarbon Synthesis Stage
+
+The generated syngas is processed through a catalytic conversion stage based on Fischer–Tropsch-type hydrocarbon synthesis principles:
+
+(2n + 1)H₂ + nCO → CₙH₂ₙ₊₂ + nH₂O
+
+This process enables the formation of hydrocarbon compounds within the C₁–C₂₀ range through controlled catalytic reactions involving temperature, pressure, and catalyst optimization.
 
 Sensor and optimization modules provide observational and analytical feedback across the system without modifying core physical or chemical processes.
  
