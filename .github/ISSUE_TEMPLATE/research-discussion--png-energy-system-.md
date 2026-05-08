@@ -1,9 +1,9 @@
 ---
 name: Research Discussion (PNG Energy System)
 about: Structured technical discussion on models, equations, and system behavior
-title: ''
-labels: ''
-assignees: ''
+title: "[RESEARCH]"
+labels: research, discussion 
+assignees: -iweriebor joseph-cloud
 
 ---
 
