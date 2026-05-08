@@ -1,20 +1,8 @@
 ---
 name: Bug report
-
----
-
 about: Report an error, inconsistency, or issue in the PNG Energy System
-
----
-
 title: "[BUG]"
-
----
-
 labels: bug
-
----
-
 assignees:
   - IwerieborJoseph002-cloud
 
