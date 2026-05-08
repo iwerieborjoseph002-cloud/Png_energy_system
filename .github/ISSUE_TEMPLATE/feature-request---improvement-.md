@@ -1,9 +1,9 @@
 ---
 name: 'Feature Request / Improvement '
 about: 'Suggest an Improvement or new idea for the PNG Energy System '
-title: "[RESEARCH]"
-labels: research, discussion 
-assignees: -iweriebor Joseph002-cloud
+title: "[FEATURE]"
+labels: enhancement 
+assignees: - iweriebor Joseph002-cloud
 
 ---
 
