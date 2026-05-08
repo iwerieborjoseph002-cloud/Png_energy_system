@@ -1,18 +1,9 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
----
-
----
-name: Bug Report
-about: Report an error, inconsistency, or issue in the PNG Energy System
-title: "[BUG] "
+about: Report an error, inconsistency, or issue in the PNG Energy System 
+title: "[BUG]"
 labels: bug
----
+assignees: ''
 
 ## 1. Summary
 Describe the issue clearly.
