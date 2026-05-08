@@ -2,7 +2,7 @@
 name:  Feature Request / Improvement 
 about: 'Suggest an Improvement or new idea for the PNG Energy System '
 title:  FEATURE
-labels: enhancement 
+labels:  
 assignees: - 
 iweriebor Joseph002-cloud
 
