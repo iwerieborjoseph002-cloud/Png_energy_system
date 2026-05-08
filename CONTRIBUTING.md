@@ -1,7 +1,5 @@
 # Contributing to the PNG Energy System Project
 
-## Version 1.0
-
 Thank you for your interest in contributing to the PNG (Pure Natural Gas) Energy System Project.
 
 This repository is a structured engineering research framework focused on fuel conversion, atomization, combustion, and system-level energy analysis.
