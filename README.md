@@ -1,6 +1,8 @@
 # PNG Energy System – GitHub Module Status
 
-![DOI Badge](https://zenodo.org/badge/DOI/10.5281/zenodo.20056957.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20056957.svg)](https://doi.org/10.5281/zenodo.20056957)
+
+DOI: https://doi.org/10.5281/zenodo.20056957
 
 ## Overview
 
