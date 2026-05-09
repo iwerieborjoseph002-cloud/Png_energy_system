@@ -5,7 +5,6 @@
 DOI: https://doi.org/10.5281/zenodo.20056957
 
 ## Overview
-
 PNG (Pure Natural Gas) Energy System is a modular engineering research project.
 
 It focuses on:
