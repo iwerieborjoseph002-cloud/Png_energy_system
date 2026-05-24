@@ -72,11 +72,15 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-l
 
 ---
 
-### 6. Sensor and Atomization Alert System (Pending)
+### 6. Sensor and Atomization Alert System (Completed)
 - Real-time fuel injection monitoring  
 - Atomization quality detection  
 - Combustion stability and fault alerts  
 - Engine performance feedback monitoring  
+
+Module Reference 
+
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-atomization-alert-system.md
 
 ### 7. Advanced Process Optimization (Pending)
 - System-wide efficiency evaluation  
