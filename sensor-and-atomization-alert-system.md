@@ -1,13 +1,13 @@
 # Sensor and Atomization Alert System
 
-## 6.0 Overview
+## 5.0 Overview
 The Sensor and Atomization Alert System is a real-time monitoring and diagnostic layer within the PNG (Pure Natural Gas) Energy System. This module is responsible for monitoring fuel injection quality, atomization performance, combustion stability, and early-stage operational abnormalities during PNG fuel utilization.
 
 The module operates downstream of the PNG fuel production stage and supports engine-level performance evaluation through continuous system observation, sensor feedback interpretation, and diagnostic trend analysis.
 
 ---
 
-## 6.1 System Objective
+## 5.1 System Objective
 The primary objective of this module is to improve operational reliability, combustion stability, and fuel utilization efficiency through real-time sensing and diagnostic analysis.
 
 The system focuses on:
@@ -21,9 +21,9 @@ The system focuses on:
 
 ---
 
-## 6.2 Functional Scope
+## 5.2 Functional Scope
 
-### 6.2.1 Fuel Injection Monitoring
+### 5.2.1 Fuel Injection Monitoring
 The system observes fuel delivery behavior within the injector assembly, including:
 - Injection timing consistency  
 - Fuel delivery irregularities  
@@ -40,7 +40,7 @@ Potential monitored behaviors may include:
 
 ---
 
-### 6.2.2 Atomization Performance Detection
+### 5.2.2 Atomization Performance Detection
 The module evaluates fuel breakup quality during atomization processes.
 
 Monitoring parameters include:
@@ -60,7 +60,7 @@ Poor atomization conditions may contribute to:
 
 ---
 
-### 6.2.3 Combustion Stability Monitoring
+### 5.2.3 Combustion Stability Monitoring
 The module performs indirect combustion condition monitoring using sensor feedback signals and operational trend observation.
 
 Observed behaviors include:
@@ -79,7 +79,7 @@ Potential instability indicators include:
 
 ---
 
-### 6.2.4 Fault Alert System
+### 5.2.4 Fault Alert System
 The system generates operational alerts when abnormal conditions exceed acceptable operating thresholds.
 
 Potential alerts include:
@@ -98,7 +98,7 @@ The alert mechanism supports:
 
 ---
 
-### 6.2.5 Monitoring Parameters
+### 5.2.5 Monitoring Parameters
 The monitoring system may evaluate operational parameters including:
 - Injection pressure variation  
 - Injector pulse duration  
@@ -115,7 +115,7 @@ These parameters support trend-based diagnostic evaluation and operational condi
 
 ---
 
-### 6.2.6 Sensor Categories
+### 5.2.6 Sensor Categories
 The Sensor and Atomization Alert System may integrate multiple sensing mechanisms depending on engine configuration and monitoring requirements.
 
 Possible sensor categories include:
@@ -132,7 +132,7 @@ Sensor feedback signals are interpreted within the monitoring layer to support c
 
 ---
 
-## 6.3 System Architecture
+## 5.3 System Architecture
 
 ![Figure 6.3](./41ad20f7d33b0e5704448d0d55590898bc00f0a0b03265622a0b53d1fb9bc67f.png)
 
@@ -154,7 +154,7 @@ The architecture supports continuous operational observation and diagnostic feed
 
 ---
 
-## 6.4 Monitoring Feedback Logic
+## 5.4 Monitoring Feedback Logic
 The monitoring layer compares operational feedback signals against expected system behavior patterns and threshold conditions.
 
 Diagnostic evaluation may involve:
@@ -174,7 +174,7 @@ The monitoring logic is intended to support early-stage detection rather than fu
 
 ---
 
-## 6.5 Reference Modules
+## 5.5 Reference Modules
 The Sensor and Atomization Alert System is functionally connected to the following previously developed PNG Energy System modules:
 
 ### Reference Module 1: Fuel Injection Dynamics
@@ -212,7 +212,7 @@ The Sensor and Atomization Alert System is functionally connected to the followi
 
 ---
 
-## 6.6 System Dependency Insight
+## 5.6 System Dependency Insight
 The Sensor and Atomization Alert System operates as a downstream monitoring and diagnostic layer that observes behavioral outputs from injection, atomization, combustion, and fuel quality conditions within the PNG Energy System.
 
 The module does not directly control combustion processes but instead functions as an observational and diagnostic framework supporting:
