@@ -134,7 +134,7 @@ Sensor feedback signals are interpreted within the monitoring layer to support c
 
 ## 6.3 System Architecture
 
-![Figure 6.3](./images/41ad20f7d33b0e5704448d0d55590898bc00f0a0b03265622a0b53d1fb9bc67f.png)
+![Figure 6.3](./41ad20f7d33b0e5704448d0d55590898bc00f0a0b03265622a0b53d1fb9bc67f.png)
 
 The Sensor and Atomization Alert System operates as a downstream monitoring layer connected to engine utilization modules within the PNG Energy System.
 
