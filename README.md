@@ -79,7 +79,6 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-l
 - Engine performance feedback monitoring  
 
 Module Reference 
-
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-atomization-alert-system.md
 
 ### 7. Advanced Process Optimization (Pending)
