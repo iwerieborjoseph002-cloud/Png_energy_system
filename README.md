@@ -61,7 +61,16 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combusti
 
 ---
 
-### 5. System-Level Expansion Framework (In Development)
+### 5. Sensor and Atomization Alert System (Completed)
+- Real-time fuel injection monitoring  
+- Atomization quality detection  
+- Combustion stability and fault alerts  
+- Engine performance feedback monitoring  
+
+Module Reference 
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-atomization-alert-system.md
+
+### 6. System-Level Expansion Framework (In Development)
 
 - Future exploration of PNG integration with external energy systems
 - Conceptual hybrid architecture modelling (non-implemented)
@@ -71,15 +80,6 @@ Module Reference:
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-level-expansion-framework.md
 
 ---
-
-### 6. Sensor and Atomization Alert System (Completed)
-- Real-time fuel injection monitoring  
-- Atomization quality detection  
-- Combustion stability and fault alerts  
-- Engine performance feedback monitoring  
-
-Module Reference 
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-atomization-alert-system.md
 
 ### 7. Advanced Process Optimization (Pending)
 - System-wide efficiency evaluation  
