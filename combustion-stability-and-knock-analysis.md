@@ -2,7 +2,7 @@
 
 ---
 
-## 1 Introduction
+## 1.0 Introduction
 
 Combustion stability refers to an engine's ability to maintain a consistent and controlled heat release rate during combustion.
 
@@ -13,7 +13,7 @@ In the PNG Energy System, combustion stability is treated as a **pre-combustion 
 
 ---
 
-## 2 Knock Formation Mechanism (Thermo-Kinetic Model)
+## 2.0 Knock Formation Mechanism (Thermo-Kinetic Model)
 
 Knock occurs when the unburned end-gas auto-ignites before the flame front arrives.
 
@@ -45,7 +45,7 @@ Where:
 
 ---
 
-## 3 Flame Propagation Behavior
+## 3.0 Flame Propagation Behavior
 
 Flame propagation determines combustion uniformity and energy release rate.
 
@@ -60,7 +60,7 @@ Where:
 
 ---
 
-## 4 Pressure Wave Dynamics
+## 4.0 Pressure Wave Dynamics
 
 Knock is a resonant pressure oscillation inside the combustion chamber.
 
@@ -75,7 +75,7 @@ Where:
 
 ---
 
-## 5 Solved Examples
+## 5.0 Solved Examples
 
 ### Example 1: Knock Condition Check
 
@@ -112,7 +112,7 @@ Case B (fine droplets):
 
 ---
 
-## 6 Engineering Diagram
+## 6.0 Engineering Diagram
 
 ### 6.1 Conceptual Illustration
 
@@ -149,7 +149,7 @@ The following figure compares normal combustion and knocking phenomena inside a 
 ---
 
 
-## 7 PNG Energy System Interpretation
+## 7.0 PNG Energy System Interpretation
 
 Knock is fundamentally a **time-scale mismatch problem**:
 
@@ -164,7 +164,7 @@ Improved atomization leads to:
 
 ---
 
-## 8 Engineering Insight
+## 8.0 Engineering Insight
 
 Combustion stability improves when:
 - Ignition delay is controlled  
@@ -173,7 +173,7 @@ Combustion stability improves when:
 
 ---
 
-## 9 Related Work (PNG Energy System)
+## 9.0 Related Work (PNG Energy System)
 
 ### Core Modules
 - **Fuel Atomization in Internal Combustion Engine**  
@@ -197,7 +197,7 @@ Combustion stability improves when:
 
   ---
 
-## 10 Conclusion
+## 10.0 Conclusion
 
 Knock is a coupled thermodynamic and kinetic instability caused by:
 - premature auto-ignition  
