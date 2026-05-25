@@ -1,6 +1,6 @@
 # FUEL INJECTION DYNAMICS 
 
-## 1. INTRODUCTION
+## 1.0 INTRODUCTION
 Fuel injection dynamics describe the physical and thermodynamic behavior of fuel as it is delivered from an injector into a combustion chamber. In the PNG (Pure Natural Gas) Energy System, this process defines the initial boundary condition for downstream atomization, mixing, ignition, and combustion efficiency.
 
 This model formalizes injection as a time-dependent fluid–energy control system rather than a static flow event.
@@ -13,7 +13,7 @@ This model formalizes injection as a time-dependent fluid–energy control syste
 
 ---
 
-## 2. GOVERNING PRINCIPLES OF FUEL INJECTION
+## 2.0 GOVERNING PRINCIPLES OF FUEL INJECTION
 
 ### 2.1 Nozzle Flow Dynamics
 Fuel discharge is governed by pressure differential across a calibrated orifice.
@@ -100,7 +100,7 @@ This figure represents the fundamental physical transition in fuel injection dyn
 
 ### System role in PNG Energy Architecture
 Injection → Spray Formation → Air–Fuel Mixing → Ignition → Combustion → Energy Output
-## 3. INJECTION SYSTEM CONTROL PARAMETERS
+## 3.0 INJECTION SYSTEM CONTROL PARAMETERS
 
 ### 3.1 Injection Pressure (ΔP)
 - Higher pressure → finer droplets  
@@ -146,7 +146,7 @@ Controls:
 
 ---
 
-## 4. NUMERICAL ANALYSIS
+## 4.0 NUMERICAL ANALYSIS
 
 Given:
 - C_d = 0.85  
@@ -167,7 +167,7 @@ Q ≈ 1.14 × 10⁻⁴ m³/s
 
 ---
 
-## 5. COMBUSTION SYSTEM ARCHITECTURE
+## 5.0 COMBUSTION SYSTEM ARCHITECTURE
 
 Injection → Spray Formation → Air–Fuel Mixing → Ignition Kernel Formation → Flame Propagation → Energy Output
 
@@ -180,7 +180,7 @@ Injection → Spray Formation → Air–Fuel Mixing → Ignition Kernel Formatio
 
 ---
 
-## 6. ENGINEERING APPLICATIONS
+## 6.0 ENGINEERING APPLICATIONS
 - Internal combustion engines (SI / CI)  
 - Gas energy systems  
 - Hybrid PNG catalytic systems  
@@ -188,7 +188,7 @@ Injection → Spray Formation → Air–Fuel Mixing → Ignition Kernel Formatio
 
 ---
 
-## 7. OPTIMIZATION FRAMEWORK
+## 7.0 OPTIMIZATION FRAMEWORK
 
 ### Variables
 - ΔP (pressure)  
@@ -206,7 +206,7 @@ Maximize combustion efficiency (ηc)
 
 ---
 
-## 8. SYSTEM INTEGRATION (PNG ARCHITECTURE)
+## 8.0 SYSTEM INTEGRATION (PNG ARCHITECTURE)
 
 - Fuel Atomization Module 
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/Fuel-atomization.md
@@ -226,7 +226,7 @@ https://iwerieborjoseph.blogspot.com/2026/04/fuel-injection-dynamics-in-png-pure
 
 ---
 
-## 9. CONCLUSION
+## 9.0 CONCLUSION
 Fuel injection dynamics define the foundational control layer of the PNG Energy System. Performance is governed by pressure, geometry, timing, and fuel properties.
 
 
