@@ -1,4 +1,4 @@
-# Advanced Process Optimization Layer
+# Advanced Process Optimization 
 
 ---
 
@@ -150,7 +150,7 @@ Optimization is constrained by:
 The Optimization Layer operates across multiple PNG Energy System modules:
 
 - Expansion Layer (System-Level Scaling & Future Architecture)  
-  https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/expansion-layer.md  
+    https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-level-expansion-framework.md
 
 - Fuel Atomization System  
   https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/Fuel-atomization.md  
