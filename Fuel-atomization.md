@@ -3,7 +3,7 @@
 
 ---
 
-## 1. Introduction
+## 1.0 Introduction
 
 Fuel atomization is a critical process in internal combustion (IC) engine systems that directly influences combustion efficiency, power output, fuel economy, and emission characteristics.
 
@@ -13,7 +13,7 @@ The quality of atomization governs the effectiveness of air–fuel mixing, which
 
 ---
 
-## 2. Fundamental Principles of Fuel Atomization
+## 2.0 Fundamental Principles of Fuel Atomization
 
 Fuel is delivered into the combustion chamber through injectors or carburetors under pressure. As liquid fuel passes through a nozzle, it disintegrates into droplets due to aerodynamic and mechanical forces.
 
@@ -27,7 +27,7 @@ Smaller droplets increase the surface-area-to-volume ratio, accelerating evapora
 
 ---
 
-## 3. Atomization Quality: Poor vs Efficient Spray
+## 3.0 Atomization Quality: Poor vs Efficient Spray
 
 ### 3.1 Poor Atomization (Coarse Spray)
 
@@ -64,7 +64,7 @@ Characteristics:
 
 Fuel atomization is the process in which liquid fuel is broken into fine droplets at the injector nozzle. This increases the surface area of the fuel, allowing faster evaporation and better mixing with air. The improved air–fuel mixture leads to more efficient combustion, higher engine performance, and reduced emissions.
 
-## 4. Governing Equations in Fuel Atomization
+## 4.0 Governing Equations in Fuel Atomization
 
 Fuel atomization performance is quantitatively described using droplet size metrics, breakup dynamics, and spray penetration characteristics. These governing relations link injector design and operating conditions to combustion efficiency within the PNG Energy System.
 
@@ -196,7 +196,7 @@ In the PNG Energy System, optimal performance is achieved when:
 
 This ensures maximum energy conversion efficiency with minimal losses.
 
-## 5. Role of Atomization in PNG Fuel Systems
+## 5.0 Role of Atomization in PNG Fuel Systems
 
 In advanced fuel systems such as **PNG (Pure Natural Gas conceptual systems)**, atomization plays a central role in achieving controlled combustion behavior.
 
@@ -210,7 +210,7 @@ Enhanced atomization acts as a bridge between conventional liquid fuels and clea
 
 ---
 
-## 6. Engineering Factors Affecting Atomization
+## 6.0 Engineering Factors Affecting Atomization
 
 ### Critical variables:
 
@@ -233,7 +233,7 @@ Optimization of these parameters is essential for high-performance combustion sy
 
 ---
 
-## 7. Environmental and Performance Implications
+## 7.0 Environmental and Performance Implications
 
 Efficient atomization contributes to:
 
@@ -246,7 +246,7 @@ From an engineering perspective, atomization is a key control parameter in achie
 
 ---
 
-## 8. Conclusion
+## 8.0 Conclusion
 
 Fuel atomization is a fundamental determinant of combustion quality in internal combustion engines.
 
