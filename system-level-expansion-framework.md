@@ -172,11 +172,14 @@ System Data Acquisition
 
 ## 6.13 Relationship to Other Modules
 
-- Module 5 → Core combustion engine system  
+- Module 4 → Core combustion engine system  
+- Module 5 → Sensor and monitoring system  
 - Module 6 → Expansion and scaling architecture  
 - Module 7 → Optimization and performance intelligence  
 
-Core System → Expansion Layer → Optimization Layer  
+Flow:
+
+Core System → Sensor Layer → Expansion Layer → Optimization Layer
 
 ---
 
