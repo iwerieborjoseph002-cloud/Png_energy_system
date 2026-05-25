@@ -185,13 +185,14 @@ The Optimization Layer produces:
 
 ## 7.11 Relationship to Other Modules
 
-- Module 5 → provides physical engine behavior  
+- Module 4 → provides physical combustion engine behavior  
+- Module 5 → provides sensor and monitoring feedback system  
 - Module 6 → provides scaling architecture (EF, SE, SCE)  
 - Module 7 → optimizes and stabilizes system performance  
 
 Flow:
 
-Core System → Expansion Layer → Optimization Layer → Re-Expansion Cycle  
+Core System → Sensors → Expansion Layer → Optimization Layer → System Refinement Cycle
 
 ---
 
