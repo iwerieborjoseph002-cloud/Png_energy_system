@@ -87,6 +87,9 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-l
 - Energy loss and combustion inefficiency analysis  
 - Long-term operational performance assessment  
 
+Module Reference 
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/advanced-process-optimization.md
+
 ## System Integration Insight
 
 The PNG Energy System operates as a structured single-source conversion pipeline:
