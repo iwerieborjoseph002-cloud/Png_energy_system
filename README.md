@@ -1,8 +1,9 @@
 # PNG Energy System – GitHub Module Status
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20056957.svg)](https://doi.org/10.5281/zenodo.20056957)
+## Citation (Primary System)
 
-DOI: https://doi.org/10.5281/zenodo.20056957
+PNG Energy System v1.1.0 – Modular Architecture Framework  
+DOI: https://doi.org/10.5281/zenodo.20402237
 
 ## Overview
 PNG (Pure Natural Gas) Energy System is a modular engineering research project.
