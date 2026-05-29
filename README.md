@@ -5,15 +5,21 @@
 PNG Energy System v1.1.0 – Modular Architecture Framework  
 DOI: https://doi.org/10.5281/zenodo.20402237
 
+---
+
 ## Version History / Previous Releases
 
 Fuel Atomization v2.0.0 (Archived Module Release)  
 DOI: https://doi.org/10.5281/zenodo.20056957
 
+---
+
 ## Version Documentation
 
 - v2.0.0 Engineering Expansion (planned)
 - v3.0.0 Simulation Framework (planned)
+
+---
 
 ## Overview
 PNG (Pure Natural Gas) Energy System is a modular engineering research project.
