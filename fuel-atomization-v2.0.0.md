@@ -1105,13 +1105,15 @@ The blog resource is intended for general understanding and accessibility, while
 ---
 
 ### 20.5 Engineering Note on Documentation Strategy
+
 This multi-layer documentation approach distinguishes between:
 
-- Core technical research (this paper)  
-- System architecture development (PNG framework)  
-- Public-facing simplified knowledge dissemination (blog content)  
+- Core technical research (this paper)
+- Archived research records (Zenodo)
+- System architecture development (PNG framework)
+- Public-facing simplified knowledge dissemination (blog content)
 
-This structure ensures clarity between advanced engineering development and accessible educational communication.
+This structure ensures clarity between advanced engineering development, archived scholarly documentation, and accessible educational communication.
 
 ---
 
