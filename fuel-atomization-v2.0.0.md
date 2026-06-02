@@ -802,6 +802,9 @@ Thus, atomization forms a critical link between fuel injection dynamics and comb
 ---
 
 ## Figure 13.1: Atomization as a Bridge in PNG Energy System
+
+![Atomization Bridge](assets/images/atomization_v2_figure1.png)
+
 Figure 13.1 illustrates the role of fuel atomization as a bridging mechanism between fuel injection and combustion behavior within the PNG system. The diagram highlights the progression from injector-driven spray formation to air-fuel mixing, combustion development, and energy output, emphasizing atomization as a controlling parameter in system performance.
 
 ---
