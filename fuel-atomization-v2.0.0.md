@@ -1095,6 +1095,8 @@ A simplified external overview of this topic is available at:
 
 https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html
 
+- Zenodo Research Record: https://zenodo.org/records/20056957
+
 This resource is intended for general understanding and accessibility, while the present document provides the detailed engineering formulation and system-level analysis.
 
 ---
