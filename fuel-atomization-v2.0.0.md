@@ -82,3 +82,25 @@ The present work organizes these concepts into a structured engineering framewor
 This paper presents a conceptual engineering analysis of fuel atomization in internal combustion engines. It focuses on the relationship between atomization quality and combustion behaviour, with emphasis on spray formation dynamics and engine performance implications.
 
 The study is intended as a structured analytical model for understanding fuel-air interaction in combustion systems.
+
+## 3.0 Problem Statement
+
+Fuel atomization plays a critical role in determining combustion quality within internal combustion systems. In conventional fuel systems, inconsistent atomization leads to incomplete air-fuel mixing, resulting in reduced efficiency, increased emissions, and combustion instability. Within the PNG Energy System framework, atomization is identified as a key transitional mechanism between fuel injection and combustion performance.
+
+However, existing models often treat atomization as a standalone injector phenomenon rather than as an integrated system parameter influencing overall energy conversion efficiency. This creates a gap in understanding how spray dynamics can be systematically optimized within an engineered fuel system such as PNG.
+
+This module therefore focuses on analyzing atomization as a functional bridge between fuel delivery and combustion behavior within the PNG system architecture.
+
+---
+
+## 4.0 Research Objectives
+
+### 4.1 General Objective
+To analyze the role of fuel atomization as a performance-controlling mechanism within the PNG Energy System.
+
+### 4.2 Specific Objectives
+To evaluate the influence of atomization on combustion efficiency within the PNG framework.  
+To examine injector and spray parameters affecting fuel breakup behavior.  
+To establish the relationship between atomization quality and combustion stability.  
+To compare atomization behavior between PNG fuel conditions and conventional fuel systems.  
+To define atomization as a functional bridge within the overall PNG Energy System architecture.
