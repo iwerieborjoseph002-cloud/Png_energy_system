@@ -327,3 +327,83 @@ Improved atomization reduces knocking probability by eliminating heterogeneous c
 Across all three research questions, a consistent relationship emerges:
 
 Fuel atomization quality governs combustion efficiency, emission formation, and knock resistance through its control over droplet size distribution, mixing uniformity, and evaporation dynamics.
+
+---
+
+## 9.0 Results and Discussion (Fuel Atomization in PNG System Framework)
+
+### 9.1 Overview of Analytical Findings
+The analysis of fuel atomization within the PNG Energy System framework indicates that combustion performance is strongly dependent on droplet formation behavior, spray dynamics, and air-fuel interaction efficiency. Across the governing principles, a consistent relationship is observed between atomization quality and combustion stability.
+
+Finer atomization consistently corresponds to improved combustion efficiency, while coarse atomization leads to incomplete combustion and increased emission formation.
+
+---
+
+### 9.2 Effect of Droplet Size on Combustion Behavior
+The results of the atomization model indicate that droplet size (represented by Sauter Mean Diameter, SMD) is a primary controlling parameter of combustion performance.
+
+Key observations:
+- Reduced SMD enhances evaporation rate  
+- Faster evaporation improves air-fuel mixing  
+- Improved mixing leads to more complete combustion  
+
+This confirms that droplet size reduction directly improves thermal efficiency and combustion stability.
+
+---
+
+### 9.3 Influence of Weber Number on Spray Breakup
+Analysis of the Weber number relationship shows that atomization quality improves significantly when aerodynamic forces dominate surface tension forces.
+
+Findings:
+- High Weber number → strong breakup → fine spray formation  
+- Low Weber number → weak breakup → coarse droplets  
+- Transition region defines unstable combustion behavior  
+
+This demonstrates that spray breakup intensity is a governing factor in atomization efficiency.
+
+---
+
+### 9.4 Spray Penetration and Mixture Formation
+Spray penetration behavior strongly affects fuel distribution within the combustion chamber.
+
+Key results:
+- Excess penetration causes wall impingement and fuel loss  
+- Insufficient penetration leads to poor air-fuel mixing  
+- Optimal penetration achieves balanced mixture formation  
+
+Thus, controlled spray geometry is necessary for stable combustion development.
+
+---
+
+### 9.5 Air-Fuel Interaction and Turbulence Effects
+In-cylinder turbulence (swirl and tumble motion) significantly enhances atomization performance by increasing droplet breakup and mixing rates.
+
+Observed trends:
+- Higher turbulence → faster mixing → improved combustion uniformity  
+- Lower turbulence → localized rich zones → incomplete combustion  
+
+This confirms the critical role of flow dynamics in combustion optimization.
+
+---
+
+### 9.6 System-Level Interpretation (PNG Framework Integration)
+Within the PNG Energy System framework, atomization acts as a controlling interface between fuel injection and combustion output.
+
+Integrated interpretation shows:
+- Injector parameters define initial spray conditions  
+- Atomization quality governs mixing efficiency  
+- Combustion behavior determines energy conversion performance  
+
+This establishes atomization as a central control variable in system-level combustion optimization.
+
+---
+
+### 9.7 Discussion of Engineering Implications
+The results indicate that combustion efficiency is not solely dependent on fuel properties but on the interaction between injection dynamics, fluid breakup mechanisms, and in-cylinder flow conditions.
+
+Key engineering implications:
+- Atomization quality directly influences emissions and efficiency  
+- System performance depends on multi-parameter optimization  
+- Injector design and operating conditions must be co-optimized  
+
+This reinforces the need for integrated fuel system design rather than isolated component optimization.
