@@ -1035,3 +1035,61 @@ From an engineering perspective, fuel atomization functions as a key control par
 Within advanced fuel system frameworks such as PNG-based concepts, atomization extends beyond a purely mechanical process and becomes a critical design variable. It enables controlled combustion behavior, supports cleaner energy conversion, and provides a pathway for improving efficiency without fundamentally altering core engine architecture.
 
 This positions fuel atomization as a central element in the development of next-generation combustion systems, where performance optimization and environmental considerations must be addressed simultaneously.
+
+---
+
+## 19.0 Future Work
+
+Future development of this module within the PNG Energy System will focus on:
+
+- Integration of CFD-based atomization and spray breakup simulations.  
+- Experimental validation of spray characteristics using injector test rigs.  
+- Correlation of atomization parameters with combustion efficiency metrics in real engine systems.  
+- Expansion of this module into a full predictive combustion sub-model within the PNG framework.  
+- Linking atomization data with other PNG modules such as combustion stability and emission control systems.  
+
+---
+
+## 20.0 External Integration and Knowledge Dissemination
+
+### 20.1 Knowledge Hierarchy within the PNG System
+This study represents a structured and detailed engineering-level development of fuel atomization within the PNG Energy System framework. The content presented in this paper forms the primary technical model, incorporating governing principles, mathematical formulations, and system-level interactions.
+
+External publications associated with this work serve as simplified dissemination outputs designed for broader accessibility rather than advanced technical depth.
+
+---
+
+### 20.2 Role of External Blog Documentation
+The associated blog material provides a simplified overview of fuel atomization concepts, focusing on general principles such as spray formation, combustion performance, and basic engineering interpretation.
+
+While it supports knowledge dissemination, it does not contain the full mathematical, system-level, or mechanistic depth presented in this study.
+
+---
+
+### 20.3 System Integration Context (PNG Framework)
+Within the broader PNG Energy System architecture, fuel atomization is interconnected with other functional modules such as:
+
+- Fuel Injection Dynamics  
+- Catalyst Process Optimization  
+
+These modules collectively define the progression of fuel processing, atomization behavior, and combustion performance within the system.
+
+---
+
+### 20.4 External Reference (Supplementary Access)
+A simplified external overview of this topic is available at:
+
+https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html
+
+This resource is intended for general understanding and accessibility, while the present document provides the detailed engineering formulation and system-level analysis.
+
+---
+
+### 20.5 Engineering Note on Documentation Strategy
+This multi-layer documentation approach distinguishes between:
+
+- Core technical research (this paper)  
+- System architecture development (PNG framework)  
+- Public-facing simplified knowledge dissemination (blog content)  
+
+This structure ensures clarity between advanced engineering development and accessible educational communication.
