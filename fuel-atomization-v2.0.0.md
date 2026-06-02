@@ -159,3 +159,54 @@ High turbulence intensity increases droplet breakup rates and promotes faster ev
 While extensive literature exists on atomization physics and injector design, most studies treat these elements in isolation. There is limited integration of atomization behavior within a system-level energy framework that links injection dynamics, combustion efficiency, and emission behavior in a unified structure.
 
 This study addresses that gap by situating fuel atomization within the PNG Energy System framework, where atomization is treated as a central control parameter connecting fuel delivery, spray dynamics, and combustion performance.
+
+## 6.0 System Framework / Conceptual Role of Atomization
+
+Within the PNG Energy System, fuel atomization operates as a transitional subsystem linking fuel injection to combustion reaction processes. It is not treated as an isolated mechanical process but as a system-level control variable influencing downstream energy conversion efficiency.
+
+The functional sequence is defined as:
+
+Fuel Injection → Atomization → Air–Fuel Mixing → Combustion → Energy Output
+
+In this structure, atomization determines the quality of mixture formation, which directly affects combustion stability and energy release efficiency.
+
+Compared to conventional fuel systems, the PNG framework emphasizes controlled atomization behavior, where droplet size distribution, spray uniformity, and penetration characteristics are optimized to enhance combustion consistency.
+
+Thus, atomization serves as a functional interface module within the broader PNG Energy System rather than a standalone injector process.
+
+---
+
+## 7.0 Methodology
+
+### 7.1 Research Approach
+This study adopts a systems-based analytical approach to evaluate fuel atomization in internal combustion engines. The methodology is grounded in theoretical modeling, parameter analysis, and system-level integration within the PNG Energy System framework.
+
+---
+
+### 7.2 Analytical Framework
+The analysis is structured around three core layers:
+
+Physical Mechanism Layer → droplet breakup and spray formation  
+Mathematical Layer → SMD, Weber number, spray penetration  
+System Layer → combustion efficiency and PNG integration  
+
+---
+
+### 7.3 Model Development Approach
+Fuel atomization behavior is modeled by linking injector parameters, fuel properties, and in-cylinder air motion to spray formation characteristics. These relationships are used to evaluate combustion efficiency trends.
+
+---
+
+### 7.4 Data Basis
+The study is based on:
+- established combustion theory  
+- fluid dynamics principles  
+- engineering correlations for spray breakup  
+- conceptual system modeling (PNG framework)  
+
+---
+
+### 7.5 System Integration Method
+The PNG Energy System is used as a structured framework to map how atomization influences downstream combustion behavior, emission formation, and energy conversion efficiency.
+
+The outlined approach guides the evaluation presented in the Results and Discussion section.
