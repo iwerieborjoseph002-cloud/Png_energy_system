@@ -869,3 +869,131 @@ Within the PNG Energy System, this unified framework enables compatibility acros
 - Pump systems → pressure stabilization layer  
 
 This establishes atomization as a linking mechanism between fuel delivery and combustion processes, independent of system architecture.
+
+---
+
+## 15.0 Engineering Factors Affecting Fuel Atomization
+
+Fuel atomization is governed by a set of interacting engineering parameters that influence droplet formation, spray characteristics, and air-fuel interaction within the combustion chamber. These variables determine the extent of fuel breakup and the effectiveness of subsequent combustion processes.
+
+### 15.1 Injection Pressure
+Injection pressure controls the velocity at which fuel exits the injector nozzle. Higher injection pressure increases the kinetic energy of the fuel jet, promoting stronger interaction with surrounding air.
+
+Engineering effect:
+- Enhances droplet breakup intensity  
+- Produces finer droplet distribution  
+- Improves spray dispersion characteristics  
+
+Excessive injection pressure may alter spray trajectory and penetration behavior, affecting fuel distribution within the combustion chamber.
+
+---
+
+### 15.2 Injector Design and Nozzle Geometry
+Injector configuration determines the structural formation of the spray. Parameters such as orifice diameter, number of holes, and spray angle directly influence droplet size and spatial dispersion.
+
+Engineering effect:
+- Multi-hole injectors improve spray coverage  
+- Smaller orifice sizes promote finer atomization  
+- Controlled spray angles influence mixture distribution  
+
+---
+
+### 15.3 In-Cylinder Air Motion (Swirl, Tumble, Turbulence)
+Air motion inside the combustion chamber affects how fuel droplets interact with the surrounding air. Swirl and turbulence increase relative velocity between phases, enhancing droplet breakup and mixing.
+
+Engineering effect:
+- Promotes secondary droplet fragmentation  
+- Improves spatial mixing of fuel and air  
+- Influences combustion uniformity  
+
+---
+
+### 15.4 Fuel Physical Properties
+Fuel characteristics such as viscosity, density, and surface tension determine resistance to atomization.
+
+Engineering effect:
+- High viscosity reduces breakup efficiency  
+- Surface tension resists droplet formation  
+- Density influences spray momentum and penetration  
+
+---
+
+### 15.5 Temperature Conditions
+Temperature affects both fuel behavior and evaporation dynamics. Increased temperature reduces fuel viscosity and accelerates vaporization.
+
+Engineering effect:
+- Enhances evaporation rate  
+- Influences ignition readiness  
+- Affects mixture preparation before combustion  
+
+---
+
+### 15.6 Interaction of Engineering Parameters
+Fuel atomization results from the combined influence of injection conditions, fuel properties, and in-cylinder flow dynamics. Variations in one parameter modify droplet formation behavior, spray structure, and mixing characteristics.
+
+---
+
+### 15.7 Engineering Implications in System Operation
+The combined effect of these parameters defines the operational state of atomization within the combustion system. Changes in injection pressure, air motion, or fuel properties directly influence:
+
+- droplet size distribution  
+- spray penetration  
+- evaporation rate  
+
+These interactions determine:
+- air-fuel mixing quality  
+- combustion development rate  
+- combustion stability  
+
+---
+
+## 16.0 Environmental and Performance Implications
+
+Efficient fuel atomization has direct implications for both environmental performance and engine operating efficiency. By controlling droplet size distribution and improving air-fuel mixing, atomization influences combustion completeness, emission formation, and overall energy utilization.
+
+---
+
+### 16.1 Emission Characteristics and Environmental Impact
+Improved atomization promotes more complete combustion by enhancing fuel-air interaction at the molecular level.
+
+Engineering implications:
+
+- Reduced greenhouse gas emissions  
+  Improved combustion efficiency lowers fuel consumption, indirectly reducing CO₂ output per unit energy.
+
+- Lower particulate matter (PM) formation  
+  Fine droplets reduce fuel-rich zones that generate soot.
+
+- Reduced unburned hydrocarbons (UHC) and carbon monoxide (CO)  
+  Uniform mixing enables complete oxidation.
+
+---
+
+### 16.2 Fuel Economy and Energy Utilization
+Atomization efficiency directly affects conversion of chemical energy into mechanical work.
+
+Engineering implications:
+
+- Improved fuel economy due to reduced fuel wastage  
+- Higher thermal efficiency due to uniform combustion  
+- Improved energy extraction per cycle  
+
+---
+
+### 16.3 Engine Performance and Durability
+Atomization quality influences combustion stability and mechanical stress distribution.
+
+Engineering implications:
+
+- Enhanced engine smoothness due to stable pressure development  
+- Reduced carbon deposition on injectors and valves  
+- Improved engine durability due to reduced thermal hotspots  
+
+---
+
+### 16.4 System-Level Environmental Significance
+From a systems engineering perspective, fuel atomization functions as a controlling parameter linking fuel preparation to emission behavior and energy efficiency.
+
+Improved atomization enables cleaner combustion without modifying core engine architecture.
+
+This establishes atomization as a critical factor in sustainable combustion system design.
