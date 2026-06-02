@@ -997,3 +997,41 @@ From a systems engineering perspective, fuel atomization functions as a controll
 Improved atomization enables cleaner combustion without modifying core engine architecture.
 
 This establishes atomization as a critical factor in sustainable combustion system design.
+
+---
+
+## 17.0 Assumptions and Limitations
+
+### 17.1 Assumptions
+Fuel injection conditions are assumed steady and repeatable within system modeling.
+
+Atomization behavior follows standard fluid breakup principles (primary and secondary breakup).
+
+Combustion chamber conditions are considered uniform for system-level analysis.
+
+PNG fuel properties are assumed to be consistent within defined hydrocarbon ranges.
+
+---
+
+### 17.2 Limitations
+This module does not include full experimental engine validation.
+
+Atomization analysis is primarily theoretical and conceptual within system modeling boundaries.
+
+Detailed CFD simulation results are not fully implemented at this stage.
+
+Real-world engine wear, injector degradation, and environmental variations are not included.
+
+---
+
+## 18.0 Conclusion
+
+Fuel atomization has been established as a fundamental determinant of combustion quality in internal combustion engines, governing the effectiveness of air-fuel interaction, droplet evaporation, and energy release within the combustion chamber. Its influence extends across all stages of the combustion process, from initial fuel injection to final emission formation.
+
+The transition from coarse to fine atomization represents a critical improvement in combustion behavior. Enhanced atomization leads to finer droplet distribution, improved air-fuel mixing, and more complete combustion, resulting in higher thermal efficiency, reduced emissions, and improved engine performance. These effects are consistently supported by the governing relationships between droplet size, aerodynamic forces, and spray dynamics.
+
+From an engineering perspective, fuel atomization functions as a key control parameter linking injector design, operating conditions, and combustion outcomes. Variations in injection pressure, nozzle geometry, fuel properties, and in-cylinder air motion directly influence atomization quality and, consequently, overall engine performance.
+
+Within advanced fuel system frameworks such as PNG-based concepts, atomization extends beyond a purely mechanical process and becomes a critical design variable. It enables controlled combustion behavior, supports cleaner energy conversion, and provides a pathway for improving efficiency without fundamentally altering core engine architecture.
+
+This positions fuel atomization as a central element in the development of next-generation combustion systems, where performance optimization and environmental considerations must be addressed simultaneously.
