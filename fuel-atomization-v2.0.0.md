@@ -13,6 +13,8 @@ Efficient atomization enhances the surface area of fuel droplets, promoting fast
 
 This work builds upon a previously established conceptual framework (v1.0.0) on fuel atomization, refining it into a more structured engineering analysis of atomization dynamics in internal combustion engines.
 
+---
+
 ## 1.0 Nomenclature / Symbols
 
 D₃₂ (SMD) = Sauter Mean Diameter (m)  
@@ -83,6 +85,8 @@ This paper presents a conceptual engineering analysis of fuel atomization in int
 
 The study is intended as a structured analytical model for understanding fuel-air interaction in combustion systems.
 
+---
+
 ## 3.0 Problem Statement
 
 Fuel atomization plays a critical role in determining combustion quality within internal combustion systems. In conventional fuel systems, inconsistent atomization leads to incomplete air-fuel mixing, resulting in reduced efficiency, increased emissions, and combustion instability. Within the PNG Energy System framework, atomization is identified as a key transitional mechanism between fuel injection and combustion performance.
@@ -104,6 +108,8 @@ To examine injector and spray parameters affecting fuel breakup behavior.
 To establish the relationship between atomization quality and combustion stability.  
 To compare atomization behavior between PNG fuel conditions and conventional fuel systems.  
 To define atomization as a functional bridge within the overall PNG Energy System architecture.
+
+---
 
 ## 5.0 Literature Review (Fuel Atomization in Combustion Systems)
 
@@ -160,6 +166,8 @@ While extensive literature exists on atomization physics and injector design, mo
 
 This study addresses that gap by situating fuel atomization within the PNG Energy System framework, where atomization is treated as a central control parameter connecting fuel delivery, spray dynamics, and combustion performance.
 
+---
+
 ## 6.0 System Framework / Conceptual Role of Atomization
 
 Within the PNG Energy System, fuel atomization operates as a transitional subsystem linking fuel injection to combustion reaction processes. It is not treated as an isolated mechanical process but as a system-level control variable influencing downstream energy conversion efficiency.
@@ -211,9 +219,9 @@ The PNG Energy System is used as a structured framework to map how atomization i
 
 The outlined approach guides the evaluation presented in the Results and Discussion section.
 
-## 8.0 Research Questions:
-
 ---
+
+## 8.0 Research Questions:
 
 ### 8.1 How does fuel droplet size distribution influence combustion efficiency in PNG fuel systems?
 
@@ -322,7 +330,7 @@ Improved atomization reduces knocking probability by eliminating heterogeneous c
 
 ---
 
-### Final Engineering Summary (for your paper)
+### Final Engineering Summary
 
 Across all three research questions, a consistent relationship emerges:
 
@@ -1093,3 +1101,83 @@ This multi-layer documentation approach distinguishes between:
 - Public-facing simplified knowledge dissemination (blog content)  
 
 This structure ensures clarity between advanced engineering development and accessible educational communication.
+
+---
+
+## 21.0 References
+
+### 21.1 Core Combustion and Spray Atomization Theory
+These foundational works establish the physics of fuel breakup, spray formation, and combustion behavior in internal combustion engines.
+
+Lefebvre, A. H. (1989). *Atomization and Sprays*. Hemisphere Publishing.  
+- Used in: Sections 12.0, 15.3  
+- Supports: droplet breakup theory, SMD, spray regimes  
+
+Heywood, J. B. (2018). *Internal Combustion Engine Fundamentals (2nd ed.)*. McGraw-Hill.  
+- Used in: Sections 15.2, 15.7  
+- Supports: combustion efficiency, air-fuel mixing, emissions formation  
+
+---
+
+### 21.2 Spray Breakup and Fluid Dynamics Models
+These references support Weber number, droplet breakup mechanisms, and jet instability theory.
+
+Sutton, G. P., & Biblarz, O. (2017). *Rocket Propulsion Elements*. Wiley.  
+- Used in: Sections 12.2, 15.3  
+- Supports: Weber number interpretation, jet breakup physics  
+
+Sirignano, W. A. (1999). *Fluid Dynamics and Transport of Droplets and Sprays*. Cambridge University Press.  
+- Used in: Sections 12.0, 15.2, 15.4  
+- Supports: droplet breakup stages, spray evolution  
+
+---
+
+### 21.3 Injector Technology and Fuel System Design
+These works support injector design, nozzle geometry, and spray control mechanisms.
+
+Zhao, H. (2013). *Advanced Direct Injection Combustion Engine Technologies*. Woodhead Publishing.  
+- Used in: Sections 15.4  
+- Supports: injector design, spray control, fuel delivery systems  
+
+Stone, R. (2012). *Introduction to Internal Combustion Engines (4th ed.)*. Palgrave Macmillan.  
+- Used in: Sections 15.7  
+- Supports: injection pressure, engine performance linkage  
+
+---
+
+### 21.4 In-Cylinder Flow and Turbulence Effects
+These references support swirl, tumble, and turbulence effects on combustion.
+
+Lumley, J. L. (2001). *Turbulence, Coherent Structures, Dynamical Systems and Symmetry*. Cambridge University Press.  
+- Used in: Sections 13.3, 15.5  
+- Supports: turbulence-driven mixing enhancement  
+
+Heywood, J. B. (also relevant).  
+- Used in: Sections 15.5  
+- Supports: swirl/tumble effects in engines  
+
+---
+
+### 21.5 Emissions Formation and Environmental Impact
+These references support combustion completeness and pollutant formation mechanisms.
+
+Turns, S. R. (2012). *An Introduction to Combustion*. McGraw-Hill.  
+- Used in: Sections 15.1  
+- Supports: CO, NOx, HC formation mechanisms  
+
+Kuo, K. K. (2005). *Principles of Combustion*. Wiley.  
+- Used in: Sections 15.7  
+- Supports: emission reduction through mixing efficiency  
+
+---
+
+### 21.6 Spray Characterization and SMD Modeling
+These references validate droplet size metrics and spray evaluation methods.
+
+Lefebvre, A. H. (also relevant).  
+- Used in: Section 12.1, 15.2  
+- Supports: Sauter Mean Diameter (SMD)  
+
+Law, C. K. (2006). *Combustion Physics*. Cambridge University Press.  
+- Used in: Sections 12, 7  
+- Supports: combustion-spray interaction physics
