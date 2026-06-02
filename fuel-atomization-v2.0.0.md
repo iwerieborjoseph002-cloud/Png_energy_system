@@ -511,3 +511,227 @@ Fuel atomization governs how effectively liquid fuel transitions into a combusti
 
 ### Figure 11.1: Fuel Atomization Process (Conceptual)
 Fuel atomization is the process in which liquid fuel is broken into fine droplets at the injector nozzle. This increases the surface area of the fuel, allowing faster evaporation and improved mixing with air. A well-atomized fuel spray promotes more efficient combustion, higher engine performance, and reduced emissions.
+
+---
+
+## 12.0 Governing Equations and Engineering Description of Fuel Atomization
+
+### 12.1 Physical Interpretation of Fuel Atomization
+Fuel atomization is governed by the interaction between fuel momentum and resisting surface forces as liquid fuel is discharged through an injector or nozzle into the combustion chamber. During this process, the liquid jet disintegrates into droplets due to aerodynamic shear forces and internal instability within the fuel stream.
+
+The effectiveness of atomization determines the degree of air-fuel mixing, which directly controls combustion efficiency, flame stability, and emission formation.
+
+---
+
+### 12.2 Key Influencing Parameters
+The atomization process is controlled by the following dominant parameters:
+
+- Injection pressure  
+- Nozzle geometry and design  
+- Fuel viscosity and density  
+- Air velocity and in-cylinder turbulence  
+
+These parameters collectively determine droplet formation behavior, spray breakup intensity, and dispersion characteristics inside the combustion chamber.
+
+---
+
+### 12.3 Surface Area Effect in Atomization
+As fuel breaks into smaller droplets, the total surface-area-to-volume ratio increases significantly. This enhances:
+
+- evaporation rate  
+- air-fuel interaction  
+- chemical reaction rate during combustion  
+
+Smaller droplets therefore lead to faster energy release and more complete combustion.
+
+---
+
+### 12.4 Sauter Mean Diameter (SMD)
+
+D₃₂ = (Σ nᵢ dᵢ³) / (Σ nᵢ dᵢ²)
+
+Where:
+
+- nᵢ = number of droplets in the i-th size class  
+- dᵢ = representative droplet diameter in the i-th size class  
+- D₃₂ = Sauter Mean Diameter (SMD), representing the surface-area-weighted mean droplet diameter  
+
+**Engineering Significance**
+
+The Sauter Mean Diameter represents a key parameter in atomization analysis, as it characterizes the effective droplet size governing evaporation and combustion processes. It directly reflects the quality of fuel atomization within the spray system.
+
+Lower D₃₂ values indicate:
+- finer atomization  
+- increased surface area for heat transfer  
+- improved evaporation rates  
+- enhanced air-fuel mixing efficiency  
+
+These conditions contribute to improved combustion stability and performance in internal combustion systems.
+
+---
+
+### Worked Example: Sauter Mean Diameter (D₃₂)
+
+**Given droplet distribution**
+
+- Class 1: 50 droplets, diameter = 10 μm  
+- Class 2: 30 droplets, diameter = 30 μm  
+- Class 3: 20 droplets, diameter = 60 μm  
+
+---
+
+### Step 1: Apply SMD formula
+D₃₂ = (Σ nᵢ dᵢ³) / (Σ nᵢ dᵢ²)
+
+---
+
+### Step 2: Numerator calculation
+
+- 50 × 10³ = 50,000  
+- 30 × 30³ = 810,000  
+- 20 × 60³ = 4,320,000  
+
+Sum = 5,180,000  
+
+---
+
+### Step 3: Denominator calculation
+
+- 50 × 10² = 5,000  
+- 30 × 30² = 27,000  
+- 20 × 60² = 72,000  
+
+Sum = 104,000  
+
+---
+
+### Step 4: Final result
+
+D₃₂ = 5,180,000 / 104,000 ≈ 49.8 μm  
+
+---
+
+### Engineering Interpretation
+The calculated Sauter Mean Diameter of approximately 49.8 μm represents the effective droplet size governing evaporation and combustion behavior in the spray.
+
+Although the spray contains both fine and coarse droplets, larger droplets dominate the result due to cubic weighting in the numerator. This indicates a moderately coarse atomization regime.
+
+At this D₃₂ value, the system exhibits:
+
+- Moderate evaporation rate  
+- Suboptimal fuel-air mixing  
+- Non-ideal combustion efficiency  
+
+---
+
+### Link to PNG Atomization System
+Within the PNG fuel system framework, reduction of droplet size distribution is a key optimization objective. A lower SMD (D₃₂) indicates improved atomization, leading to:
+
+- Faster evaporation  
+- Enhanced air-fuel mixing  
+- Improved combustion stability  
+- Reduced soot formation  
+
+---
+
+### Conclusion (of Section 12.4 only)
+The calculated Sauter Mean Diameter indicates a transitional atomization regime. Further optimization of injection and breakup mechanisms is required to reduce D₃₂ and improve combustion performance within the PNG system.
+
+---
+
+### 12.5 Weber Number (Atomization Breakup Criterion)
+
+We = (rho * U² * D) / sigma  
+Re = (rho * U * D) / mu  
+
+Where:
+
+- We = Weber Number  
+- Re = Reynolds Number  
+- rho = Fuel density (kg/m³)  
+- mu = Dynamic viscosity (Pa·s)  
+- sigma = Surface tension (N/m)  
+- U = Injection velocity (m/s)  
+- D = Nozzle diameter (m)  
+
+**Engineering Significance**
+
+- Governs droplet breakup behavior  
+- High We → strong breakup → fine spray formation  
+- Low We → surface tension dominance → poor atomization  
+
+---
+
+### 12.6 Spray Penetration Model
+
+S = k · t · U  
+
+Where:
+
+- S = spray penetration response  
+- k = atomization constant dependent on injector geometry and fuel properties  
+- t = injection duration  
+- U = injection velocity  
+
+This relation provides a simplified representation of spray development under varying injection conditions, where penetration is governed by both temporal and dynamic flow parameters.
+
+From an engineering perspective:
+- Excess penetration → wall impingement  
+- Insufficient penetration → poor mixing  
+- Optimal penetration → balanced dispersion and combustion efficiency  
+
+---
+
+### 12.7 Worked Engineering Interpretation
+
+**Case 1: Baseline Condition**
+
+k = 0.8  
+t = 2 ms  
+U = 50 m/s  
+
+S = k · t · U  
+S = 0.8 × 2 × 50 = 80 (arbitrary spray unit)  
+
+---
+
+**Case 2: Improved Atomization (PNG Condition)**
+
+k = 1.2  
+t = 2 ms  
+U = 80 m/s  
+
+S = k · t · U  
+S = 1.2 × 2 × 80 = 192 (arbitrary spray unit)  
+
+---
+
+### Comparative Interpretation
+The spray response increases from 80 to 192, indicating a significant improvement in spray development under PNG optimized conditions.
+
+This enhancement is attributed to increased injection velocity and improved atomization efficiency.
+
+From a fluid dynamics perspective, this corresponds to a high Weber number regime where aerodynamic forces dominate surface tension, leading to:
+
+- finer droplet formation  
+- reduced SMD  
+- improved dispersion  
+
+---
+
+### 12.8 System-Level Engineering Insight
+Atomization performance is governed by coupled injection parameters including velocity, injection duration, and injector efficiency.
+
+Improvements in these parameters directly enhance:
+- spray formation  
+- fuel-air mixing  
+- combustion stability  
+
+Within the PNG system:
+Atomization acts as a critical interface between fuel injection and combustion processes.
+
+Enhanced atomization leads to:
+- reduced droplet size distribution  
+- faster evaporation  
+- improved mixture uniformity  
+- stable combustion propagation
