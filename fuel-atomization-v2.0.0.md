@@ -407,3 +407,107 @@ Key engineering implications:
 - Injector design and operating conditions must be co-optimized  
 
 This reinforces the need for integrated fuel system design rather than isolated component optimization.
+
+---
+
+## 10.0 Fundamental Principles of Fuel Atomization
+
+### 10.1 Concept of Fuel Atomization
+Fuel is delivered into the combustion chamber through injectors or carburetors under pressure. As the liquid fuel passes through the nozzle, it undergoes disintegration into fine droplets due to the combined effects of aerodynamic shear forces and mechanical breakup mechanisms.
+
+This transformation from a continuous liquid jet into a dispersed spray is essential for effective combustion, as liquid fuel cannot burn efficiently in bulk form.
+
+---
+
+### 10.2 Governing Influencing Parameters
+The atomization process is controlled by several interacting physical and geometric parameters:
+
+- Injection pressure  
+- Nozzle geometry and design  
+- Fuel viscosity and density  
+- In-cylinder air velocity and turbulence intensity  
+
+These parameters determine the extent of fuel breakup, spray formation characteristics, and resulting droplet distribution within the combustion chamber.
+
+---
+
+### 10.3 Droplet Formation and Surface Area Effect
+During atomization, the liquid fuel is converted into droplets of varying sizes. A reduction in droplet size significantly increases the surface-area-to-volume ratio of the fuel.
+
+This increase in surface area enhances:
+
+- heat transfer from surrounding gases  
+- evaporation rate of fuel droplets  
+- mixing efficiency with air  
+- overall reaction rate during combustion  
+
+As a result, combustion becomes faster, more uniform, and more complete.
+
+---
+
+### 10.4 Link Between Atomization and Combustion Efficiency
+The efficiency of combustion in internal combustion engines is strongly dependent on the quality of fuel atomization. Fine and well-distributed droplets promote homogeneous air-fuel mixing, leading to stable ignition and complete combustion.
+
+Conversely, poor atomization results in large droplets, uneven mixing, delayed evaporation, and incomplete combustion, which negatively affects engine performance and increases emissions.
+
+---
+
+## 11.0 Atomization Quality: Poor vs Efficient Spray
+
+Fuel atomization quality directly determines the effectiveness of air-fuel mixing and the resulting combustion performance in internal combustion engines. It can be broadly classified into poor atomization (coarse spray) and efficient atomization (fine spray), each defined by distinct droplet formation behavior and combustion outcomes.
+
+---
+
+### 11.1 Poor Atomization (Coarse Spray)
+
+**Characteristics**
+- Large droplet size distribution  
+- Incomplete and non-uniform air-fuel mixing  
+- Formation of fuel-rich and fuel-lean zones within the combustion chamber  
+- Increased soot and carbon deposition  
+- Higher fuel consumption due to inefficient burning  
+
+**Physical Explanation**
+Poor atomization occurs when the breakup forces acting on the liquid fuel are insufficient to overcome surface tension and viscous resistance. As a result, fuel exits the injector as large ligaments or coarse droplets that resist complete vaporization within the available combustion time.
+
+**Effects on Engine Performance**
+This condition leads to delayed evaporation and incomplete combustion. Consequently, there is reduced thermal efficiency, unstable combustion behavior, and increased emissions of carbon monoxide (CO) and unburned hydrocarbons (UHC).
+
+---
+
+### 11.2 Efficient Atomization (Fine Mist Spray)
+
+**Characteristics**
+- Fine and uniformly distributed droplets  
+- Homogeneous air-fuel mixture formation  
+- Rapid evaporation and ignition response  
+- Stable flame propagation  
+- Reduced knocking tendency  
+
+**Physical Explanation**
+Efficient atomization occurs when aerodynamic shear forces and injection energy sufficiently overcome liquid cohesion forces, resulting in fine droplet formation. The increased surface-area-to-volume ratio enhances heat transfer and evaporation rate.
+
+**Effects on Engine Performance**
+This leads to improved combustion completeness, higher thermal efficiency, smoother engine operation, and significantly reduced pollutant formation.
+
+---
+
+### 11.3 Transition Mechanism Between Poor and Efficient Atomization
+The transition between coarse and fine spray regimes is governed by the balance of:
+
+- injection pressure  
+- nozzle geometry  
+- fuel properties  
+- in-cylinder airflow intensity  
+
+When kinetic energy of the fuel jet dominates over surface tension forces, the atomization process shifts toward finer droplet formation and improved spray dispersion.
+
+---
+
+### 11.4 Conceptual Impact on Combustion Process
+Fuel atomization governs how effectively liquid fuel transitions into a combustible vapor-air mixture. Fine atomization increases surface area, accelerating evaporation and improving chemical reaction rates within the combustion chamber. This directly enhances combustion stability, reduces emissions, and improves overall engine performance.
+
+---
+
+### Figure 11.1: Fuel Atomization Process (Conceptual)
+Fuel atomization is the process in which liquid fuel is broken into fine droplets at the injector nozzle. This increases the surface area of the fuel, allowing faster evaporation and improved mixing with air. A well-atomized fuel spray promotes more efficient combustion, higher engine performance, and reduced emissions.
