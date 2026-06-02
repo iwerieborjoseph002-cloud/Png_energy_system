@@ -1091,13 +1091,16 @@ These modules collectively define the progression of fuel processing, atomizatio
 ---
 
 ### 20.4 External Reference (Supplementary Access)
-A simplified external overview of this topic is available at:
 
-https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html
+Supplementary resources related to this study are available at:
 
-- Zenodo Research Record: https://zenodo.org/records/20056957
+- Blog Overview:
+  https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html
 
-This resource is intended for general understanding and accessibility, while the present document provides the detailed engineering formulation and system-level analysis.
+- Zenodo Research Record:
+  https://zenodo.org/records/20056957
+
+The blog resource is intended for general understanding and accessibility, while the Zenodo record provides the archived research version associated with this work. The present document contains the detailed engineering formulation, system-level analysis, and technical development of the fuel atomization module within the PNG Energy System framework.
 
 ---
 
