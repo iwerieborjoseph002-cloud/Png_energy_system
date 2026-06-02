@@ -210,3 +210,120 @@ The study is based on:
 The PNG Energy System is used as a structured framework to map how atomization influences downstream combustion behavior, emission formation, and energy conversion efficiency.
 
 The outlined approach guides the evaluation presented in the Results and Discussion section.
+
+## 8.0 Research Questions:
+
+---
+
+### 8.1 How does fuel droplet size distribution influence combustion efficiency in PNG fuel systems?
+
+Answer to the question:
+Fuel droplet size directly controls the surface-area-to-volume ratio, which governs evaporation rate and mixing quality in the combustion chamber.
+
+Key mechanism:
+Smaller droplets → higher total surface area → faster vaporisation → more uniform air-fuel mixture.
+
+Engineering outcome:
+
+Fine atomization (small SMD - Sauter Mean Diameter):
+- Rapid evaporation  
+- More homogeneous mixture formation  
+- Complete combustion zone propagation  
+- Reduced unburned hydrocarbons (UHC)  
+
+Coarse atomization (large droplets):
+- Slow evaporation  
+- Local fuel-rich pockets  
+- Incomplete combustion  
+- Higher soot and CO formation  
+
+In PNG C5-C10 fuel context:
+Because PNG fuel contains medium-range hydrocarbons, it benefits significantly from fine atomization due to moderate volatility. Poor atomization shifts combustion toward diffusion-dominated burning, reducing efficiency.
+
+Conclusion:
+Fuel droplet size distribution is inversely proportional to combustion efficiency; finer, narrowly distributed droplets improve combustion completeness and thermal efficiency.
+
+---
+
+### 8.2 What injector parameters most strongly affect atomization quality in C5-C10 hydrocarbon blends?
+
+Answer to the question:
+Atomization is primarily governed by fluid dynamics at the injector nozzle exit, controlled by pressure, geometry, and fuel properties.
+
+Key controlling parameters:
+
+(a) Injection Pressure
+Higher injection pressure increases jet velocity and turbulence intensity.
+High pressure → finer breakup → smaller droplets  
+Low pressure → laminar jet → poor atomization  
+
+(b) Nozzle Geometry (orifice diameter & shape)
+Smaller orifice diameter → increased shear → better breakup  
+Multi-hole injectors → improved spray dispersion  
+Conical vs straight nozzles affect spray cone angle  
+
+(c) Fuel Viscosity & Surface Tension (C5-C10 effect)
+C5-C10 hydrocarbons have moderate viscosity:
+Higher viscosity → resistance to breakup → larger droplets  
+Lower surface tension → easier droplet fragmentation  
+
+(d) Spray Angle
+Wider spray angle improves:
+- Air entrainment  
+- Mixing rate  
+- Combustion uniformity  
+
+Conclusion:
+The most dominant factors controlling atomization quality are injection pressure and nozzle geometry, followed by fuel physical properties (viscosity and surface tension).
+
+---
+
+### 8.3 How does atomization behavior impact knocking tendency and flame stability?
+
+Answer to the question:
+
+(a) Effect on Knocking
+Knocking occurs due to uncontrolled auto-ignition of end-gas regions.
+
+Poor atomization:
+- Large droplets → uneven mixture  
+- Fuel-rich pockets + lean zones  
+- Local hot spots form  
+- Increased probability of auto-ignition → knocking  
+
+Improved atomization:
+- Uniform mixture distribution  
+- Reduced temperature gradients  
+- Controlled flame propagation  
+- Suppressed end-gas auto-ignition  
+
+---
+
+(b) Effect on Flame Stability
+Flame stability depends on continuous and uniform propagation of the reaction front.
+
+Fine atomization → stable, continuous flame front  
+Coarse atomization → fragmented flame kernel, partial extinction zones  
+
+---
+
+(c) PNG system linkage
+In your PNG energy system architecture:
+
+Injector → Spray quality → Mixing uniformity → Combustion stability → Engine output
+
+Thus:
+Atomization acts as a control layer between fuel delivery and combustion physics
+
+---
+
+Conclusion:
+Improved atomization reduces knocking probability by eliminating heterogeneous combustion zones and enhances flame stability through uniform flame propagation.
+
+---
+
+### Final Engineering Summary (for your paper)
+
+Across all three research questions, a consistent relationship emerges:
+
+Fuel atomization quality governs combustion efficiency, emission formation, and knock resistance through its control over droplet size distribution, mixing uniformity, and evaporation dynamics.
