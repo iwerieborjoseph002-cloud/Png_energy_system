@@ -104,3 +104,58 @@ To examine injector and spray parameters affecting fuel breakup behavior.
 To establish the relationship between atomization quality and combustion stability.  
 To compare atomization behavior between PNG fuel conditions and conventional fuel systems.  
 To define atomization as a functional bridge within the overall PNG Energy System architecture.
+
+## 5.0 Literature Review (Fuel Atomization in Combustion Systems)
+
+### 5.1 Overview of Fuel Atomization Research
+Fuel atomization has been extensively studied in internal combustion engine research as a critical process governing combustion efficiency, emission formation, and fuel utilization. Classical combustion theory identifies atomization as the initial stage in fuel-air preparation, where liquid fuel is transformed into fine droplets to enable rapid evaporation and mixing.
+
+Existing studies consistently show that combustion performance is strongly dependent on droplet size distribution, spray penetration, and mixing uniformity within the combustion chamber.
+
+---
+
+### 5.2 Spray Formation and Breakup Mechanisms
+Previous research in fluid dynamics and combustion engineering describes fuel breakup as a multi-stage process involving primary and secondary atomization.
+
+Primary breakup occurs at the injector nozzle exit due to aerodynamic instabilities.  
+Secondary breakup occurs as droplets interact with surrounding air and turbulence fields.
+
+These mechanisms are governed by dimensionless parameters such as the Weber number and Reynolds number, which describe the balance between inertial, viscous, and surface tension forces.
+
+---
+
+### 5.3 Influence of Atomization on Combustion Efficiency
+Literature in engine thermodynamics shows a strong correlation between atomization quality and combustion efficiency. Fine droplet formation increases surface-area-to-volume ratio, accelerating evaporation and promoting homogeneous air-fuel mixtures.
+
+Key findings across combustion studies indicate that:
+- smaller droplets improve ignition stability  
+- uniform spray reduces local rich zones  
+- better mixing reduces soot and NOx formation  
+
+These findings establish atomization as a controlling factor in combustion performance.
+
+---
+
+### 5.4 Injector Design and Spray Optimization
+Research in fuel injection systems highlights the role of injector geometry and operating conditions in determining spray characteristics. Multi-hole injectors, high-pressure injection systems, and optimized nozzle designs have been shown to significantly improve atomization quality.
+
+Modern developments in injection technology focus on:
+- increasing injection pressure stability  
+- controlling spray angle and penetration  
+- improving droplet size uniformity  
+
+These improvements directly enhance combustion efficiency and emission control.
+
+---
+
+### 5.5 Air-Fuel Mixing and In-Cylinder Dynamics
+Studies in engine flow dynamics emphasize the importance of in-cylinder air motion, including swirl, tumble, and turbulence, in enhancing fuel atomization and mixing.
+
+High turbulence intensity increases droplet breakup rates and promotes faster evaporation. This leads to more uniform combustion and improved thermal efficiency.
+
+---
+
+### 5.6 Research Gap and Position of This Study
+While extensive literature exists on atomization physics and injector design, most studies treat these elements in isolation. There is limited integration of atomization behavior within a system-level energy framework that links injection dynamics, combustion efficiency, and emission behavior in a unified structure.
+
+This study addresses that gap by situating fuel atomization within the PNG Energy System framework, where atomization is treated as a central control parameter connecting fuel delivery, spray dynamics, and combustion performance.
