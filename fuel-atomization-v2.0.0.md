@@ -735,3 +735,137 @@ Enhanced atomization leads to:
 - faster evaporation  
 - improved mixture uniformity  
 - stable combustion propagation
+
+---
+
+## 13.0 Role of Atomization in PNG Fuel Systems
+
+Fuel atomization plays a central role in advanced fuel systems such as PNG (Pure Natural Gas conceptual systems), where controlled combustion behavior is required for efficient and stable engine operation. In such systems, atomization is not only a fuel preparation process but also a key control mechanism that governs combustion dynamics.
+
+### 13.1 Functional Role of Atomization in PNG Systems
+In PNG-based combustion frameworks, atomization directly influences how fuel interacts with air prior to ignition. The formation of fine droplets enhances mixing precision, enabling a more homogeneous air-fuel mixture. This is essential for achieving controlled combustion behavior under varying operating conditions.
+
+---
+
+### 13.2 Key Combustion Requirements
+Effective atomization supports the following combustion requirements:
+
+- Stable flame propagation  
+- Controlled ignition timing  
+- Reduced knocking and pre-ignition  
+- Efficient energy conversion  
+
+**Explanation:**
+Uniform droplet distribution promotes consistent flame front development, predictable evaporation rates, and reduced formation of abnormal combustion zones.
+
+---
+
+### 13.3 Atomization as a Control Mechanism
+In PNG systems, atomization acts as a regulating interface between fuel delivery and combustion response. Variations in atomization quality directly influence:
+
+- ignition delay  
+- combustion rate  
+- pressure development within the cylinder  
+
+By controlling droplet size and spray distribution, the system maintains stable combustion even under transient conditions.
+
+---
+
+### 13.4 Transition from Conventional to Advanced Fuel Systems
+Enhanced atomization provides a functional bridge between conventional liquid fuel systems and cleaner combustion technologies. While traditional systems rely heavily on fuel properties, PNG systems emphasize controlled fuel-air interaction.
+
+Improved atomization enables:
+
+- reduced dependence on fuel volatility  
+- more precise mixture control  
+- adaptability to hybrid fuel compositions  
+
+---
+
+### 13.5 Engineering Significance within the PNG Framework
+Within the PNG Energy System, atomization is not treated as a passive process but as an active performance control parameter. Proper atomization leads to:
+
+- improved combustion stability  
+- reduced emission formation  
+- enhanced system efficiency  
+
+Thus, atomization forms a critical link between fuel injection dynamics and combustion control strategy.
+
+---
+
+## Figure 13.1: Atomization as a Bridge in PNG Energy System
+Figure 13.1 illustrates the role of fuel atomization as a bridging mechanism between fuel injection and combustion behavior within the PNG system. The diagram highlights the progression from injector-driven spray formation to air-fuel mixing, combustion development, and energy output, emphasizing atomization as a controlling parameter in system performance.
+
+---
+
+## 14.0 Fuel Delivery Systems and Atomization Mechanisms
+
+Fuel atomization occurs across different fuel delivery systems, each using distinct physical mechanisms to achieve droplet formation and spray development.
+
+---
+
+### 14.1 Injector-Based Atomization
+In injector systems, atomization is driven by high-velocity fuel injection where aerodynamic forces overcome surface tension to break the liquid into droplets.
+
+A key governing parameter is the Weber number:
+
+We = (ρ × U² × d) / σ  
+
+**Interpretation:**
+- High We → strong breakup → fine droplets  
+- Low We → weak breakup → coarse droplets  
+
+**Engineering effect:**
+Increasing injection velocity raises Weber number, leading to finer spray formation and improved atomization quality.
+
+---
+
+### 14.2 Carburettor-Based Atomization (Spark Ignition Systems)
+In carburettor systems, atomization is governed by airflow-induced pressure reduction in the Venturi.
+
+Bernoulli’s principle:
+
+P + (1/2 × ρ × U²) = constant  
+
+**Interpretation:**
+- Increase in air velocity → pressure drop  
+- Pressure drop draws fuel into airflow  
+- Shear forces break fuel into droplets  
+
+**Engineering note:**
+Carburettor atomization typically produces larger droplets compared to high-pressure injectors.
+
+---
+
+### 14.3 Pump-Assisted Fuel Delivery Systems
+Fuel pumps regulate pressure and ensure steady fuel supply to atomizing devices.
+
+Flow relation:
+
+Q = A × U  
+
+**Interpretation:**
+- Flow rate determines fuel availability  
+- Stable flow ensures consistent spray formation  
+
+---
+
+### 14.4 Unified Atomization Framework
+Across all delivery systems, the objective remains identical:
+
+- Reduce droplet size  
+- Increase surface-area-to-volume ratio  
+- Improve air-fuel mixing  
+
+Atomization is therefore a device-independent physical process, where different systems only modify the mechanism, not the objective.
+
+---
+
+### 14.5 Engineering Relevance in PNG Energy System
+Within the PNG Energy System, this unified framework enables compatibility across multiple engine configurations:
+
+- Injector systems → velocity-driven breakup  
+- Carburettor systems → airflow-driven atomization  
+- Pump systems → pressure stabilization layer  
+
+This establishes atomization as a linking mechanism between fuel delivery and combustion processes, independent of system architecture.
