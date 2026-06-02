@@ -519,8 +519,6 @@ Fuel atomization governs how effectively liquid fuel transitions into a combusti
 
 ### Figure 11.1: Fuel Atomization Process (Conceptual)
 
-![Figure 11.1](4cab172a8e2a988785f48d084e8caabf017a1139d9fefe650f413ed59a9bf609.png)
-
 Fuel atomization is the process in which liquid fuel is broken into fine droplets at the injector nozzle. This increases the surface area of the fuel, allowing faster evaporation and improved mixing with air. A well-atomized fuel spray promotes more efficient combustion, higher engine performance, and reduced emissions.
 
 ---
