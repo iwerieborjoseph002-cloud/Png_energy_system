@@ -1392,28 +1392,28 @@ Thus, catalyst systems define the upper performance boundary of the entire energ
 
 ---
 
-##17.0_LIMITATIONS_AND_ASSUMPTIONS
+## 17.0 Limitations and Assumptions
 
-###MODEL_LIMITATIONS:
-- The framework is theoretical and lacks full experimental validation
-- Catalyst deactivation is conceptually modeled, not empirically calibrated
-- Multiphase flow is simplified into system-level parameters
-- Secondary reaction pathways are described qualitatively
-- Heat and mass transfer are aggregated into loss terms
+### 17.1 Model Limitations
+- The framework is theoretical and lacks full experimental validation  
+- Catalyst deactivation is conceptually modeled, not empirically calibrated  
+- Multiphase flow is simplified into system-level parameters  
+- Secondary reaction pathways are described qualitatively  
+- Heat and mass transfer are aggregated into loss terms  
 
-###FUNDAMENTAL_ASSUMPTIONS:
-- Syngas composition remains within optimal CO/H2 range
-- Catalyst surface is uniformly accessible (ideal dispersion)
-- Fe–Ni/C + K system behaves as a stable multi-site catalyst
-- Reactor operates under quasi-steady-state conditions
-- Contamination and poisoning effects are negligible
-- Operating window remains 200–300°C and 1–3 MPa
+### 17.2 Fundamental Assumptions
+- Syngas composition remains within optimal CO/H₂ range  
+- Catalyst surface is uniformly accessible under ideal dispersion  
+- Fe–Ni/C + K system behaves as a stable multi-site catalyst  
+- Reactor operates under quasi-steady-state conditions  
+- Contamination effects are negligible  
+- Operating window remains 200–300°C and 1–3 MPa  
 
-###SYSTEM_SIMPLIFICATIONS:
-- Micro-turbulence effects are not modeled
-- Catalyst pore geometry is treated as homogeneous
-- Reaction network reduced to C1–C20 dominant pathways
-- Energy losses grouped into aggregated categories
+### 17.3 System-Level Simplifications
+- Micro-turbulence effects are not modeled  
+- Catalyst pore geometry treated as homogeneous  
+- Reaction network reduced to C1–C20 pathways  
+- Energy losses grouped into aggregated categories  
 
 ---
 
@@ -1467,35 +1467,35 @@ This establishes catalyst engineering as a foundational pillar of next-generatio
 
 ---
 
-##19.0_FUTURE_WORK
+## 19.0 Future Work
 
-###EXPERIMENTAL_VALIDATION:
-- Validate Fe–Ni/C + K catalyst in laboratory reactor
-- Conduct controlled syngas-to-hydrocarbon experiments
-- Calibrate conversion–selectivity models empirically
+### 19.1 Experimental Validation
+- Laboratory-scale validation of Fe–Ni/C + K catalyst  
+- Syngas-to-hydrocarbon reactor experiments  
+- Empirical calibration of conversion–selectivity models  
 
-###ADVANCED_MODELING:
-- Develop reaction–diffusion surface models
-- Introduce time-dependent catalyst deactivation kinetics
-- Optimize multi-variable reactor parameters (T, P, τ, composition)
-- Simulate hydrocarbon chain growth distributions
+### 19.2 Advanced Mathematical Modeling
+- Reaction–diffusion surface modeling  
+- Time-dependent catalyst deactivation kinetics  
+- Multi-variable optimization (T, P, τ, composition)  
+- Hydrocarbon chain growth simulation  
 
-###SYSTEM_DIGITALIZATION_V3:
-- Build digital twin of catalytic reactor system
-- Implement real-time monitoring algorithms
-- Integrate AI-based parameter optimization
-- Develop feedback control loops for fuel output stability
+### 19.3 System Digitalization (v3.0.0 direction)
+- Digital twin of catalytic reactor  
+- Real-time monitoring system  
+- AI-based optimization of parameters  
+- Feedback control loops  
 
-###INDUSTRIAL_SCALE_UP:
-- Design pilot-scale continuous reactor systems
-- Optimize catalyst regeneration cycles
-- Develop GTL industrial integration pathway
-- Benchmark efficiency vs Fischer–Tropsch systems
+### 19.4 Scale-Up and Industrial Application
+- Pilot plant design  
+- Catalyst regeneration optimization  
+- GTL industrial integration  
+- Efficiency benchmarking vs Fischer–Tropsch systems  
 
-###DOWNSTREAM_INTEGRATION:
-- Link catalyst output to fuel injection systems
-- Model atomization behavior coupling
-- Optimize combustion efficiency feedback loops
+### 19.5 Downstream Integration
+- Link catalyst output to fuel injection  
+- Atomization behavior coupling  
+- Combustion efficiency feedback modeling
 
 ---
 
