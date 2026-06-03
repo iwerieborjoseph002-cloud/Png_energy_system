@@ -1297,6 +1297,14 @@ This module is functionally linked to:
 
 This relationship defines the downstream dependency where catalyst optimization influences fuel properties, which subsequently affect atomization quality and combustion performance within the PNG Energy System.
 
+### 15.6 Internal Reference (PNG System Architecture)
+
+This module is functionally linked to:
+
+- [Fuel Atomization in Internal Combustion Engines (v2.0.0)](../Fuel-Atomization-in-Internal-Combustion-Engines-v2.0.0.md)
+
+This relationship defines the downstream dependency where catalyst optimization influences fuel properties, which subsequently affect atomization quality and combustion performance within the PNG Energy System.
+
 ---
 
 ## 16.0 Engineering Applications
