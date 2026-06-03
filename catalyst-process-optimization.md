@@ -1,4 +1,4 @@
-# Catalyst Process Optimization in PNG Energy System
+# Catalyst Process Optimization in the PNG Energy System
 
 ## Abstract
 Catalyst process optimization is a critical factor in improving reaction efficiency, selectivity, and energy conversion in modern fuel synthesis systems. In the PNG (Pure Natural Gas) Energy System, catalyst optimization governs hydrocarbon formation, minimizes energy losses, and enhances system-level performance. This module presents the principles, governing variables, and optimization strategies for catalytic processes in energy systems.
