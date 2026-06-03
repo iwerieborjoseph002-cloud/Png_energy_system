@@ -1392,7 +1392,32 @@ Thus, catalyst systems define the upper performance boundary of the entire energ
 
 ---
 
-## 17.0 Conclusion
+##17.0_LIMITATIONS_AND_ASSUMPTIONS
+
+###MODEL_LIMITATIONS:
+- The framework is theoretical and lacks full experimental validation
+- Catalyst deactivation is conceptually modeled, not empirically calibrated
+- Multiphase flow is simplified into system-level parameters
+- Secondary reaction pathways are described qualitatively
+- Heat and mass transfer are aggregated into loss terms
+
+###FUNDAMENTAL_ASSUMPTIONS:
+- Syngas composition remains within optimal CO/H2 range
+- Catalyst surface is uniformly accessible (ideal dispersion)
+- Fe–Ni/C + K system behaves as a stable multi-site catalyst
+- Reactor operates under quasi-steady-state conditions
+- Contamination and poisoning effects are negligible
+- Operating window remains 200–300°C and 1–3 MPa
+
+###SYSTEM_SIMPLIFICATIONS:
+- Micro-turbulence effects are not modeled
+- Catalyst pore geometry is treated as homogeneous
+- Reaction network reduced to C1–C20 dominant pathways
+- Energy losses grouped into aggregated categories
+
+---
+
+## 18.0 Conclusion
 
 Catalyst process optimization in the PNG Energy System has been established as a core controlling layer in hydrocarbon synthesis and energy conversion processes. The analysis demonstrates that catalytic performance is governed not only by intrinsic material properties but by the coupled interaction between reaction kinetics, reactor operating conditions, and system-level transport dynamics.
 
@@ -1400,7 +1425,7 @@ Within the PNG framework, the catalyst system functions as an upstream molecular
 
 ---
 
-### 17.1 Key Engineering Outcomes
+### 18.1 Key Engineering Outcomes
 
 The study establishes the following core findings:
 
@@ -1411,7 +1436,7 @@ The study establishes the following core findings:
 
 ---
 
-### 17.2 System-Level Integration Insight
+### 18.2 System-Level Integration Insight
 
 The PNG Energy System architecture defines a structured dependency chain:
 
@@ -1421,7 +1446,7 @@ This hierarchy confirms that catalytic processes set the foundational constraint
 
 ---
 
-### 17.3 Engineering Significance
+### 18.3 Engineering Significance
 
 Catalyst optimization is not a standalone chemical improvement problem but a multi-variable system engineering challenge involving:
 
@@ -1434,7 +1459,7 @@ Improving catalyst performance therefore requires integrated system-level design
 
 ---
 
-### 17.4 Final Interpretation
+### 18.4 Final Interpretation
 
 The catalyst process acts as the primary determinant of fuel quality and reaction efficiency within the PNG Energy System. Its optimization defines the upper limit of achievable system performance, influencing all subsequent stages including fuel injection behavior, atomization quality, and combustion stability.
 
@@ -1442,13 +1467,45 @@ This establishes catalyst engineering as a foundational pillar of next-generatio
 
 ---
 
-## 18.0 References (Literature Sources and Application Mapping)
+##19.0_FUTURE_WORK
+
+###EXPERIMENTAL_VALIDATION:
+- Validate Fe–Ni/C + K catalyst in laboratory reactor
+- Conduct controlled syngas-to-hydrocarbon experiments
+- Calibrate conversion–selectivity models empirically
+
+###ADVANCED_MODELING:
+- Develop reaction–diffusion surface models
+- Introduce time-dependent catalyst deactivation kinetics
+- Optimize multi-variable reactor parameters (T, P, τ, composition)
+- Simulate hydrocarbon chain growth distributions
+
+###SYSTEM_DIGITALIZATION_V3:
+- Build digital twin of catalytic reactor system
+- Implement real-time monitoring algorithms
+- Integrate AI-based parameter optimization
+- Develop feedback control loops for fuel output stability
+
+###INDUSTRIAL_SCALE_UP:
+- Design pilot-scale continuous reactor systems
+- Optimize catalyst regeneration cycles
+- Develop GTL industrial integration pathway
+- Benchmark efficiency vs Fischer–Tropsch systems
+
+###DOWNSTREAM_INTEGRATION:
+- Link catalyst output to fuel injection systems
+- Model atomization behavior coupling
+- Optimize combustion efficiency feedback loops
+
+---
+
+## 20.0 References (Literature Sources and Application Mapping)
 
 This section lists the foundational textbooks and scientific literature used in developing the Catalyst Process Optimization model within the PNG Energy System framework. It also indicates where each reference is applied within the document.
 
 ---
 
-### 18.1 Core Catalysis and Chemical Engineering Texts
+### 20.1 Core Catalysis and Chemical Engineering Texts
 
 **Lefebvre, A. H. (1989). _Atomization and Sprays_. Hemisphere Publishing.**  
 - Application in this module: Sections 11.0, 13.0, 15.0  
@@ -1462,7 +1519,7 @@ This section lists the foundational textbooks and scientific literature used in 
 
 ---
 
-### 18.2 Catalysis and Surface Chemistry Foundations
+### 20.2 Catalysis and Surface Chemistry Foundations
 
 **Zhao, H. (2013). _Advanced Direct Injection Combustion Engine Technologies_. Woodhead Publishing.**  
 - Application in this module: Sections 11.3, 13.0  
@@ -1476,7 +1533,7 @@ This section lists the foundational textbooks and scientific literature used in 
 
 ---
 
-### 18.3 Reaction Kinetics and Thermodynamics
+### 20.3 Reaction Kinetics and Thermodynamics
 
 **Turns, S. R. (2012). _An Introduction to Combustion_. McGraw-Hill.**  
 - Application in this module: Sections 11.1, 12.0  
@@ -1490,7 +1547,7 @@ This section lists the foundational textbooks and scientific literature used in 
 
 ---
 
-### 18.4 Fluid and Transport Phenomena (Supportive Framework)
+### 20.4 Fluid and Transport Phenomena (Supportive Framework)
 
 **Sirignano, W. A. (1999). _Fluid Dynamics and Transport of Droplets and Sprays_. Cambridge University Press.**  
 - Application in this module: Sections 10.0, 13.0  
@@ -1498,7 +1555,7 @@ This section lists the foundational textbooks and scientific literature used in 
 
 ---
 
-### 18.5 System-Level Integration Interpretation
+### 20.5 System-Level Integration Interpretation
 
 Across all references, the following unified interpretation is applied:
 
@@ -1509,7 +1566,7 @@ Across all references, the following unified interpretation is applied:
 
 ---
 
-### 18.6 Engineering Note on Reference Usage
+### 20.6 Engineering Note on Reference Usage
 
 The literature sources listed above are not used as isolated theoretical citations. Instead, they are integrated into a unified system-level model where:
 
