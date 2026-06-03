@@ -530,4 +530,623 @@ Syngas conversion → Hydrocarbon distribution → Fuel processing → Injection
 Key system impacts:
 
 - improved catalyst efficiency → higher-quality fuel output  
-- stable selectivity → consistent combustion performance  
+- stable selectivity → consistent combustion performance
+- controlled hydrocarbon range → improved engine compatibility  
+
+Thus, catalyst optimization directly improves energy system stability.
+
+---
+
+### 9.6 Engineering Implications
+
+The results demonstrate that catalyst optimization must be treated as a multi-variable system control problem.
+
+Key implications:
+
+- catalyst performance depends on coupled Fe–Ni–K interactions  
+- reactor conditions must be co-optimized with catalyst composition  
+- product selectivity is a controllable system output, not a fixed property  
+- upstream catalyst behavior determines downstream combustion efficiency  
+
+---
+
+### 9.7 Summary of Findings
+
+The Fe–Ni/C + K catalyst system demonstrates:
+
+- high conversion efficiency under balanced operating conditions  
+- improved hydrocarbon selectivity with potassium promotion  
+- strong sensitivity to temperature and pressure variations  
+- direct coupling between catalyst performance and PNG system output  
+
+Overall, catalyst optimization is confirmed as a core control mechanism in the PNG Energy System architecture.
+
+---
+
+## 10.0 Fundamentals of Catalysis
+
+Catalysis in the PNG Energy System is governed by surface-mediated reaction pathways in which reactant molecules undergo adsorption, activation, surface reaction, and desorption on engineered catalyst sites. The overall process is controlled by the interaction between catalyst electronic structure, surface geometry, and reactor operating conditions.
+
+Unlike homogeneous reaction systems, catalytic conversion in syngas-to-hydrocarbon synthesis is dominated by heterogeneous surface kinetics, where reaction rates are determined by the availability and energy state of active sites.
+
+---
+
+### 10.1 Adsorption Stage
+
+In this stage, reactant molecules (CO and H₂) attach to specific catalytic surface sites.
+
+- CO molecules preferentially bind to Fe active sites due to strong d-orbital interaction  
+- H₂ molecules adsorb on Ni sites and undergo dissociative adsorption into atomic hydrogen  
+
+This creates a spatial separation of reactant activation zones, improving reaction control and reducing competing reaction pathways.
+
+Key implication:
+- adsorption strength determines residence time of reactants on the catalyst surface
+- surface coverage directly influences reaction probability
+
+---
+
+### 10.2 Surface Activation Stage
+
+After adsorption, reactant molecules undergo bond weakening through electron transfer interactions with the catalyst surface.
+
+- C≡O bonds are weakened on Fe sites, enabling CO dissociation into reactive carbon species  
+- H–H bonds are broken on Ni sites, generating highly reactive hydrogen atoms  
+
+This stage governs the activation energy barrier of the overall process and is typically the rate-controlling step in syngas conversion systems.
+
+---
+
+### 10.3 Surface Reaction Stage
+
+Activated intermediates migrate across the catalyst surface and undergo reaction coupling processes.
+
+Key surface reactions include:
+
+- formation of CHx intermediates through hydrogenation of carbon species  
+- carbon–carbon coupling reactions leading to chain growth (C–C bonding)  
+- oxygen removal pathways forming CO₂ and H₂O as by-products  
+
+This stage defines the hydrocarbon chain distribution (C1–C20 range) and determines overall selectivity.
+
+System behavior:
+- higher surface mobility increases chain growth probability  
+- balanced hydrogen availability prevents excessive methane formation  
+
+---
+
+### 10.4 Desorption Stage
+
+Final hydrocarbon products detach from the catalyst surface and enter the gas phase.
+
+This step controls:
+
+- product yield stability  
+- hydrocarbon chain length distribution  
+- catalyst surface regeneration and reactivation  
+
+Weak desorption leads to surface blockage, while overly rapid desorption reduces reaction completeness.
+
+---
+
+### 10.5 System-Level Interpretation
+
+Within the PNG Energy System, catalysis is not treated as isolated reaction chemistry but as a coupled surface–reactor interaction system.
+
+The full reaction pathway is represented as:
+
+CO + H₂ → (adsorption) → (activation) → (surface reaction) → hydrocarbons (C1–C20)
+
+System implications:
+
+- catalyst surface structure defines reaction pathway efficiency  
+- reactor conditions regulate surface kinetics and selectivity  
+- product distribution is a direct function of coupled surface dynamics  
+
+Thus, catalytic performance emerges from the interaction between surface chemistry and system-level operating conditions rather than from catalyst composition alone.
+
+---
+
+## 11.0 Key Parameters in Catalyst Optimization
+
+Catalyst performance in the PNG Energy System is governed by a coupled set of thermodynamic, kinetic, and structural parameters. These parameters determine reaction rate, product selectivity, and overall system efficiency by controlling surface interaction dynamics between reactants and catalyst active sites.
+
+Unlike isolated catalytic models, the PNG framework treats these variables as interdependent system controls rather than independent operating conditions.
+
+---
+
+### 11.1 Temperature as Reaction Kinetic Driver
+
+Temperature directly influences reaction rate through Arrhenius kinetics:
+
+k = A exp(-Ea / RT)
+
+Where:
+- k = reaction rate constant  
+- A = pre-exponential factor  
+- Ea = activation energy  
+- R = universal gas constant  
+- T = absolute temperature  
+
+System behavior:
+
+- Low temperature → adsorption-dominated regime with limited conversion  
+- Optimal temperature → balanced adsorption and surface reaction rates  
+- High temperature → increased cracking, reduced selectivity, catalyst degradation risk  
+
+Thus, temperature defines the operational kinetic window of the catalytic system.
+
+---
+
+### 11.2 Pressure as Molecular Interaction Amplifier
+
+Pressure increases reactant concentration and surface collision probability.
+
+Engineering effects:
+
+- increases surface coverage of CO and H₂  
+- enhances probability of carbon–carbon coupling reactions  
+- promotes hydrocarbon chain growth (C2+ formation)  
+- shifts equilibrium toward product formation in syngas conversion  
+
+In PNG systems, pressure acts as a selectivity amplification parameter controlling hydrocarbon distribution.
+
+---
+
+### 11.3 Catalyst Surface Area and Active Site Density
+
+Catalytic activity is directly proportional to accessible active sites.
+
+Activity relationship:
+
+Activity ∝ (Surface Area × Active Site Density)
+
+Engineering implications:
+
+- higher surface area increases reaction probability  
+- nanostructuring improves dispersion of Fe and Ni phases  
+- reduced particle agglomeration enhances long-term stability  
+- increased active site exposure improves conversion efficiency  
+
+Thus, catalyst morphology is a primary determinant of system performance.
+
+---
+
+### 11.4 Catalyst Composition and Electronic Effects
+
+In the Fe–Ni/C + K system, each component contributes a distinct functional role:
+
+- Fe → CO dissociation and carbon chain initiation  
+- Ni → hydrogen activation and stabilization of intermediates  
+- K → electronic promotion of surface sites, increasing CO adsorption strength and selectivity control  
+
+This creates a multi-site catalytic system where reaction pathways are spatially distributed rather than occurring on a uniform surface.
+
+---
+
+### 11.5 Residence Time (τ) as Conversion Completeness Control
+
+Residence time determines how long reactants remain within the catalytic reaction zone.
+
+System behavior:
+
+- short τ → incomplete conversion and low yield  
+- optimal τ → maximum conversion efficiency and stable product distribution  
+- excessive τ → secondary reactions, over-hydrogenation, and efficiency loss  
+
+Overall system relationship:
+
+Conversion = f(τ, T, P, catalyst activity, surface structure)
+
+Residence time therefore acts as a temporal control variable governing reaction completeness and output stability.
+
+---
+
+### 11.6 Coupled Parameter Interaction
+
+In real catalytic systems, parameters do not act independently. Instead, they interact dynamically:
+
+- Temperature influences adsorption strength and reaction rates  
+- Pressure modifies surface coverage and collision frequency  
+- Surface area defines available reaction probability  
+- Composition defines reaction pathway selectivity  
+- Residence time determines completion of coupled reactions  
+
+Thus, catalyst optimization is a multi-variable system control problem rather than a single-parameter adjustment process.
+
+---
+
+## 12.0 Reaction Efficiency and Optimization Model
+
+Catalyst performance in the PNG Energy System is evaluated through reaction efficiency, which quantifies the relationship between actual product yield and theoretical maximum conversion under ideal catalytic conditions.
+
+However, in system-level modeling, efficiency is not treated as a single ratio but as a coupled function of conversion, selectivity, and energy utilization.
+
+---
+
+### 12.1 Classical Efficiency Definition
+
+The baseline catalytic efficiency is defined as:
+
+η = (Actual Yield / Theoretical Yield) × 100%
+
+Where:
+- η = reaction efficiency (%)
+- Actual Yield = measured hydrocarbon output from reactor
+- Theoretical Yield = maximum thermodynamic conversion limit
+
+While this expression provides a macroscopic indicator, it does not capture internal system losses or pathway distribution effects.
+
+---
+
+### 12.2 Conversion–Selectivity Decomposition
+
+In advanced catalytic systems, efficiency must be decomposed into:
+
+η = X × S
+
+Where:
+- X = conversion (fraction of reactants transformed)
+- S = selectivity (fraction of desired product formed)
+
+System interpretation:
+
+- High conversion + low selectivity → inefficient product distribution  
+- Low conversion + high selectivity → underutilized reactor capacity  
+- Balanced X and S → optimal catalytic performance  
+
+This decomposition is critical in syngas-to-hydrocarbon systems where multiple reaction pathways compete simultaneously.
+
+---
+
+### 12.3 System-Level Yield Function
+
+In the PNG Energy System, hydrocarbon yield is modeled as:
+
+Y = f(T, P, τ, A, C)
+
+Where:
+- Y = hydrocarbon output
+- T = temperature
+- P = pressure
+- τ = residence time
+- A = active surface area
+- C = catalyst composition factor
+
+This defines catalyst performance as a multivariable response surface rather than a fixed efficiency value.
+
+---
+
+### 12.4 Energy Loss Mechanisms
+
+Deviations from ideal efficiency arise due to:
+
+- incomplete surface reaction coverage  
+- side reactions producing unwanted by-products  
+- catalyst deactivation over time  
+- non-optimal thermodynamic conditions  
+- diffusion limitations within catalyst pores  
+
+These losses reduce both conversion and selectivity simultaneously.
+
+---
+
+### 12.5 PNG System Optimization Principle
+
+Within the PNG Energy System, optimization is defined as:
+
+Maximize: Y (hydrocarbon output)  
+Subject to: stable X–S balance and minimal energy loss  
+
+This transforms catalyst design into a constrained optimization problem rather than a static material selection problem.
+
+---
+
+### 12.6 Engineering Interpretation
+
+The efficiency model shows that catalytic performance is not solely determined by material composition but by the interaction between:
+
+- reactor operating conditions  
+- catalyst surface architecture  
+- reaction pathway control  
+- transport and residence dynamics  
+
+Thus, catalyst optimization becomes a **system integration problem**, not a single-parameter tuning process.
+
+---
+
+### 12.7 Worked Example 1: Classical Efficiency Calculation
+
+Consider a catalytic syngas conversion process in the PNG Energy System:
+
+- Theoretical hydrocarbon yield = 100 mol  
+- Actual hydrocarbon yield = 78 mol  
+
+Using the efficiency definition:
+
+η = (Actual Yield / Theoretical Yield) × 100%
+
+η = (78 / 100) × 100%
+
+η = 78%
+
+**Interpretation:**
+
+The system operates at 78% efficiency, indicating that 22% of the potential output is lost due to:
+- incomplete catalytic conversion  
+- side reaction pathways  
+- surface deactivation effects  
+- non-optimal temperature or pressure conditions  
+
+This represents a moderate-efficiency catalytic regime requiring optimization of reaction parameters.
+
+---
+
+### 12.8 Worked Example 2: Conversion–Selectivity Model
+
+Consider a reactor operating under optimized PNG conditions:
+
+- Conversion (X) = 0.85  
+- Selectivity (S) = 0.72  
+
+Using system efficiency form:
+
+η = X × S
+
+η = 0.85 × 0.72
+
+η = 0.612 (or 61.2%)
+
+**Interpretation:**
+
+Although conversion is high (85%), selectivity limits overall efficiency.
+
+Engineering implication:
+- significant portion of converted material forms undesired by-products  
+- catalyst pathway control is not fully optimized  
+- improvement must focus on surface selectivity tuning (especially K promoter effects)
+
+This demonstrates that high conversion does not guarantee high system efficiency.
+
+---
+
+## 13.0 Catalyst Optimization in PNG Energy System
+
+Catalyst optimization within the PNG Energy System is defined as the coordinated tuning of catalyst composition, structure, and operating conditions to maximize hydrocarbon yield, selectivity, and stability in syngas-to-fuel conversion processes.
+
+Unlike conventional catalytic design approaches, the PNG framework treats the catalyst as an integrated system interface between reactor conditions and product formation pathways.
+
+---
+
+### 13.1 Syngas Conversion Stage
+
+The primary reaction pathway in the PNG system is the conversion of synthesis gas (CO and H₂) into hydrocarbons through catalytic surface reactions.
+
+General transformation:
+
+CO + H₂ → CxHy + H₂O
+
+This process is governed by:
+- adsorption of reactants on active sites  
+- surface reaction kinetics  
+- chain growth probability  
+- hydrogenation balance  
+
+The efficiency of this stage determines the overall fuel yield of the system.
+
+---
+
+### 13.2 Fe–Ni/C + K Catalyst Functional Architecture
+
+The catalyst system is designed as a multi-functional surface network:
+
+- **Fe sites** → promote CO dissociation and carbon chain initiation  
+- **Ni sites** → facilitate hydrogen activation and stabilize intermediate species  
+- **Carbon support (C)** → provides structural stability and dispersion medium  
+- **K promoter** → modifies electronic density, enhancing CO adsorption strength and improving selectivity toward longer hydrocarbon chains  
+
+This creates a distributed catalytic field where each component performs a distinct reaction role.
+
+---
+
+### 13.3 Catalyst Structural Optimization
+
+Catalyst efficiency is strongly dependent on physical structure:
+
+Key structural factors:
+- particle dispersion  
+- pore structure and diffusion pathways  
+- active site accessibility  
+- resistance to sintering and deactivation  
+
+Engineering effects:
+- improved dispersion increases reaction probability  
+- optimized pore networks reduce diffusion limitations  
+- stable structures maintain long-term catalytic activity  
+
+---
+
+### 13.4 Process Condition Optimization Window
+
+Catalyst performance is maximized within a controlled operating window:
+
+- Temperature: 200–300°C  
+- Pressure: 1–3 MPa  
+- H₂/CO ratio ≈ 2  
+- Controlled residence time for balanced conversion  
+
+Deviation from this window leads to:
+- reduced selectivity  
+- increased methane formation (over-hydrogenation)  
+- catalyst deactivation or carbon deposition  
+
+---
+
+### 13.5 System-Level Catalyst Optimization Principle
+
+In the PNG Energy System, catalyst optimization follows a coupled control principle:
+
+Maximize:
+- hydrocarbon yield (C2–C20 range)
+- selectivity toward long-chain hydrocarbons
+- surface reaction efficiency
+
+Subject to:
+- thermal stability constraints  
+- diffusion limitations  
+- deactivation resistance  
+
+This transforms catalyst design into a constrained multi-variable optimization problem.
+
+---
+
+### 13.6 Engineering Interpretation
+
+Catalyst optimization is not determined by a single parameter but by the interaction of:
+
+- surface chemistry (Fe, Ni, K roles)  
+- reactor thermodynamics (T, P)  
+- mass transport effects (diffusion, residence time)  
+- electronic surface modification (promoter effects)  
+
+Thus, optimal performance emerges from **balanced system coupling rather than isolated parameter maximization**.
+
+---
+
+## Figure 13.1: Catalyst Process Optimization Framework
+
+![Figure 13.1](a0b351167cc390b5eeb3b1344d27d3f493f8d8fbf743e371e8f6e7bfae1a7aad.png)
+
+**Figure 13.1 Description:**  
+Figure 13.1 illustrates the catalyst reactor system showing syngas flow, process parameters, and optimization pathways within the PNG Energy System. It represents the interaction between catalyst composition, reaction conditions, and hydrocarbon formation efficiency.
+
+---
+
+## 14.0 Energy Loss Considerations
+
+In the PNG Energy System, catalytic processes do not operate at theoretical maximum efficiency due to inherent thermodynamic, kinetic, and transport limitations. These losses define the deviation between ideal system performance and actual reactor output.
+
+Energy losses in catalytic systems manifest as reduced conversion efficiency, lower selectivity, and incomplete energy utilization.
+
+---
+
+### 14.1 Incomplete Surface Reaction Coverage
+
+Not all active sites on the catalyst surface are utilized simultaneously.
+
+Causes:
+- limited reactant diffusion to active sites  
+- non-uniform surface accessibility  
+- competitive adsorption between species  
+
+Engineering effect:
+- reduced effective reaction area  
+- partial underutilization of catalyst structure  
+
+---
+
+### 14.2 Side Reaction Pathways
+
+In syngas conversion, multiple competing reactions occur simultaneously.
+
+Examples:
+- methane (CH₄) overproduction via excessive hydrogenation  
+- CO₂ formation via oxidation pathways  
+- undesired light hydrocarbon fragmentation  
+
+System consequence:
+- reduced selectivity toward target hydrocarbon range (C2–C20)  
+- loss of chemical energy into non-target products  
+
+---
+
+### 14.3 Thermal Losses and Energy Dissipation
+
+Non-ideal temperature distribution in the reactor leads to energy losses.
+
+Mechanisms:
+- heat transfer to reactor walls  
+- non-uniform temperature gradients  
+- excessive thermal cracking at hot zones  
+
+Engineering effect:
+- reduced catalyst stability  
+- deviation from optimal reaction kinetics window  
+
+---
+
+### 14.4 Catalyst Deactivation Effects
+
+Catalyst performance decreases over time due to surface degradation.
+
+Primary mechanisms:
+- carbon deposition (coking)  
+- sintering of active metal particles  
+- poisoning of active sites by impurities  
+
+Consequences:
+- reduced active surface area  
+- lower reaction rates  
+- shift in product distribution  
+
+---
+
+### 14.5 Mass Transfer and Diffusion Limitations
+
+Reactants must diffuse through boundary layers and porous catalyst structures.
+
+Limitations:
+- internal pore diffusion resistance  
+- external mass transfer resistance  
+- concentration gradients near active sites  
+
+System impact:
+- delayed reaction kinetics  
+- incomplete utilization of catalyst interior sites  
+
+---
+
+### 14.6 System-Level Loss Function
+
+Overall catalytic losses can be conceptualized as:
+
+L = L_surface + L_side + L_thermal + L_deactivation + L_diffusion
+
+Where:
+- L_surface = incomplete surface utilization  
+- L_side = undesired reaction pathways  
+- L_thermal = energy dissipation losses  
+- L_deactivation = catalyst aging effects  
+- L_diffusion = transport limitations  
+
+Thus, actual system efficiency becomes:
+
+η_actual = η_ideal − L_total
+
+---
+
+### 14.7 Engineering Interpretation
+
+Energy losses in the PNG catalytic system are not isolated defects but coupled system behaviors arising from:
+
+- reaction kinetics limitations  
+- reactor design constraints  
+- catalyst structural properties  
+- transport phenomena interactions  
+
+Therefore, optimization requires simultaneous control of chemical, thermal, and transport domains rather than isolated parameter tuning.
+
+
+---
+
+### 14.8 Worked Example 1: Total Energy Loss Estimation
+
+Consider a catalytic reactor operating under PNG conditions:
+
+Assume loss components are:
+
+- Surface utilization loss (L_surface) = 8%  
+- Side reaction loss (L_side) = 10%  
+- Thermal loss (L_thermal) = 6%  
+- Deactivat
+    
