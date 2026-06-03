@@ -1293,7 +1293,7 @@ Therefore, optimization must begin at the catalytic layer.
 
 This module is functionally linked to:
 
-- [Fuel Atomization in Internal Combustion Engines (v2.0.0)](Fuel-Atomization-in-Internal-Combustion-Engines-v2.0.0.md)
+- [Fuel Atomization in Internal Combustion Engines (v2.0.0)](fuel-atomization-v2.0.0.md)
 
 This relationship defines the downstream dependency where catalyst optimization influences fuel properties, which subsequently affect atomization quality and combustion performance within the PNG Energy System.
 
