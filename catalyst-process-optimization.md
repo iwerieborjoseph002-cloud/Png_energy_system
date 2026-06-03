@@ -160,9 +160,8 @@ Optimized systems achieve:
 ## 7.0 Integration with Fuel Atomization
 Catalyst optimization works in synergy with fuel atomization.
 
-### Dependencies:
-- Improved atomization → better reactant dispersion  
-- Better dispersion → improved catalytic contact efficiency  
+### Dependency
+Catalytic Contact Efficiency → Hydrocarbon Formation Efficiency → Fuel Quality → Atomization Quality → Combustion Stability → Energy Conversion Efficiency
 
 Internal reference:
 - Fuel Atomization Module:  
