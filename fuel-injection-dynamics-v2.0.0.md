@@ -1481,6 +1481,168 @@ Future application will extend to real-world energy systems:
 The long-term direction of this model is progression toward a fully integrated energy conversion system:
 
 - Integrated injection-atomization-combustion architecture  
-- Real-time system monitoring and performance evaluation  
+- Real-time system monitoring and performance evaluation
+- Closed-loop operational control across all stages  
+- Unified system-level optimization framework  
+
+### 20.8 Final Research Direction
+
+The ultimate objective is to evolve fuel injection dynamics into a fully predictive and controllable subsystem within the PNG Energy System, ensuring:
+
+- Higher injection stability  
+- Improved atomization efficiency  
+- More complete combustion behavior  
+- Increased overall energy conversion efficiency  
+
+---
+
+## 21.0 System References and Module Linkages
+
+This module is part of the PNG (Pure Natural Gas) Energy System v2.0.0 architecture and operates in direct coupling with other system components. The injection dynamics framework is not standalone but functions as an intermediate control layer between fuel formation and combustion processes.
+
+### 21.1 Upstream Module Reference
+
+- Catalyst Process Optimization (v2.0.0)  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization-v2.0.0.md  
+
+This module defines the syngas composition and hydrocarbon formation characteristics that directly influence fuel injection behavior.
+
+---
+
+### 21.2 Parallel Module Reference
+
+- Fuel Atomization Dynamics (v2.0.0)  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md  
+
+This module describes the downstream breakup, spray formation, and droplet dynamics that are directly driven by injection conditions.
+
+---
+
+### 21.3 System Architecture Relationship
+
+PNG Energy System Flow:
+
+Catalyst Process Optimization → Fuel Formation → Fuel Injection Dynamics → Fuel Atomization → Combustion → Energy Output
+
+---
+
+### 21.4 External System Linkage
+
+- Full PNG Energy System Repository  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system  
+
+- Author Profile and Research Output  
+https://github.com/iwerieborjoseph002-cloud  
+
+---
+
+### 21.5 Engineering Interpretation
+
+These modules collectively form a coupled multi-stage energy conversion system. Fuel injection acts as the intermediate boundary condition layer that translates catalytic fuel formation outputs into atomization-ready spray structures for combustion systems.
+
+---
+
+## 22.0 Theoretical Foundations and Engineering References
+
+This section presents the scientific and engineering literature that forms the theoretical basis of the Fuel Injection Dynamics model within the PNG Energy System. These references establish the governing principles used in fluid flow, spray formation, and thermodynamic behavior associated with fuel injection processes.
+
+---
+
+### 22.1 Fluid Mechanics and Nozzle Flow Theory
+
+**Source:** Munson, Young & Okiishi - *Fundamentals of Fluid Mechanics*
+
+**Key Principles:**
+- Continuity and conservation of mass  
+- Bernoulli equation for pressure-velocity conversion  
+- Nozzle discharge and jet formation behavior  
+- Flow losses due to friction and turbulence  
+
+**Application in This Module:**
+- Nozzle flow dynamics (Section 2.1)  
+- Injection velocity modeling  
+- Pressure-driven jet formation analysis  
+
+---
+
+### 22.2 Internal Combustion Injection Systems
+
+**Source:** John B. Heywood - *Internal Combustion Engine Fundamentals*
+
+**Key Principles:**
+- Fuel injection system operation in engines  
+- Spray formation inside confined chambers  
+- Injection timing control (SOI, DOI, EOI)  
+- Air–fuel mixing preparation mechanisms  
+
+**Application in This Module:**
+- Injection control parameters (Section 3.0)  
+- Spray development analysis  
+- System coupling with downstream processes  
+
+---
+
+### 22.3 Spray Formation and Atomization Physics
+
+**Source:** L. P. Lefebvre - *Atomization and Sprays*
+
+**Key Principles:**
+- Primary and secondary breakup mechanisms  
+- Weber and Reynolds number instability effects  
+- Droplet formation and distribution  
+- Spray cone geometry and penetration  
+
+**Application in This Module:**
+- Spray formation physics (Section 2.3)  
+- Jet breakup modeling  
+- Droplet size distribution analysis  
+
+---
+
+### 22.4 Thermodynamics and Energy Systems
+
+**Source:** Çengel & Boles - *Thermodynamics: An Engineering Approach*
+
+**Key Principles:**
+- First law of thermodynamics  
+- Energy transfer in fluid systems  
+- Phase change and evaporation behavior  
+- System energy conservation principles  
+
+**Application in This Module:**
+- Thermal loss considerations (Section 15.0)  
+- Injection energy transformation  
+- Fuel vaporization behavior during injection  
+
+---
+
+### 22.5 Chemical Reaction Engineering and System Modeling
+
+**Source:** Octave Levenspiel - *Chemical Reaction Engineering*
+
+**Key Principles:**
+- Reaction rate behavior in flow systems  
+- Residence time distribution concepts  
+- Multi-variable system optimization  
+- Reactor system-level modeling  
+
+**Application in This Module:**
+- Injection efficiency modeling (Section 13.0)  
+- System-level coupling framework  
+- Parameter optimization structure  
+
+---
+
+### 22.6 Engineering Interpretation
+
+The Fuel Injection Dynamics model is built upon a multi-domain engineering foundation combining:
+
+- Fluid mechanics for injection flow behavior  
+- Thermodynamics for energy transfer during injection  
+- Spray physics for atomization and breakup behavior  
+- Reaction engineering for system-level process coupling  
+
+Together, these principles define fuel injection as a coupled fluid-energy delivery system within the PNG Energy System architecture
+
 
 
