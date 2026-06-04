@@ -358,6 +358,7 @@ This ensures:
 
 ### 8.1 How do Fe and Ni active sites influence hydrocarbon formation from syngas?
 
+Answer to the question:
 Hydrocarbon formation in the Fe–Ni/C + K catalyst system is governed by complementary functions of the active metal sites.
 
 Fe (iron) primarily contributes to:
@@ -378,6 +379,7 @@ Within the PNG Energy System, this results in controlled conversion of syngas in
 
 ### 8.2 What is the role of potassium (K) promoter in catalyst performance?
 
+Answer to the question:
 Potassium (K) acts as an electronic and structural promoter within the Fe–Ni/C catalyst system.
 
 Its primary effects include:
@@ -395,6 +397,7 @@ In system terms, potassium acts as a **selectivity control modifier**, regulatin
 
 ### 8.3 How do temperature and pressure influence catalytic performance?
 
+Answer to the question:
 Catalyst performance is highly sensitive to reactor operating conditions.
 
 #### Temperature effects:
@@ -414,6 +417,7 @@ Within the PNG framework:
 
 ### 8.4 How does catalyst composition affect hydrocarbon chain distribution?
 
+Answer to the question:
 Catalyst composition directly determines product distribution across hydrocarbon chain lengths.
 
 - Fe-rich regions favor carbon formation and chain initiation
@@ -426,6 +430,7 @@ The combined Fe–Ni/C + K system therefore enables controlled tuning of product
 
 ### 8.5 How does catalyst performance integrate into the PNG Energy System?
 
+Answer to the question:
 Catalyst performance is not isolated but directly affects downstream system behavior:
 
 Syngas conversion efficiency → determines fuel quality  
