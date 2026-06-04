@@ -104,21 +104,31 @@ Fuel injection dynamics describe the physical and thermodynamic behavior of fuel
 
 This model formalizes injection as a time-dependent fluid-energy control system rather than a static flow event.
 
+---
+
 ### 2.1 Background of Fuel Injection Dynamics
 
 Fuel injection systems are responsible for delivering a controlled quantity of fuel into the combustion chamber under specified operating conditions. The quality of this delivery process directly affects spray formation, atomization efficiency, air–fuel mixing, ignition behavior, and overall combustion performance.
+
+---
 
 ### 2.2 Importance of Fuel Injection in Energy Conversion Systems
 
 Fuel injection serves as the primary mechanism through which chemical energy stored in fuel is introduced into the combustion environment. Variations in injection pressure, timing, nozzle geometry, and fuel properties can significantly influence system efficiency and emissions.
 
+---
+
 ### 2.3 Relationship Between Fuel Injection and Atomization
 
 Fuel injection and atomization are closely coupled processes. Injection provides the momentum required for fuel discharge, while atomization transforms the liquid fuel stream into fine droplets suitable for rapid evaporation and combustion.
 
+---
+
 ### 2.4 Fuel Injection as a System-Level Process
 
 Within the PNG Energy System, fuel injection is treated as a dynamic control layer linking fuel preparation processes with downstream combustion behavior. Its performance influences atomization quality, combustion stability, energy output, and emissions formation.
+
+---
 
 ### 2.5 Scope of This Study
 
@@ -154,6 +164,8 @@ Therefore, fuel injection dynamics must be optimized to establish a controlled a
 
 To develop a structured engineering framework for analyzing, modelling, and optimizing fuel injection dynamics within the PNG (Pure Natural Gas) Energy System in order to improve spray formation, atomization efficiency, air-fuel mixing quality, and overall combustion performance.
 
+---
+
 ### 4.2 Specific Objectives
 
 - To analyze the governing physical principles of fuel injection under high-pressure conditions  
@@ -174,6 +186,8 @@ Fuel injection systems are widely used in internal combustion engines and advanc
 
 Modern fuel injection systems are designed to improve combustion efficiency, reduce emissions, and enhance overall engine performance through better control of fuel delivery and spray formation.
 
+---
+
 ### 5.2 Evolution of Injection Technologies
 
 Early fuel delivery systems relied on carburetors, which provided limited control over fuel–air mixing. These were later replaced by mechanical injection systems that improved fuel metering accuracy.
@@ -181,6 +195,8 @@ Early fuel delivery systems relied on carburetors, which provided limited contro
 The development of electronic fuel injection (EFI) introduced precise control over injection timing, pressure, and duration. This advancement significantly improved combustion stability and fuel efficiency.
 
 High-pressure direct injection systems further enhanced atomization by increasing injection pressure, resulting in finer droplet formation and improved mixing characteristics.
+
+---
 
 ### 5.3 Spray Formation and Atomization Studies
 
@@ -191,6 +207,8 @@ Research shows that:
 - Nozzle geometry strongly influences spray cone angle  
 - Fuel viscosity and surface tension affect droplet breakup behavior  
 - Turbulence enhances secondary breakup and mixing efficiency  
+
+---
 
 ### 5.4 Research Gap in System-Level Integration
 
@@ -213,6 +231,8 @@ Within the PNG (Pure Natural Gas) Energy System, fuel injection dynamics occupy 
 
 The injection subsystem acts as the primary energy transfer interface where pressurized fuel is converted into a high-velocity jet prior to spray breakup.
 
+---
+
 ### 6.2 Functional Role in the PNG Architecture
 
 Fuel injection performs the following system-level functions:
@@ -225,6 +245,8 @@ Fuel injection performs the following system-level functions:
 
 Thus, injection dynamics define the initial physical state of fuel prior to atomization.
 
+---
+
 ### 6.3 Control Variables in the Injection System
 
 The performance of the fuel injection subsystem is governed by a set of controllable engineering variables:
@@ -236,6 +258,8 @@ The performance of the fuel injection subsystem is governed by a set of controll
 - Ambient chamber conditions (P_c, T)  
 
 These variables interact to determine jet velocity, spray structure, and breakup behavior.
+
+---
 
 ### 6.4 PNG Integration Insight
 
@@ -263,6 +287,8 @@ This study adopts a systems-based engineering approach to analyze fuel injection
 
 The fuel injection process is treated as a dynamic, time-dependent system rather than a steady-state flow phenomenon.
 
+---
+
 ### 7.2 Analytical Framework
 
 The analysis is structured into three interacting layers:
@@ -272,6 +298,8 @@ The analysis is structured into three interacting layers:
 - **System Integration Layer:** Links injection output to combustion performance within the PNG architecture  
 
 This layered framework ensures that both micro-scale and macro-scale behaviors are captured.
+
+---
 
 ### 7.3 Injection Flow Model
 
@@ -287,6 +315,8 @@ Q(t) = C_d A √(2ΔP(t) / ρ)
 
 This captures transient injection effects caused by valve actuation and pressure fluctuations.
 
+---
+
 ### 7.4 Spray Formation Model
 
 Spray breakup is governed by aerodynamic instability mechanisms:
@@ -301,6 +331,8 @@ Key dimensionless groups include:
 
 These parameters determine droplet size distribution and spray cone development.
 
+---
+
 ### 7.5 System Integration Model
 
 Within the PNG Energy System, injection dynamics are linked to downstream processes as:
@@ -313,6 +345,8 @@ Each stage acts as a boundary condition for the next, meaning injection directly
 - ignition delay  
 - combustion stability  
 - energy release rate  
+
+---
 
 ### 7.6 Optimization Objective
 
@@ -338,6 +372,8 @@ Thus, fuel injection optimization is formulated as a constrained multi-variable 
 Answer to the question:
 Injection pressure determines the initial momentum of the fuel jet as it exits the nozzle. Higher pressure increases jet velocity, which enhances aerodynamic instability and promotes finer droplet formation. However, excessively high pressure may lead to over-penetration of the spray and wall impingement, reducing combustion efficiency.
 
+---
+
 ### 8.2 What is the role of nozzle geometry in spray development?
 
 Answer to the question:
@@ -350,6 +386,8 @@ Nozzle geometry defines the flow area and directional characteristics of the inj
 
 Optimized geometry improves atomization uniformity and air-fuel mixing quality.
 
+---
+
 ### 8.3 How do fuel properties affect injection dynamics?
 
 Answer to the question:
@@ -360,6 +398,8 @@ Fuel physical properties directly influence injection and spray behavior:
 - Surface tension (σ): controls droplet formation resistance  
 
 Higher viscosity and surface tension typically lead to larger droplet sizes and reduced atomization efficiency.
+
+---
 
 ### 8.4 How does injection timing affect combustion stability?
 
@@ -373,6 +413,8 @@ Injection timing parameters (SOI, DOI, EOI) determine when and how long fuel is 
 
 Proper timing ensures optimal air-fuel mixing and stable combustion phasing.
 
+---
+
 ### 8.5 How does fuel injection integrate into the PNG Energy System?
 
 Answer to the question:
@@ -381,6 +423,20 @@ Fuel injection acts as the first combustion-stage control layer in the PNG archi
 Fuel delivery → Spray formation → Atomization → Air-fuel mixing → Combustion → Energy output
 
 Thus, injection performance defines the initial boundary conditions for all downstream energy conversion processes.
+
+---
+
+## Final Engineering Summary
+
+The analysis of fuel injection dynamics within the PNG Energy System demonstrates that injection behavior is fundamentally governed by pressure-driven jet formation, nozzle geometry constraints, and fuel physical properties. These parameters collectively determine spray structure, droplet formation, and atomization efficiency.
+
+Across all research questions, a consistent system-level relationship emerges:
+
+Fuel injection → Jet formation → Spray breakup → Atomization → Combustion performance
+
+The findings confirm that injection dynamics are not an isolated mechanical process but a primary control layer that establishes the initial conditions for downstream combustion processes. Variations in injection pressure, timing, and geometry directly translate into changes in spray quality, mixture homogeneity, and combustion stability.
+
+Therefore, optimization of fuel injection parameters serves as a foundational requirement for achieving improved atomization efficiency and overall energy conversion performance within the PNG Energy System.
 
 ---
 
@@ -395,6 +451,8 @@ A consistent system trend is observed:
 - Increased injection pressure improves jet velocity and atomization quality  
 - Optimized nozzle geometry improves spray uniformity and mixing stability  
 - Proper fuel property control enhances breakup efficiency and droplet distribution  
+
+---
 
 ### 9.2 Effect of Injection Pressure on Spray Formation
 
@@ -416,6 +474,8 @@ However, excessively high pressure may lead to:
 - Over-penetration of spray  
 - Localized rich combustion zones  
 
+---
+
 ### 9.3 Influence of Nozzle Geometry on Flow Structure
 
 Nozzle geometry controls how fuel is spatially distributed upon injection.
@@ -429,6 +489,8 @@ Observed effects include:
 
 Thus, nozzle design directly determines spray morphology and combustion quality.
 
+---
+
 ### 9.4 Fuel Property Effects on Injection Performance
 
 Fuel physical properties significantly influence atomization behavior:
@@ -439,6 +501,8 @@ Fuel physical properties significantly influence atomization behavior:
 
 Overall, optimal injection performance occurs when fuel properties support rapid breakup and fine droplet formation.
 
+---
+
 ### 9.5 Time-Dependent Injection Behavior
 
 Injection is inherently transient and governed by dynamic system response:
@@ -448,6 +512,8 @@ Injection is inherently transient and governed by dynamic system response:
 - Valve dynamics influence injection duration stability  
 
 This confirms that fuel injection must be treated as a time-dependent control system rather than a steady flow process.
+
+---
 
 ### 9.6 System-Level Interpretation in PNG Framework
 
@@ -462,6 +528,8 @@ Key system implications:
 - Controlled flow improves energy conversion stability  
 
 Thus, injection quality directly determines overall system performance.
+
+---
 
 ### 9.7 Engineering Implications
 
@@ -484,6 +552,8 @@ Within the PNG Energy System, this transformation is treated as a staged energy 
 
 Pressure Energy → Kinetic Jet Energy → Spray Breakup → Droplet Field Formation
 
+---
+
 ### 10.1 Jet Formation at the Nozzle Exit
 
 Fuel exits the injector nozzle due to a pressure differential (ΔP) between the fuel rail and the combustion chamber. This pressure difference accelerates the fluid through a restricted orifice, forming a high-velocity jet.
@@ -499,6 +569,8 @@ Key behavior:
 - Higher density → reduced acceleration for the same pressure  
 
 The jet initially maintains a coherent liquid core before breakup begins.
+
+---
 
 ## FIGURE 10.1 – Fuel Injection Jet Formation and Spray Breakup
 
@@ -516,6 +588,8 @@ This figure illustrates the transition of fuel from a high-pressure liquid jet a
 - Spray geometry → air–fuel mixing efficiency  
 - Direct control of combustion stability and efficiency
 
+---
+
 ### 10.2 Flow Regimes in Fuel Injection
 
 Fuel injection flow can be classified into distinct regimes:
@@ -525,6 +599,8 @@ Fuel injection flow can be classified into distinct regimes:
 - **Turbulent regime:** strong mixing, rapid breakup, high atomization efficiency  
 
 In practical PNG injection systems, the turbulent regime is dominant and desired for efficient atomization.
+
+---
 
 ### 10.3 Instability Mechanisms Governing Breakup
 
@@ -540,6 +616,8 @@ These competing effects determine:
 - Droplet size distribution  
 - Spray dispersion pattern  
 
+---
+
 ### 10.4 Dimensionless Analysis of Injection Behavior
 
 Fuel injection dynamics are characterized using key dimensionless numbers:
@@ -549,6 +627,8 @@ Fuel injection dynamics are characterized using key dimensionless numbers:
 - Ohnesorge number (Oh): combined viscous influence on breakup  
 
 High We values generally indicate strong atomization and fine droplet formation.
+
+---
 
 ### 10.5 Spray Breakup Stages
 
@@ -562,6 +642,8 @@ Final droplet distribution determines:
 - Evaporation rate  
 - Mixing quality  
 - Combustion efficiency  
+
+---
 
 ### 10.6 System-Level Interpretation
 
@@ -583,6 +665,8 @@ Fuel injection performance in the PNG Energy System is governed by a coupled set
 
 Unlike isolated mechanical settings, these variables operate as an interconnected control system.
 
+---
+
 ### 11.1 Injection Pressure (ΔP)
 
 Injection pressure is the primary driving force for fuel discharge.
@@ -598,6 +682,8 @@ System behavior:
 
 Low ΔP → coarse spray, poor mixing  
 High ΔP → fine spray, improved combustion efficiency  
+
+---
 
 ### 11.2 Nozzle Geometry
 
@@ -615,6 +701,8 @@ Engineering effects:
 - Large orifice → higher mass flow, coarse droplets  
 - Multi-hole design → improved distribution uniformity  
 
+---
+
 ### 11.3 Fuel Physical Properties
 
 Fuel characteristics strongly influence breakup behavior:
@@ -624,6 +712,8 @@ Fuel characteristics strongly influence breakup behavior:
 - Surface tension (σ): stabilizes liquid jet structure  
 
 Higher viscosity and surface tension typically reduce atomization efficiency.
+
+---
 
 ### 11.4 Injection Timing Parameters
 
@@ -639,6 +729,8 @@ Effects:
 - Delayed SOI → incomplete combustion risk  
 - Optimized DOI → balanced fuel-air ratio control  
 
+---
+
 ### 11.5 Ambient Chamber Conditions
 
 Combustion chamber environment influences spray development:
@@ -649,6 +741,8 @@ Combustion chamber environment influences spray development:
 
 Higher chamber pressure typically enhances atomization resistance but improves mixing intensity.
 
+---
+
 ### 11.6 Coupled Parameter Interaction
 
 Injection parameters do not operate independently. Their interaction defines overall system performance:
@@ -658,6 +752,8 @@ Injection parameters do not operate independently. Their interaction defines ove
 - Timing ↔ chamber conditions determines combustion phasing  
 
 Thus, optimization must consider multi-variable coupling rather than single-factor tuning.
+
+---
 
 ### 11.7 System-Level Optimization Insight
 
@@ -678,6 +774,8 @@ This section presents a quantitative evaluation of fuel injection dynamics withi
 
 The objective is to demonstrate how injection parameters translate into measurable flow and performance outcomes.
 
+---
+
 ### 12.1 Governing Flow Equation
 
 Fuel injection flow rate is given by:
@@ -693,6 +791,8 @@ Where:
 
 This equation defines the baseline relationship between injection pressure and fuel delivery rate.
 
+---
+
 ### 12.2 Jet Velocity Estimation
 
 Jet velocity at the nozzle exit is approximated as:
@@ -705,6 +805,8 @@ This indicates that:
 - Velocity decreases with higher fuel density  
 - Velocity is independent of nozzle area (ideal assumption)
 
+---
+
 ### 12.3 Given System Parameters
 
 Consider the following injection conditions:
@@ -713,6 +815,8 @@ Consider the following injection conditions:
 - A = 1.5 × 10⁻⁶ m²  
 - ΔP = 3 × 10⁶ Pa  
 - ρ = 750 kg/m³  
+
+---
 
 ### 12.4 Flow Rate Calculation
 
@@ -728,9 +832,13 @@ Final result:
 
 Q ≈ 1.14 × 10⁻⁴ m³/s
 
+---
+
 ### 12.5 Conversion to Practical Units
 
 Q ≈ 0.114 L/s
+
+---
 
 ### 12.6 Engineering Interpretation
 
@@ -740,6 +848,8 @@ This result indicates:
 - Stable continuous jet formation  
 - Suitable conditions for fine atomization  
 - Improved downstream air-fuel mixing potential  
+
+---
 
 ### 12.7 System Efficiency Implication
 
@@ -758,6 +868,8 @@ Thus, injection flow rate is not only a delivery metric but a control variable f
 
 Fuel injection efficiency in the PNG Energy System describes how effectively input pressure energy is converted into useful spray formation and controlled fuel delivery for combustion. It is not only a measure of flow rate accuracy but also a measure of how well the injected fuel supports downstream atomization and combustion processes.
 
+---
+
 ### 13.1 Classical Injection Efficiency Definition
 
 Injection efficiency (ηᵢ) can be defined as:
@@ -769,6 +881,8 @@ Where:
 - Theoretical fuel delivered = total injected fuel mass
 
 This definition highlights losses due to poor atomization, wall wetting, and incomplete mixing.
+
+---
 
 ### 13.2 Energy-Based Injection Efficiency
 
@@ -785,6 +899,8 @@ This shows that injection is an energy conversion process:
 
 Pressure Energy → Kinetic Jet Energy → Spray Formation Energy
 
+---
+
 ### 13.3 Injection Loss Mechanisms
 
 Efficiency reduction occurs due to several physical losses:
@@ -796,6 +912,8 @@ Efficiency reduction occurs due to several physical losses:
 - Nozzle flow separation effects  
 
 These losses reduce effective fuel utilization in the combustion chamber.
+
+---
 
 ### 13.4 Optimization Objective Function
 
@@ -811,6 +929,8 @@ Subject to:
 - Uniform air-fuel mixing ratio  
 
 This transforms injection design into a constrained optimization problem.
+
+---
 
 ### 13.5 Multi-Variable Optimization Model
 
@@ -831,6 +951,8 @@ Where:
 
 Thus, injection efficiency is not a single-parameter function but a multi-variable system response.
 
+---
+
 ### 13.6 System-Level Optimization Insight
 
 Within the PNG Energy System framework:
@@ -850,6 +972,8 @@ Fuel injection dynamics in the PNG (Pure Natural Gas) Energy System represent a 
 
 Injection dynamics determine how effectively stored fuel energy is translated into controlled fluid momentum and distributed within the combustion chamber.
 
+---
+
 ### 14.1 System-Level Role of Fuel Injection
 
 Within the PNG Energy System architecture, fuel injection performs the following key roles:
@@ -862,6 +986,8 @@ Within the PNG Energy System architecture, fuel injection performs the following
 
 Thus, injection acts as the first dynamic shaping layer of the combustion process.
 
+---
+
 ### 14.2 Integration Pathway in PNG Architecture
 
 The fuel injection subsystem is embedded in a multi-stage energy conversion chain:
@@ -869,6 +995,8 @@ The fuel injection subsystem is embedded in a multi-stage energy conversion chai
 Fuel Injection → Spray Formation → Atomization → Air–Fuel Mixing → Ignition → Combustion → Energy Output
 
 Each stage is dependent on the quality of the previous stage, meaning injection directly constrains downstream performance.
+
+---
 
 ### 14.3 Coupling with Atomization Processes
 
@@ -884,6 +1012,8 @@ Key coupling effects:
 - Nozzle geometry controls spray cone structure  
 - Fuel properties define resistance to fragmentation  
 
+---
+
 ### 14.4 Coupling with Combustion Behavior
 
 Injection quality directly influences combustion performance:
@@ -893,6 +1023,8 @@ Injection quality directly influences combustion performance:
 - Stable injection → stable flame propagation  
 
 Thus, combustion stability is a direct outcome of injection dynamics.
+
+---
 
 ### 14.5 System-Level Control Interpretation
 
@@ -905,6 +1037,8 @@ It controls:
 - Early-stage mixture formation quality  
 
 This makes injection a **primary system-level control variable** rather than a standalone mechanical process.
+
+---
 
 ### 14.6 Engineering Summary
 
@@ -925,6 +1059,8 @@ Energy losses in fuel injection dynamics within the PNG Energy System arise from
 
 These losses directly impact atomization quality, air–fuel mixing, and overall combustion efficiency.
 
+---
+
 ### 15.1 Nozzle Flow Losses
 
 As fuel passes through the injector nozzle, part of the input energy is dissipated due to:
@@ -935,6 +1071,8 @@ As fuel passes through the injector nozzle, part of the input energy is dissipat
 
 These effects reduce the effective jet velocity and increase non-uniformity in spray formation.
 
+---
+
 ### 15.2 Spray Breakup Losses
 
 During jet breakup, energy is consumed in overcoming:
@@ -944,6 +1082,8 @@ During jet breakup, energy is consumed in overcoming:
 - Droplet fragmentation resistance  
 
 Not all injected energy contributes to useful atomization, leading to efficiency reduction in spray formation.
+
+---
 
 ### 15.3 Wall Impingement Losses
 
@@ -959,6 +1099,8 @@ This results in:
 - Delayed evaporation  
 - Incomplete combustion regions  
 
+---
+
 ### 15.4 Droplet Coalescence and Mixing Losses
 
 Within dense spray regions, droplets may recombine due to:
@@ -968,6 +1110,8 @@ Within dense spray regions, droplets may recombine due to:
 - Poor spray dispersion uniformity  
 
 This increases average droplet size and reduces evaporation efficiency.
+
+---
 
 ### 15.5 Unstable Injection Dynamics
 
@@ -979,6 +1123,8 @@ Injection system instabilities contribute to losses through:
 
 These instabilities lead to non-repeatable spray patterns and reduced system predictability.
 
+---
+
 ### 15.6 Thermal and Evaporation Losses
 
 Energy is also lost during phase transition processes:
@@ -988,6 +1134,8 @@ Energy is also lost during phase transition processes:
 - Non-uniform temperature distribution in chamber  
 
 Incomplete vaporization reduces combustion efficiency.
+
+---
 
 ### 15.7 System-Level Loss Function
 
@@ -1003,6 +1151,8 @@ Where:
 - L_coalescence = droplet merging losses  
 - L_instability = transient injection fluctuations  
 - L_thermal = evaporation and heat losses  
+
+---
 
 ### 15.8 Engineering Interpretation
 
@@ -1097,6 +1247,8 @@ Fuel injection dynamics in the PNG Energy System do not operate as an isolated s
 
 This section establishes the system-level coupling between injection, atomization, and combustion.
 
+---
+
 ### 16.1 System-Level Dependency Chain
 
 The correct physical and engineering sequence is:
@@ -1109,6 +1261,8 @@ Each stage depends on the output quality of the previous stage:
 - Atomization defines droplet structure  
 - Mixing defines equivalence ratio distribution  
 - Combustion defines energy release efficiency  
+
+---
 
 ### 16.2 Coupling with Fuel Atomization
 
@@ -1125,6 +1279,8 @@ Better injection control → finer atomization → improved evaporation rate
 
 Thus, atomization is a direct physical continuation of injection dynamics.
 
+---
+
 ### 16.3 Coupling with Combustion Behavior
 
 Combustion performance is strongly dependent on injection and atomization quality:
@@ -1137,6 +1293,8 @@ System implication:
 
 Injection instability → combustion instability → energy loss
 
+---
+
 ### 16.4 PNG System Architecture Interpretation
 
 Within the PNG Energy System, the three stages form a hierarchical control structure:
@@ -1146,6 +1304,8 @@ Within the PNG Energy System, the three stages form a hierarchical control struc
 - **Combustion Layer:** defines chemical energy release  
 
 This hierarchy ensures that upstream processes constrain downstream efficiency.
+
+---
 
 ### 16.5 Integrated Control Perspective
 
@@ -1161,6 +1321,8 @@ Key coupled variables include:
 
 These variables form a coupled multi-domain control system.
 
+---
+
 ### 16.6 Engineering Insight
 
 The integration analysis shows:
@@ -1172,6 +1334,8 @@ The integration analysis shows:
 Therefore:
 
 Improving injection quality directly enhances atomization efficiency and combustion stability.
+
+---
 
 ### 16.7 Final System Interpretation
 
@@ -1194,6 +1358,8 @@ Fuel injection dynamics in the PNG Energy System extend beyond theoretical model
 
 This section outlines the real-world engineering domains where the injection model is directly applicable.
 
+---
+
 ### 17.1 Internal Combustion Engines (ICE Systems)
 
 Fuel injection is a core subsystem in both spark ignition (SI) and compression ignition (CI) engines.
@@ -1211,6 +1377,8 @@ Engineering impact:
 - Enhanced engine responsiveness  
 - Lower emission output  
 
+---
+
 ### 17.2 Gas-to-Liquid (GTL) Conversion Systems
 
 In GTL systems, injection principles govern how fuel precursors are introduced into reaction chambers.
@@ -1227,6 +1395,8 @@ System impact:
 - Improved downstream catalytic efficiency  
 - Controlled product distribution  
 
+---
+
 ### 17.3 PNG Energy System Integration
 
 Within the PNG Energy System, fuel injection acts as a bridging mechanism between fuel synthesis and combustion.
@@ -1238,6 +1408,8 @@ Roles include:
 - Ensuring stable energy release profiles  
 
 Thus, injection is a system coupling interface rather than a standalone mechanical function.
+
+---
 
 ### 17.4 Advanced Spray and Atomization Research
 
@@ -1253,6 +1425,8 @@ Engineering use:
 - Optimization of combustion chamber design  
 - Reduction of fuel wastage through improved atomization  
 
+---
+
 ### 17.5 Hybrid Energy and Multi-Fuel Systems
 
 Injection control is essential in hybrid systems where multiple fuels are used:
@@ -1266,6 +1440,8 @@ Impact:
 - Stable multi-fuel combustion behavior  
 - Flexible energy system operation  
 - Improved adaptability to fuel variability  
+
+---
 
 ### 17.6 Reactor and Combustion Chamber Design
 
@@ -1281,6 +1457,8 @@ Engineering effect:
 - Reduced wall impingement losses  
 - Enhanced combustion stability  
 
+---
+
 ### 17.7 Industrial Energy Systems
 
 Large-scale energy systems benefit from optimized injection modeling:
@@ -1294,6 +1472,8 @@ System outcomes:
 - Higher thermal efficiency  
 - Lower operational instability  
 - Improved fuel utilization efficiency  
+
+---
 
 ### 17.8 System-Level Engineering Insight
 
@@ -1314,6 +1494,8 @@ Thus, injection optimization defines the upper performance limit of downstream c
 
 This section defines the theoretical boundaries, modelling constraints, and foundational assumptions used in the fuel injection dynamics framework within the PNG Energy System. These constraints are necessary to maintain analytical consistency and system-level tractability.
 
+---
+
 ### 18.1 Model Limitations
 
 The fuel injection model is based on simplified engineering and physical assumptions. The following limitations apply:
@@ -1324,6 +1506,8 @@ The fuel injection model is based on simplified engineering and physical assumpt
 - Injector internal micro-scale flow dynamics are not explicitly resolved  
 - Heat transfer effects are represented in aggregated form rather than spatially resolved fields  
 - Chemical reactions during early spray formation are not explicitly coupled with injection equations  
+
+---
 
 ### 18.2 Fundamental Assumptions
 
@@ -1337,6 +1521,8 @@ The model operates under the following assumptions:
 - External disturbances such as vibration or contamination are negligible  
 - Flow remains within a stable operational regime (no extreme cavitation conditions)
 
+---
+
 ### 18.3 System-Level Simplifications
 
 To ensure a usable engineering model, the following simplifications are applied:
@@ -1347,6 +1533,8 @@ To ensure a usable engineering model, the following simplifications are applied:
 - Interaction between droplets after formation is treated statistically  
 - Combustion chamber feedback effects on injection are not dynamically coupled  
 
+---
+
 ### 18.4 Implications of Limitations
 
 These limitations imply that:
@@ -1355,6 +1543,8 @@ These limitations imply that:
 - Predictions are trend-accurate but not exact at local flow detail level  
 - Optimization outputs indicate directional improvement rather than absolute values  
 - Real-world calibration is required for industrial implementation  
+
+---
 
 ### 18.5 Engineering Interpretation
 
@@ -1372,6 +1562,8 @@ Thus, the model prioritizes system-level insight over microscopic simulation acc
 
 Fuel injection dynamics in the PNG Energy System have been established as a foundational control layer governing the transition from pressurized fuel storage to combustion-ready spray formation. The analysis demonstrates that injection is not a simple delivery process but a coupled fluid-energy transformation system.
 
+---
+
 ### 19.1 Key Findings
 
 The study establishes the following core engineering outcomes:
@@ -1381,6 +1573,8 @@ The study establishes the following core engineering outcomes:
 - Spray breakup is driven by instability mechanisms that define droplet size distribution and mixing efficiency  
 - Injection efficiency is reduced by energy losses including nozzle friction, spray breakup inefficiencies, wall impingement, and thermal effects  
 - Injection dynamics operate as a multi-variable system rather than an isolated mechanical process  
+
+---
 
 ### 19.2 System-Level Role in PNG Architecture
 
@@ -1396,6 +1590,8 @@ This confirms that:
 
 Thus, injection is the first active control stage in the energy conversion chain.
 
+---
+
 ### 19.3 Engineering Significance
 
 The analysis confirms that:
@@ -1404,6 +1600,8 @@ The analysis confirms that:
 - System efficiency is highly sensitive to spray quality and droplet distribution  
 - Injection optimization directly improves overall energy conversion efficiency  
 - Multi-variable coupling must be considered in all design and optimization stages  
+
+---
 
 ### 19.4 Final Interpretation
 
@@ -1422,6 +1620,8 @@ Therefore, injection dynamics define the lower-bound physical conditions for ach
 
 Future development of fuel injection dynamics within the PNG Energy System focuses on transitioning the model from theoretical formulation to experimentally validated and system-integrated engineering implementation. The next phase emphasizes physical validation, higher-fidelity modeling, and tighter coupling with atomization and combustion processes.
 
+---
+
 ### 20.1 Experimental Validation
 
 Future work will prioritize laboratory and controlled environment validation of the injection model:
@@ -1432,6 +1632,8 @@ Future work will prioritize laboratory and controlled environment validation of 
 - Experimental validation of jet breakup length and spray cone angle  
 - Correlation of injection parameters with combustion efficiency and stability  
 
+---
+
 ### 20.2 Advanced Physical and Numerical Modeling
 
 To improve predictive accuracy, the following modeling extensions are required:
@@ -1441,6 +1643,8 @@ To improve predictive accuracy, the following modeling extensions are required:
 - Coupled spray-evaporation interaction models  
 - Time-dependent transient injector response modeling  
 - Non-linear system identification of injection behavior under varying conditions  
+
+---
 
 ### 20.3 Multi-Domain System Integration
 
@@ -1453,6 +1657,8 @@ Future development will focus on full coupling between major subsystems:
 
 This integration will enable a unified system representation where each stage dynamically influences the next.
 
+---
+
 ### 20.4 Feedback Control and System Optimization
 
 Future improvements will introduce structured control mechanisms:
@@ -1461,6 +1667,8 @@ Future improvements will introduce structured control mechanisms:
 - Adaptive adjustment of injection pressure and timing based on system response  
 - Optimization of nozzle geometry for improved spray stability  
 - Multi-variable operational tuning of ΔP, SOI, DOI, and chamber conditions  
+
+---
 
 ### 20.5 Injector and System Design Development
 
@@ -1471,6 +1679,8 @@ Engineering development will focus on physical system improvements:
 - Enhanced multi-hole injection systems for uniform distribution  
 - Improved fuel delivery systems for pressure stability and response accuracy  
 
+---
+
 ### 20.6 Industrial Scale Implementation
 
 Future application will extend to real-world energy systems:
@@ -1480,6 +1690,8 @@ Future application will extend to real-world energy systems:
 - Scaling of injection models to industrial operating conditions  
 - Efficiency benchmarking against conventional injection systems  
 
+---
+
 ### 20.7 System-Level Advancement Direction (PNG v3.0.0 Pathway)
 
 The long-term direction of this model is progression toward a fully integrated energy conversion system:
@@ -1488,6 +1700,8 @@ The long-term direction of this model is progression toward a fully integrated e
 - Real-time system monitoring and performance evaluation
 - Closed-loop operational control across all stages  
 - Unified system-level optimization framework  
+
+---
 
 ### 20.8 Final Research Direction
 
@@ -1503,6 +1717,8 @@ The ultimate objective is to evolve fuel injection dynamics into a fully predict
 ## 21.0 System References and Module Linkages
 
 This module is part of the PNG (Pure Natural Gas) Energy System v2.0.0 architecture and operates in direct coupling with other system components. The injection dynamics framework is not standalone but functions as an intermediate control layer between fuel formation and combustion processes.
+
+---
 
 ### 21.1 Upstream Module Reference
 
