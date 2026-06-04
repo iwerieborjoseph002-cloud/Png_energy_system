@@ -64,6 +64,8 @@ Characteristics:
 
 Fuel atomization is the process in which liquid fuel is broken into fine droplets at the injector nozzle. This increases the surface area of the fuel, allowing faster evaporation and better mixing with air. The improved air–fuel mixture leads to more efficient combustion, higher engine performance, and reduced emissions.
 
+---
+
 ## 4.0 Governing Equations in Fuel Atomization
 
 Fuel atomization performance is quantitatively described using droplet size metrics, breakup dynamics, and spray penetration characteristics. These governing relations link injector design and operating conditions to combustion efficiency within the PNG Energy System.
