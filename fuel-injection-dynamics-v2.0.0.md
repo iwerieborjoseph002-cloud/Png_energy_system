@@ -335,10 +335,12 @@ Thus, fuel injection optimization is formulated as a constrained multi-variable 
 
 ### 8.1 How does injection pressure (ΔP) influence fuel jet formation and atomization?
 
+Answer to the question:
 Injection pressure determines the initial momentum of the fuel jet as it exits the nozzle. Higher pressure increases jet velocity, which enhances aerodynamic instability and promotes finer droplet formation. However, excessively high pressure may lead to over-penetration of the spray and wall impingement, reducing combustion efficiency.
 
 ### 8.2 What is the role of nozzle geometry in spray development?
 
+Answer to the question:
 Nozzle geometry defines the flow area and directional characteristics of the injected fuel. Parameters such as orifice diameter, length-to-diameter ratio (L/D), and hole orientation influence:
 
 - Spray cone angle  
@@ -350,6 +352,7 @@ Optimized geometry improves atomization uniformity and air-fuel mixing quality.
 
 ### 8.3 How do fuel properties affect injection dynamics?
 
+Answer to the question:
 Fuel physical properties directly influence injection and spray behavior:
 
 - Density (ρ): affects jet momentum  
@@ -360,6 +363,7 @@ Higher viscosity and surface tension typically lead to larger droplet sizes and 
 
 ### 8.4 How does injection timing affect combustion stability?
 
+Answer to the question:
 Injection timing parameters (SOI, DOI, EOI) determine when and how long fuel is introduced into the combustion chamber. Incorrect timing can result in:
 
 - Delayed ignition  
@@ -371,6 +375,7 @@ Proper timing ensures optimal air-fuel mixing and stable combustion phasing.
 
 ### 8.5 How does fuel injection integrate into the PNG Energy System?
 
+Answer to the question:
 Fuel injection acts as the first combustion-stage control layer in the PNG architecture. It directly influences:
 
 Fuel delivery → Spray formation → Atomization → Air-fuel mixing → Combustion → Energy output
