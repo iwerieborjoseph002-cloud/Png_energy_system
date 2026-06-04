@@ -497,20 +497,19 @@ The jet initially maintains a coherent liquid core before breakup begins.
 
 ## FIGURE 10.1 – Fuel Injection Jet Formation and Spray Breakup
 
-![Fuel Injection Spray Formation](./Fuel-injection-spray-formation.png)
+![Fuel Injection Spray Formation](./ff39eaf87c889e417aeae5a23bfcd8091608342953c7945fea87363da7ec8111.png)
 
 **Original Figure Reference:** Figure 2.1  
 **Current Module Reference:** Figure 10.1  
 
 **Description:**  
-This figure illustrates the transition of fuel from a high-pressure liquid jet at the injector nozzle into a dispersed multiphase spray within the combustion chamber. It captures jet formation, primary breakup, secondary breakup, and spray cone development within the injection field.
+This figure illustrates the transition of fuel from a high-pressure liquid jet at the injector nozzle into a dispersed multiphase spray within the combustion chamber, highlighting jet breakup, droplet formation, and spray cone development.
 
 **Engineering significance:**  
-- Pressure energy → kinetic jet energy conversion  
-- Jet instability → atomization initiation  
-- Spray geometry → air–fuel mixing efficiency control  
-- Direct influence on combustion stability and overall energy conversion performance
-
+- Pressure energy → kinetic jet energy  
+- Jet instability → atomization  
+- Spray geometry → air–fuel mixing efficiency  
+- Direct control of combustion stability and efficiency
 
 ### 10.2 Flow Regimes in Fuel Injection
 
