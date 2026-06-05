@@ -1422,9 +1422,9 @@ Given:
 - Ea = 120,000 J/mol  
 - R = 8.314 J/mol·K  
 
-\[
+$$
 \frac{\tau_2}{\tau_1} = \exp\left[\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)\right]
-\]
+$$
 
 ### Step 1:
 Ea/R ≈ 14429  
