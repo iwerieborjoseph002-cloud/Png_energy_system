@@ -1080,7 +1080,9 @@ The rate of flame development determines combustion duration and pressure rise c
 
 ## FIGURE 12.1: Normal Combustion vs Knock (Ref: Figure 6.1 in v1.0.0)
 
-![Figure 12.1 – Normal Combustion vs Knock](https://raw.githubusercontent.com/iwerieborjoseph002-cloud/Png_energy_system/main/ff39eaf87c889e417aeae5a23bfcd8091608342953c7945fea87363da7ec8111.png)
+![Combustion Stability and Knock Analysis](https://raw.githubusercontent.com/iwerieborjoseph002-cloud/Png_energy_system/main/49f65f1f91514f860b64fced4f67f75cf968e64247f99407ce967fed4cd36a06.png)
+
+---
 
 ### Figure Description
 This figure presents a side-by-side comparison of normal combustion and knock phenomena within an internal combustion chamber.
