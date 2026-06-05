@@ -485,6 +485,7 @@ This section presents the key research questions guiding the study of combustion
 
 ### 8.1 What are the primary factors governing combustion stability in the PNG Energy System?
 
+**Answer to the question:**
 Combustion stability is governed mainly by pre-combustion preparation processes rather than the combustion event itself.
 
 Key controlling factors include:
@@ -495,13 +496,13 @@ Key controlling factors include:
 - Ignition delay characteristics  
 - In-cylinder turbulence and temperature distribution  
 
-**Answer to the question:**  
 Combustion stability is achieved when the injected fuel is properly atomized, uniformly mixed with air, and ignited under controlled timing conditions, resulting in smooth and continuous heat release without pressure oscillations.
 
 ---
 
 ### 8.2 What causes knock formation in combustion systems?
 
+**Answer to the question:**
 Knock is caused by abnormal auto-ignition of the end-gas region ahead of the advancing flame front.
 
 Primary contributing factors include:
@@ -512,13 +513,13 @@ Primary contributing factors include:
 - High compression ratio conditions  
 - Low fuel resistance to auto-ignition  
 
-**Answer to the question:**  
 Knock occurs when the ignition delay time of the end-gas becomes shorter than the flame propagation time, leading to rapid and uncontrolled energy release accompanied by strong pressure waves.
 
 ---
 
 ### 8.3 How does fuel injection influence combustion stability?
 
+**Answer to the question:**
 Fuel injection defines the initial conditions of combustion through controlled fuel delivery into the chamber.
 
 Key influences include:
@@ -528,13 +529,13 @@ Key influences include:
 - Pressure differential (ΔP)  
 - Nozzle geometry and flow structure  
 
-**Answer to the question:**  
 Fuel injection directly affects combustion stability by controlling how fuel is distributed, mixed, and prepared before ignition; poor injection leads to uneven mixing and unstable combustion.
 
 ---
 
 ### 8.4 How does atomization affect knock tendency?
 
+**Answer to the question:**
 Atomization governs the breakup of liquid fuel into droplets, which determines evaporation and mixing rates.
 
 Key effects:
@@ -542,13 +543,13 @@ Key effects:
 - Fine droplets → rapid evaporation → uniform mixture → stable combustion  
 - Coarse droplets → slow evaporation → mixture stratification → knock-prone conditions  
 
-**Answer to the question:**  
 Improved atomization reduces knock tendency by ensuring faster evaporation and homogeneous air-fuel mixing, eliminating localized high-temperature zones that trigger premature ignition.
 
 ---
 
 ### 8.5 How does flame propagation relate to combustion stability?
 
+**Answer to the question:**
 Flame propagation defines how the combustion front travels through the air–fuel mixture.
 
 Key behaviors include:
@@ -557,13 +558,13 @@ Key behaviors include:
 - Irregular propagation increases pressure gradients  
 - Slow propagation increases risk of end-gas auto-ignition  
 
-**Answer to the question:**  
 Combustion remains stable when flame propagation is consistent and sufficiently fast to prevent unburned end-gas from reaching auto-ignition conditions.
 
 ---
 
 ### 8.6 How does the PNG Energy System reduce knock formation?
 
+**Answer to the question:**
 The PNG Energy System reduces knock through coordinated control of pre-combustion processes.
 
 Key strategies include:
@@ -573,7 +574,6 @@ Key strategies include:
 - Improved air–fuel mixing uniformity  
 - Stabilized combustion chamber conditions  
 
-**Answer to the question:**  
 Knock is reduced by ensuring that combustion begins under well-mixed, thermodynamically stable conditions achieved through controlled injection and atomization rather than relying solely on ignition timing control.
 
 ---
