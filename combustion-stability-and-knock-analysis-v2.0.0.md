@@ -1499,6 +1499,27 @@ Then:
 - τ_ignition < τ_flame → knock-prone regime  
 - τ_ignition ≥ τ_flame → stable combustion regime  
 
+### Timing Relationship (Knock Condition)
+
+Case A — Knock Condition:
+
+Ignition ─────── τ_ignition ───●──────── τ_flame
+                               ↑
+                     End-gas auto-ignition occurs
+
+Condition:
+τ_ignition < τ_flame → Knock occurs
+
+
+Case B — Stable Combustion:
+
+Ignition ───── τ_flame ──────── τ_ignition
+               ↑
+        Flame reaches end-gas before auto-ignition
+
+Condition:
+τ_ignition ≥ τ_flame → Stable combustion
+
 ---
 
 ## 15.5 Summary Insight
