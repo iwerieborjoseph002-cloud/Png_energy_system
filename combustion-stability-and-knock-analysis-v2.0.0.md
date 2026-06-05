@@ -1488,6 +1488,14 @@ If instead:
 Then:
 1.2 ms > 0.8 ms → NO knock
 
+Ignition timing line:
+
+Ignition ──────── Flame arrival
+        τign      τflame
+
+Case A: τign < τflame → Knock
+Case B: τign > τflame → Stable
+
 ---
 
 ## Summary Insight
