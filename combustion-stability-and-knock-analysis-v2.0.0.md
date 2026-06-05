@@ -1492,11 +1492,20 @@ Then:
 
 Ignition timing line:
 
-Ignition ──────── Flame arrival
-        τign      τflame
+Case A (Knock)
 
-Case A: τign < τflame → Knock
-Case B: τign > τflame → Stable
+Ignition ── τ_ign ──●──── τ_flame
+
+                  ↑
+        End-gas auto-ignition
+
+τ_ign < τ_flame
+
+Case B (Stable)
+
+Ignition ───── τ_flame ───── τ_ign
+
+τ_ign > τ_flame
 
 ---
 
