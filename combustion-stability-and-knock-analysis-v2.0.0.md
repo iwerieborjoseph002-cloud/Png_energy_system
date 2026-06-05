@@ -1617,23 +1617,51 @@ Any instability in upstream stages propagates downstream into combustion behavio
 
 ---
 
-## FIGURE 16.1: System Optimization 
+ 
+## Figure 16.1: Combustion Stability Optimization
 
 ![Figure 16.1: Combustion Stability Optimization](https://raw.githubusercontent.com/iwerieborjoseph002-cloud/Png_energy_system/main/78d05e14bc28d2a49c3980f00470335f81897b30c630439fafec56c0a6dbdcfa.png)
 
----
+### Figure Description
 
-## 16.6 Engineering Interpretation
+Figure 16.1 illustrates the system-level optimization framework for combustion stability within the PNG Energy System. The model represents combustion stability as a controlled outcome of interacting subsystems rather than an isolated combustion event.
 
-Combustion stability is not a single-variable phenomenon but a coupled multi-domain optimization problem.
+The diagram integrates the key control layers:
 
-Key insights:
-- Knock is a limiting instability boundary condition
-- Flame propagation and ignition delay must be time-synchronized
-- Fuel structure determines reaction pathway stability
-- Catalyst behavior indirectly governs combustion stability through molecular composition control
+- **Fuel Preparation Layer (Upstream Influence):**
+  Governs fuel quality through catalyst-driven hydrocarbon formation, defining fuel reactivity and composition characteristics.
 
-Within advanced energy systems like PNG, combustion stability is achieved by aligning chemical kinetics, thermodynamics, and fluid dynamics into a controlled operating regime.
+- **Delivery Layer:**
+  Represents fuel injection timing, mass flow control, and pressure-dependent delivery dynamics that determine mixture formation conditions inside the combustion chamber.
+
+- **Atomization Layer:**
+  Describes the breakup of liquid fuel into fine droplets, influencing surface area, evaporation rate, and air–fuel mixing uniformity.
+
+- **Combustion Response Layer:**
+  Represents flame propagation behavior, ignition delay response, and heat release rate dynamics that define combustion stability.
+
+- **Feedback Control Loop:**
+  Captures system feedback from pressure rise rate, knock tendency, and combustion oscillations, which are used to regulate upstream injection and mixture formation parameters.
+
+### Engineering Interpretation
+
+The optimization model shows that combustion stability is achieved when:
+- ignition delay is properly balanced with flame propagation time
+- fuel–air mixture homogeneity is maximized
+- pressure rise rate remains within controlled limits
+- knock-inducing conditions are suppressed through system-level coordination
+
+Overall, combustion stability is treated as an emergent property of a coupled multi-layer system involving fuel chemistry, fluid delivery, mixture formation, and reaction dynamics.
+
+### PNG Energy System Context
+
+Within the PNG Energy System, this figure establishes the relationship between:
+- catalyst process optimization (fuel quality control)
+- injection dynamics (temporal delivery control)
+- atomization behavior (spatial mixture control)
+- combustion stability (final energy release control)
+
+This confirms that combustion stability is not a single-variable phenomenon but a multi-parameter optimization outcome.
 
 ---
 
