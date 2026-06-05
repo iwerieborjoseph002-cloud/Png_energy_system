@@ -421,11 +421,12 @@ Each domain interacts with the others to determine overall combustion stability.
 
 Combustion stability is evaluated using a time-scale interaction model:
 
-τ_ign < τ_flame  → Knock condition  
-τ_ign ≥ τ_flame → Stable combustion condition  
+τ_ignition < τ_flame → Knock condition
+
+τ_ignition ≥ τ_flame → Stable combustion condition
 
 Where:
-- τ_ign = ignition delay time of end-gas region  
+- τ_ignition = ignition delay time of end-gas region  
 - τ_flame = flame propagation time across the chamber  
 
 This relationship is used as a baseline condition for assessing knock tendency.
