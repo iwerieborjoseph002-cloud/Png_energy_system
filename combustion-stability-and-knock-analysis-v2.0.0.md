@@ -1617,6 +1617,12 @@ Any instability in upstream stages propagates downstream into combustion behavio
 
 ---
 
+## 16.1 System Optimization Diagram (Figure 16.1)
+
+![Figure 16.1: Combustion Stability Optimization](https://raw.githubusercontent.com/iwerieborjoseph002-cloud/Png_energy_system/main/78d05e14bc28d2a49c3980f00470335f81897b30c630439fafec56c0a6dbdcfa.png)
+
+---
+
 ## 16.6 Engineering Interpretation
 
 Combustion stability is not a single-variable phenomenon but a coupled multi-domain optimization problem.
