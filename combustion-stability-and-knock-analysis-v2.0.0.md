@@ -1007,6 +1007,353 @@ Knock tendency is therefore influenced by:
 - Atomization uniformity
 - End-gas temperature profile
 
-In this framework, knock is not only a combustion event but a system-level o
+In this framework, knock is not only a combustion event but a system-level outcome of upstream catalytic and fuel structure control.
+
+---
+
+## 12.0 Flame Propagation Behavior
+
+Flame propagation behavior describes the spatial and temporal movement of a combustion flame front through a premixed fuel-air charge. It is governed by coupled chemical kinetics, fluid dynamics, and thermodynamic gradients within the combustion chamber. In engine systems, flame propagation directly determines combustion efficiency, stability, and pressure development rate.
+
+Flame propagation is primarily controlled by:
+- Fuel reactivity and mixture composition
+- Flow field turbulence intensity
+- Temperature and pressure distribution
+- Chemical reaction rate of the fuel-air mixture
+
+---
+
+## 12.1 Laminar Flame Speed
+
+Laminar flame speed is the velocity at which a planar flame front propagates through a quiescent, premixed fuel-air mixture under laminar flow conditions.
+
+It represents the fundamental chemical reactivity of the mixture without turbulence influence.
+
+Laminar flame speed is influenced by:
+- Equivalence ratio (fuel-air ratio)
+- Temperature (higher temperature increases speed)
+- Pressure (generally reduces flame speed)
+- Fuel molecular structure and composition
+
+A higher laminar flame speed indicates faster energy release and improved combustion responsiveness, while lower values indicate slower and more stable flame propagation.
+
+---
+
+## 12.2 Turbulent Flame Speed
+
+Turbulent flame speed describes flame propagation under real engine conditions where flow is dominated by turbulence rather than laminar behavior.
+
+Turbulence enhances flame propagation by:
+- Increasing flame surface area
+- Enhancing mixing of reactants
+- Creating flame wrinkling and stretching effects
+
+Turbulent flame speed is significantly higher than laminar flame speed and is strongly dependent on:
+- Turbulence intensity
+- Integral length scale of turbulence
+- Engine speed and geometry
+- Intake flow dynamics
+
+Turbulence effectively accelerates combustion but may also introduce instability if not controlled.
+
+---
+
+## 12.3 Flame Front Development
+
+Flame front development describes the evolution of the combustion zone from ignition kernel formation to fully developed flame propagation.
+
+Stages include:
+1. Ignition kernel formation near spark region
+2. Early flame growth dominated by chemical kinetics
+3. Transition to flow-dominated propagation
+4. Fully developed turbulent flame propagation
+
+During development, the flame front undergoes:
+- Surface area expansion
+- Interaction with turbulence structures
+- Stretching and curvature effects
+- Interaction with chamber walls
+
+The rate of flame development determines combustion duration and pressure rise characteristics.
+
+---
+
+## FIGURE 12.1: Normal Combustion vs Knock (Ref: Figure 6.1 in v1.0.0)
+
+![Figure 12.1 – Normal Combustion vs Knock](https://raw.githubusercontent.com/iwerieborjoseph002-cloud/Png_energy_system/main/ff39eaf87c889e417aeae5a23bfcd8091608342953c7945fea87363da7ec8111.png)
+
+### Figure Description
+This figure presents a side-by-side comparison of normal combustion and knock phenomena within an internal combustion chamber.
+
+The left side illustrates normal combustion characterized by:
+- Controlled and uniform flame propagation
+- Stable pressure rise across the combustion cycle
+- Homogeneous air-fuel mixture distribution
+- Absence of abnormal pressure oscillations
+
+The right side illustrates knock conditions characterized by:
+- Premature end-gas auto-ignition
+- Multiple uncontrolled ignition points
+- High-frequency pressure oscillations
+- Shock wave formation and reflection within cylinder walls
+
+### Engineering Significance
+This figure establishes the physical contrast between stable combustion and knocking instability. It visually demonstrates how combustion quality is governed by ignition timing, mixture preparation, and flame propagation behavior.
+
+It directly supports:
+- Thermo-kinetic ignition delay theory
+- Flame propagation stability analysis
+- Pressure wave resonance behavior in combustion chambers
+
+---
+
+## 12.4 Effect on Combustion Stability
+
+Flame propagation behavior directly influences combustion stability within the engine system.
+
+Stable combustion is characterized by:
+- Smooth and continuous flame propagation
+- Controlled pressure rise rate
+- Complete fuel-air mixture utilization
+
+Unstable combustion is associated with:
+- Irregular flame propagation
+- Cyclic variation in pressure output
+- Localized flame extinction or re-ignition
+- Increased likelihood of knock or misfire
+
+Key stability indicators include:
+- Coefficient of variation of indicated mean effective pressure (IMEP)
+- Cycle-to-cycle variability
+- Pressure rise rate consistency
+
+---
+
+## 12.5 PNG Interpretation
+
+Within the PNG Energy System, flame propagation behavior is strongly influenced by upstream fuel synthesis and catalyst-controlled hydrocarbon structure.
+
+Key system-level relationships include:
+- Syngas conversion quality → determines hydrocarbon chain distribution
+- Fe-Ni/C + K catalyst system → controls fuel reactivity and composition balance
+- Hydrocarbon range (C1–C20) → influences laminar flame speed characteristics
+- Atomization quality → affects mixture homogeneity and flame development
+
+In this framework:
+- Faster flame propagation improves energy conversion efficiency
+- Controlled turbulent enhancement improves combustion completeness
+- Poor fuel uniformity increases instability and cycle variation
+
+Flame propagation is therefore treated as a downstream response variable of fuel chemistry, atomization behavior, and catalytic system performance within the PNG architecture.
+
+---
+
+## 13.0 Pressure Wave Dynamics
+
+Pressure wave dynamics in combustion systems describe the propagation, interaction, and amplification of pressure fluctuations generated during rapid heat release events inside the combustion chamber. These pressure waves are a direct consequence of non-uniform energy release and act as a key indicator of combustion stability or instability.
+
+Pressure wave behavior is governed by:
+- Rate of heat release
+- Gas compressibility and density variations
+- Chamber geometry and boundary conditions
+- Acoustic properties of the in-cylinder medium
+
+In high-intensity combustion events such as knock, pressure waves become dominant and interact with the chamber structure as acoustic phenomena.
+
+---
+
+## 13.1 Pressure Oscillation Theory
+
+Pressure oscillations arise when rapid combustion induces non-uniform expansion of gases, producing time-dependent fluctuations in cylinder pressure.
+
+These oscillations are characterized by:
+- Periodic or quasi-periodic pressure fluctuations
+- High-frequency components superimposed on mean pressure rise
+- Coupling between chemical heat release and gas dynamics
+
+The governing behavior can be expressed conceptually as:
+
+dP/dt ≠ constant (non-uniform pressure evolution)
+
+Pressure oscillations are amplified when heat release occurs faster than the system can mechanically or thermodynamically equilibrate.
+
+---
+
+## 13.2 Resonance Mechanism
+
+Resonance occurs when pressure wave frequencies generated by combustion match the natural acoustic frequency modes of the combustion chamber.
+
+When resonance conditions are satisfied:
+- Pressure waves constructively interfere
+- Wave amplitude increases significantly
+- Energy is trapped within the chamber acoustic field
+
+Resonance condition:
+
+f_combustion ≈ f_natural_mode
+
+This leads to amplified pressure oscillations, increasing the severity of combustion instability and knock phenomena.
+
+Resonance is strongly influenced by:
+- Cylinder geometry
+- Speed of sound in combustion gases
+- Temperature-dependent acoustic properties
+- Boundary reflection conditions at piston and walls
+
+---
+
+## 13.3 Cylinder Acoustic Effects
+
+The combustion chamber behaves as an acoustic cavity where pressure waves reflect, interfere, and form standing wave patterns.
+
+Key acoustic behaviors include:
+- Wave reflection from piston crown and cylinder head
+- Formation of standing pressure waves
+- Mode shapes dependent on chamber geometry
+- Temperature-dependent variation in wave speed
+
+The speed of sound in combustion gases is given by:
+
+c = √(γRT)
+
+where:
+- c = speed of sound
+- γ = specific heat ratio
+- R = gas constant
+- T = temperature
+
+Higher temperatures increase acoustic wave speed, affecting resonance frequency and wave propagation characteristics.
+
+---
+
+## 13.4 Knock Intensity
+
+Knock intensity represents the magnitude of pressure oscillations generated during uncontrolled auto-ignition events.
+
+It is influenced by:
+- Rate of end-gas energy release
+- Amplitude of pressure wave formation
+- Degree of resonance amplification
+- Spatial uniformity of combustion
+
+Knock intensity can be conceptually related to rapid pressure variation:
+
+KI ∝ dP/dt + wave_amplitude
+
+Higher knock intensity corresponds to stronger pressure shocks and greater mechanical stress on engine components.
+
+Persistent high-intensity knock can lead to:
+- Structural fatigue
+- Surface erosion
+- Thermal loading of combustion chamber walls
+
+---
+
+## 13.5 PNG Interpretation
+
+Within the PNG Energy System, pressure wave dynamics are treated as a downstream manifestation of fuel composition, atomization quality, and combustion reaction stability.
+
+Key system-level interactions include:
+- Catalyst-controlled hydrocarbon distribution → affects heat release rate
+- Fe-Ni/C + K system → influences combustion smoothness and reaction timing
+- Fuel structure (C1–C20 range) → determines energy release profile
+- Atomization uniformity → affects local pressure wave initiation
+
+In this framework:
+- Stable fuel composition reduces pressure oscillation amplitude
+- Controlled combustion rate minimizes resonance amplification
+- Poor fuel uniformity increases wave instability and knock likelihood
+
+Pressure wave dynamics therefore serve as a diagnostic link between chemical energy release and mechanical system response within the PNG Energy System architecture.
+
+---
+
+## 14.0 Knock Severity Classification
+
+Knock severity classification describes the gradation of abnormal combustion intensity based on the magnitude, spatial extent, and temporal characteristics of end-gas auto-ignition and resulting pressure wave formation. It provides a structured framework for evaluating combustion stability degradation in engine systems.
+
+Knock severity is governed by:
+- Rate of end-gas energy release
+- Pressure rise magnitude and frequency
+- Spatial distribution of auto-ignition zones
+- Degree of coupling with chamber acoustic modes
+
+---
+
+## 14.1 Mild Knock
+
+Mild knock refers to low-intensity auto-ignition events occurring in limited regions of the end-gas without full chamber involvement.
+
+Characteristics:
+- Small amplitude pressure oscillations
+- Localized and short-duration auto-ignition
+- Minimal mechanical stress impact
+- Often detectable only via sensitive pressure sensing
+
+Mild knock typically occurs near the threshold of ignition delay mismatch, where flame propagation is slightly delayed relative to end-gas reactivity.
+
+---
+
+## 14.2 Partial Knock
+
+Partial knock represents intermediate combustion instability where a significant portion of the end-gas undergoes auto-ignition, but not the entire charge.
+
+Characteristics:
+- Moderate pressure spikes
+- Multiple localized ignition sites
+- Noticeable high-frequency oscillations
+- Partial coupling with chamber acoustic modes
+
+Partial knock indicates that chemical reaction rates in portions of the end-gas exceed flame propagation timing, but system-wide runaway is not yet achieved.
+
+---
+
+## 14.3 Severe Knock
+
+Severe knock occurs when a large fraction of the end-gas auto-ignites rapidly, producing strong pressure waves and significant combustion instability.
+
+Characteristics:
+- High-amplitude pressure oscillations
+- Strong shockwave formation
+- Rapid and uncontrolled heat release
+- Strong coupling with resonance modes
+
+Severe knock imposes substantial mechanical and thermal stress on combustion chamber components and indicates near-complete breakdown of controlled flame propagation.
+
+---
+
+## 14.4 Complete Knock
+
+Complete knock represents full-scale auto-ignition of the entire unburned mixture before flame front completion, resulting in extreme combustion instability.
+
+Characteristics:
+- System-wide simultaneous auto-ignition
+- Extremely high pressure rise rate
+- Strong destructive shockwave formation
+- Loss of controlled flame propagation regime
+
+In this condition, combustion transitions from deflagration-dominated behavior to near-detonation-like pressure wave dynamics, severely impacting structural integrity.
+
+---
+
+## 14.5 Engineering Implications
+
+Knock severity classification provides direct engineering insight into combustion system performance limits and safety margins.
+
+Key implications:
+- Increasing knock severity corresponds to increasing mechanical fatigue risk
+- Pressure wave intensity scales nonlinearly with severity level
+- Early-stage knock (mild/partial) may be used for diagnostic tuning
+- Severe and complete knock indicate critical failure of combustion control
+
+System-level implications include:
+- Fuel composition directly influences severity distribution
+- Catalyst-controlled hydrocarbon structure affects knock threshold
+- Atomization quality determines spatial ignition uniformity
+- Engine design must account for resonance amplification limits
+
+Within advanced energy systems, knock severity classification serves as a feedback mechanism linking fuel chemistry, combustion dynamics, and mechanical system durability.
+
+---
 
 
