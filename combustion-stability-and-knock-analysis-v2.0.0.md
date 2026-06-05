@@ -1356,4 +1356,562 @@ Within advanced energy systems, knock severity classification serves as a feedba
 
 ---
 
+## 15.0 Numerical Analysis
+
+This section provides worked numerical examples to quantify key relationships governing knock formation, ignition delay, and combustion stability within an idealized PNG Energy System framework. The examples are based on standard combustion and reaction kinetics models.
+
+---
+
+## 15.1 Example 1: Ignition Delay Calculation (Arrhenius Model)
+
+Given:
+
+τ_ignition = A · P^(-n) · exp(Ea / RT)
+
+Assume:
+- A = 1.2 × 10^-3 s
+- P = 20 atm
+- n = 1.2
+- Ea = 120,000 J/mol
+- R = 8.314 J/mol·K
+- T = 900 K
+
+Step 1: Pressure term
+
+P^(-n) = 20^(-1.2) ≈ 0.027
+
+Step 2: Exponential term
+
+Ea / RT = 120000 / (8.314 × 900) ≈ 16.03  
+exp(16.03) ≈ 9.2 × 10^6
+
+Step 3: Combine
+
+τ_ignition = (1.2 × 10^-3) × 0.027 × (9.2 × 10^6)
+
+τ_ignition ≈ 298 seconds
+
+Interpretation:
+Very long ignition delay indicates low auto-ignition tendency under these conditions.
+
+---
+
+## 15.2 Example 2: Effect of Temperature Increase on Ignition Delay
+
+Assume same system but temperature increases from:
+
+T₁ = 850 K → T₂ = 950 K
+
+Ea = 120,000 J/mol
+
+Compute ratio:
+
+τ₂ / τ₁ = exp[ Ea/R × (1/T₂ - 1/T₁) ]
+
+Step 1:
+
+Ea/R ≈ 14429
+
+Step 2:
+
+(1/950 - 1/850) ≈ -1.24 × 10^-4
+
+Step 3:
+
+Exponent:
+
+14429 × (-1.24 × 10^-4) ≈ -1.79
+
+Step 4:
+
+τ₂ / τ₁ = exp(-1.79) ≈ 0.167
+
+Interpretation:
+A 100 K temperature increase reduces ignition delay to ~16.7% of original value, significantly increasing knock risk.
+
+---
+
+## 15.3 Example 3: Knock Intensity Estimation
+
+Assume pressure-time data:
+
+P₁ = 50 bar at t₁ = 1 ms  
+P₂ = 90 bar at t₂ = 1.2 ms  
+
+Step 1: Pressure rise rate
+
+dP/dt = (90 - 50) / (0.2 ms)
+
+dP/dt = 40 / 0.0002  
+dP/dt = 200,000 bar/s
+
+Interpretation:
+High pressure rise rate indicates strong knock tendency.
+
+Relative Knock Index:
+
+KI ∝ dP/dt
+
+Thus:
+KI is extremely high → severe knock condition.
+
+---
+
+## 15.4 Example 4: Flame vs Ignition Delay Comparison
+
+Given:
+- Flame arrival time: τ_flame = 0.8 ms
+- Ignition delay: τ_ignition = 0.6 ms
+
+Condition check:
+
+τ_ignition ≤ τ_flame
+
+0.6 ms ≤ 0.8 ms → TRUE
+
+Interpretation:
+Auto-ignition occurs before flame arrival → knock is expected.
+
+If instead:
+- τ_ignition = 1.2 ms
+
+Then:
+1.2 ms > 0.8 ms → NO knock
+
+---
+
+## Summary Insight
+
+These numerical examples show that knock formation is primarily governed by:
+- Exponential sensitivity to temperature
+- Strong pressure dependence of reaction rates
+- Critical timing mismatch between ignition delay and flame propagation
+
+Within the PNG Energy System framework, small variations in operating conditions can produce large nonlinear changes in combustion stability.
+
+---
+
+## 16.0 Combustion Stability Optimization Model
+
+Combustion stability optimization in engine systems refers to the controlled regulation of chemical reaction rates, heat release profiles, and in-cylinder pressure dynamics to ensure repeatable, efficient, and knock-free combustion. Within the PNG Energy System framework, combustion stability is treated as a coupled optimization problem involving fuel chemistry, catalytic synthesis behavior, and thermodynamic operating conditions.
+
+The objective is to maximize combustion efficiency while minimizing cyclic variability and knock propensity.
+
+Key governing factors include:
+- Fuel composition and hydrocarbon distribution (C1–C20 balance)
+- Ignition delay characteristics
+- Flame propagation speed (laminar and turbulent)
+- Pressure rise rate control
+- End-gas temperature uniformity
+- Catalyst-driven fuel structure formation
+
+---
+
+## 16.1 Stability Objective Function
+
+Combustion stability can be expressed as an optimization problem:
+
+Maximize:
+
+J = η_combustion − (λ₁·KI + λ₂·COV_IMEP + λ₃·dP/dt_max)
+
+where:
+- J = overall combustion stability index
+- η_combustion = combustion efficiency
+- KI = knock intensity
+- COV_IMEP = cycle-to-cycle variability indicator
+- dP/dt_max = maximum pressure rise rate
+- λ₁, λ₂, λ₃ = weighting coefficients
+
+The objective is to maximize efficiency while minimizing instability indicators.
+
+---
+
+## 16.2 Stability Constraints
+
+The system is subject to physical and chemical constraints:
+
+Ignition constraint:
+τ_ignition > τ_min_threshold
+
+Knock avoidance constraint:
+τ_ignition > τ_flame_arrival
+
+Pressure constraint:
+(dP/dt)_max ≤ (dP/dt)_critical
+
+Temperature constraint:
+T_end-gas < T_auto-ignition
+
+These constraints define the safe combustion operating envelope.
+
+---
+
+## 16.3 Multi-Parameter Control Variables
+
+Combustion stability is governed by coupled control variables:
+
+- Equivalence ratio (ϕ)
+- Compression temperature (T)
+- Cylinder pressure (P)
+- Turbulence intensity (u’)
+- Residence time (τ)
+- Fuel reactivity index (FRI)
+- Catalyst selectivity parameter (α)
+
+Each variable influences reaction kinetics and flame propagation behavior.
+
+---
+
+## 16.4 Stability Optimization Mechanism
+
+The optimization process operates through three interacting layers:
+
+Chemical layer:
+Controls radical formation rates and ignition delay behavior.
+
+Thermodynamic layer:
+Controls energy accumulation, pressure rise, and heat transfer dynamics.
+
+Fluid dynamic layer:
+Controls mixing, turbulence intensity, and flame front development.
+
+Stability is achieved when all three layers are synchronized to avoid localized runaway reactions.
+
+---
+
+## 16.5 PNG System Integration Model
+
+Within the PNG Energy System, combustion stability is directly linked to upstream fuel synthesis and catalytic control.
+
+System chain:
+
+Syngas Composition  
+→ Fe-Ni/C + K Catalyst Reaction Pathway  
+→ Hydrocarbon Distribution Control (C1–C20)  
+→ Fuel Atomization Quality  
+→ Ignition Delay Regulation  
+→ Flame Propagation Stability  
+→ Controlled Pressure Dynamics  
+→ Stable Combustion Output  
+
+Any instability in upstream stages propagates downstream into combustion behavior.
+
+---
+
+## 16.6 Engineering Interpretation
+
+Combustion stability is not a single-variable phenomenon but a coupled multi-domain optimization problem.
+
+Key insights:
+- Knock is a limiting instability boundary condition
+- Flame propagation and ignition delay must be time-synchronized
+- Fuel structure determines reaction pathway stability
+- Catalyst behavior indirectly governs combustion stability through molecular composition control
+
+Within advanced energy systems like PNG, combustion stability is achieved by aligning chemical kinetics, thermodynamics, and fluid dynamics into a controlled operating regime.
+
+---
+
+## 17.0 Energy Loss Considerations
+
+Energy loss in combustion systems refers to the portion of chemical energy in the fuel that is not converted into useful mechanical work. Instead, it is dissipated through heat transfer, incomplete combustion, exhaust enthalpy, frictional effects, and unutilized chemical potential. Within the PNG Energy System framework, energy loss is treated as a coupled thermodynamic and chemical inefficiency arising from fuel structure, combustion dynamics, and system integration limitations.
+
+Primary energy loss pathways include:
+- Heat transfer to cylinder walls
+- Exhaust gas enthalpy loss
+- Incomplete combustion products (CO, unburned hydrocarbons)
+- Pumping and friction losses
+- Combustion instability losses (knock and cyclic variation)
+
+---
+
+## 17.1 Overall Energy Balance Model
+
+The general energy balance of a combustion system is:
+
+Q_fuel = W_useful + Q_heat_loss + Q_exhaust + Q_unburned + Q_friction
+
+where:
+- Q_fuel = chemical energy input from fuel
+- W_useful = useful mechanical work output
+- Q_heat_loss = heat transfer to walls
+- Q_exhaust = energy carried in exhaust gases
+- Q_unburned = chemical energy not released
+- Q_friction = mechanical and pumping losses
+
+Thermal efficiency is defined as:
+
+η_th = W_useful / Q_fuel
+
+---
+
+## 17.2 Example 1: Thermal Efficiency Calculation
+
+Given:
+- Fuel energy input, Q_fuel = 1000 kJ
+- Useful work output, W_useful = 320 kJ
+
+Compute thermal efficiency:
+
+η_th = W_useful / Q_fuel  
+η_th = 320 / 1000  
+η_th = 0.32 = 32%
+
+Interpretation:
+Only 32% of fuel energy is converted into useful work; 68% is lost through various mechanisms.
+
+---
+
+## 17.3 Example 2: Heat Loss Estimation
+
+Given:
+- Q_fuel = 1000 kJ
+- W_useful = 320 kJ
+- Q_exhaust = 280 kJ
+- Q_unburned = 50 kJ
+- Q_friction = 70 kJ
+
+Find Q_heat_loss:
+
+Q_heat_loss = Q_fuel − (W_useful + Q_exhaust + Q_unburned + Q_friction)
+
+Step:
+
+Q_heat_loss = 1000 − (320 + 280 + 50 + 70)  
+Q_heat_loss = 1000 − 720  
+Q_heat_loss = 280 kJ
+
+Interpretation:
+Heat transfer to cylinder walls accounts for 280 kJ of energy loss.
+
+---
+
+## 17.4 Example 3: Effect of Incomplete Combustion
+
+Given:
+- Fuel energy = 500 kJ
+- Unburned fuel fraction = 6%
+
+Compute unburned energy loss:
+
+Q_unburned = 0.06 × 500  
+Q_unburned = 30 kJ
+
+If combustion is optimized and unburned fraction reduces to 2%:
+
+Q_unburned = 0.02 × 500  
+Q_unburned = 10 kJ
+
+Energy gain from improvement:
+
+ΔQ = 30 − 10 = 20 kJ
+
+Interpretation:
+Small improvements in combustion completeness significantly increase usable energy output.
+
+---
+
+## 17.5 Example 4: Exhaust Loss Contribution
+
+Given:
+- Exhaust energy = 35% of total fuel energy
+- Q_fuel = 800 kJ
+
+Compute exhaust loss:
+
+Q_exhaust = 0.35 × 800  
+Q_exhaust = 280 kJ
+
+If exhaust recovery system improves efficiency and reduces loss to 25%:
+
+Q_exhaust_new = 0.25 × 800 = 200 kJ
+
+Energy recovered:
+
+ΔQ = 280 − 200 = 80 kJ
+
+Interpretation:
+Exhaust energy recovery significantly improves system efficiency potential.
+
+---
+
+## 17.6 PNG Interpretation
+
+Within the PNG Energy System, energy loss is strongly influenced by upstream fuel synthesis and combustion behavior.
+
+Key system-level influences:
+- Catalyst selectivity (Fe-Ni/C + K system) affects hydrocarbon distribution and combustion completeness
+- Hydrocarbon chain structure (C1–C20 balance) influences ignition efficiency and flame stability
+- Atomization quality determines mixing efficiency and heat release uniformity
+- Knock and instability increase irreversible energy losses through uncontrolled pressure dynamics
+
+Engineering insight:
+Energy losses are minimized when fuel chemistry, atomization quality, and combustion timing are synchronized to produce stable and complete energy release pathways.
+
+---
+
+## 18.0 Integration with Injection and Atomization Systems
+
+The integration of catalyst process optimization with injection and atomization systems defines a complete end-to-end fuel-to-combustion pathway within the PNG Energy System. This integration ensures that fuel properties generated at the catalytic stage are correctly transported, controlled, and prepared for efficient combustion.
+
+The system operates as a coupled multi-layer architecture where each stage determines constraints and performance limits for the next stage.
+
+---
+
+## 18.1 System-Level Integration Structure
+
+The PNG Energy System integration is defined by the sequential transformation chain:
+
+Catalyst Process Optimization  
+→ Fuel Molecular Structure Formation (C1–C20 distribution)  
+→ Injection System (mass, timing, pressure control)  
+→ Atomization System (droplet formation and vaporization)  
+→ Combustion Process (flame propagation and pressure development)
+
+Each stage acts as both:
+- an output generator for the next stage
+- a constraint boundary for downstream performance
+
+---
+
+## 18.2 Role of Catalyst Process Optimization
+
+Catalyst process optimization (Fe-Ni/C + K system) governs the fundamental chemical structure of the fuel before it enters any mechanical system.
+
+It determines:
+- Hydrocarbon chain distribution (C1–C20 balance)
+- Fraction of light vs heavy hydrocarbons
+- Ignition sensitivity and reactivity index
+- Energy density distribution of produced fuel
+
+This stage defines the **chemical initial conditions** for the entire combustion system.
+
+Poor catalyst control leads to:
+- unstable ignition delay behavior
+- increased knock tendency
+- non-uniform combustion characteristics
+
+---
+
+## 18.3 Role of Injection System Integration
+
+The injection system governs the controlled delivery of chemically defined fuel into the combustion chamber.
+
+Its primary functions include:
+- Fuel mass metering
+- Injection timing control
+- Injection pressure regulation
+- Spatial fuel distribution inside chamber
+
+Injection does not modify fuel chemistry; it controls:
+- when fuel enters
+- how much fuel enters
+- how fuel is spatially distributed
+
+Injection performance directly affects:
+- equivalence ratio distribution
+- local ignition conditions
+- combustion phasing stability
+
+---
+
+## 18.4 Role of Atomization System Integration
+
+The atomization system transforms injected liquid fuel into fine droplets to enable efficient mixing with air.
+
+Key functions include:
+- droplet size reduction
+- spray dispersion control
+- evaporation rate enhancement
+- air-fuel mixing uniformity
+
+Atomization quality determines:
+- mixture homogeneity
+- local temperature gradients
+- ignition site distribution
+- flame propagation uniformity
+
+Poor atomization increases:
+- localized rich/lean zones
+- hot spot formation
+- knock probability
+- incomplete combustion
+
+---
+
+## 18.5 Coupled System Interaction
+
+The three subsystems are strongly interdependent:
+
+Catalyst → defines fuel structure  
+Injection → defines delivery precision  
+Atomization → defines mixture quality  
+
+The combined system behavior determines:
+- ignition delay distribution
+- flame propagation speed
+- pressure rise rate
+- knock formation probability
+- overall combustion stability
+
+Mathematically, combustion behavior can be represented as:
+
+Combustion Output = f(Catalyst, Injection, Atomization)
+
+Where:
+- Catalyst influences chemical parameters
+- Injection influences temporal and spatial fuel input
+- Atomization influences mixing and phase change dynamics
+
+---
+
+## 18.6 Integration Constraints and Optimization Boundaries
+
+System integration is constrained by coupled physical limits:
+
+Chemical constraint:
+- fuel reactivity must remain within controlled ignition delay window
+
+Injection constraint:
+- fuel delivery must avoid excessive local enrichment or depletion
+
+Atomization constraint:
+- droplet size must support complete vaporization before ignition timing
+
+Violation of any constraint leads to:
+- combustion instability
+- increased knock severity
+- efficiency loss
+- cyclic variability
+
+---
+
+## 18.7 Engineering Interpretation
+
+Within the PNG Energy System, combustion performance is not determined by a single subsystem but by the synchronized interaction of all three layers.
+
+Key engineering insight:
+- Catalyst defines what fuel *is*
+- Injection defines how fuel *enters*
+- Atomization defines how fuel *prepares*
+- Combustion defines how energy *is released*
+
+System optimization requires simultaneous tuning of all three layers rather than isolated optimization of individual components.
+
+---
+
+## 18.8 PNG System Integration Summary
+
+The integrated system behaves as a chained control architecture:
+
+Upstream chemical control (Catalyst)  
+→ Mid-level physical control (Injection)  
+→ Pre-combustion preparation (Atomization)  
+→ Reactive energy release (Combustion)
+
+This hierarchical structure ensures that fuel quality, delivery precision, and mixture formation are coherently aligned to achieve stable, efficient, and controlled energy conversion.
+
+---
+
 
