@@ -26,9 +26,9 @@ The study further positions combustion stability as a critical performance indic
 
 ## 1.0 Nomenclature / Symbols
 
-τign = Ignition delay time (s)
+τ_ignition = Ignition delay time (s)
 
-τflame = Flame propagation time (s)
+τ_flame = Flame propagation time (s)
 
 SL = Laminar flame speed (m/s)
 
