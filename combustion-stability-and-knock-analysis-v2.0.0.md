@@ -2424,6 +2424,159 @@ No single module independently determines performance; instead, system behavior 
 
 ---
 
-## 24.0 Theoretical Foundations and Engineering References (Combu
+## 24.0 Theoretical Foundations and Engineering References (Combustion Stability and Knock Analysis Scope)
+
+This section is restricted strictly to the theoretical principles directly relevant to **combustion stability and knock formation analysis** within the PNG Energy System. Other broader engineering domains are excluded unless they directly contribute to knock dynamics, pressure instability, or combustion stability behavior.
+
+---
+
+## 24.1 Chemical Kinetics of Auto-Ignition
+
+**Theoretical basis:**
+Knock is governed by temperature-dependent chemical reaction rates and radical chain-branching kinetics in the end-gas region. The Arrhenius relationship defines the exponential sensitivity of ignition delay to temperature and activation energy.
+
+Key principles:
+- Arrhenius ignition delay behavior
+- Chain-branching radical reactions (H·, OH·, O·)
+- Thermal runaway conditions in reactive mixtures
+
+**Where applied in PNG System:**
+- 11.3 Arrhenius Ignition Delay Model  
+- 11.4 Chemical Kinetics Perspective  
+- 14.0 Knock Severity Classification  
+- 16.0 Combustion Stability Optimization Model  
+
+**Engineering role:**
+Defines the fundamental condition for knock onset through ignition delay collapse and uncontrolled reaction acceleration.
+
+---
+
+## 24.2 End-Gas Auto-Ignition Theory
+
+**Theoretical basis:**
+Knock originates in the unburned end-gas region when its thermodynamic state exceeds auto-ignition thresholds before flame arrival.
+
+Key principles:
+- End-gas compression heating
+- Ignition delay vs flame arrival time competition
+- Localized auto-ignition hot spots
+
+**Where applied in PNG System:**
+- 11.1 End-Gas Auto-Ignition  
+- 11.2 Knock Condition  
+- 14.1–14.4 Knock Severity Classification  
+- 13.1 Pressure Oscillation Initiation  
+
+**Engineering role:**
+Determines spatial origin of knock and governs whether combustion remains controlled or transitions into instability.
+
+---
+
+## 24.3 Flame Propagation vs Ignition Delay Interaction
+
+**Theoretical basis:**
+Knock formation is fundamentally a timing mismatch between flame front propagation and chemical ignition delay in the end-gas.
+
+Key principles:
+- Flame arrival time vs ignition delay time comparison
+- Deflagration front propagation dynamics
+- Competing reaction time scales
+
+**Where applied in PNG System:**
+- 11.1 End-Gas Auto-Ignition  
+- 12.0 Flame Propagation Behavior  
+- 12.4 Effect on Combustion Stability  
+- 16.2 Stability Constraints  
+
+**Engineering role:**
+Defines the stability boundary between normal combustion and knock onset.
+
+---
+
+## 24.4 Pressure Wave and Acoustic Resonance Theory
+
+**Theoretical basis:**
+Rapid heat release during knock generates pressure waves that propagate and reflect within the combustion chamber, potentially coupling with natural acoustic modes.
+
+Key principles:
+- Pressure wave propagation in compressible gases
+- Acoustic resonance in confined chambers
+- Standing wave formation and mode amplification
+- Coupling between heat release and pressure oscillations
+
+**Where applied in PNG System:**
+- 13.0 Pressure Wave Dynamics  
+- 13.2 Resonance Mechanism  
+- 13.3 Cylinder Acoustic Effects  
+- 14.3 Severe Knock  
+- 14.4 Complete Knock  
+
+**Engineering role:**
+Explains knock intensity amplification and mechanical stress generation within the combustion chamber.
+
+---
+
+## 24.5 Thermo-Mechanical Stability of Combustion Systems
+
+**Theoretical basis:**
+Combustion stability depends on controlled heat release rate and bounded pressure rise within mechanical system limits.
+
+Key principles:
+- Pressure rise rate limitation (dP/dt control)
+- Energy release rate stability
+- Coupling between heat release and mechanical response
+- Stability vs instability transition thresholds
+
+**Where applied in PNG System:**
+- 16.1 Stability Objective Function  
+- 16.2 Stability Constraints  
+- 17.0 Energy Loss Considerations  
+- 14.0 Knock Severity Classification  
+
+**Engineering role:**
+Defines operational boundaries for stable engine combustion and prevents destructive pressure excursions.
+
+---
+
+## 24.6 Integrated Knock Formation Theory
+
+**Theoretical basis:**
+Knock is a coupled multi-physics instability phenomenon resulting from the interaction of:
+- chemical ignition kinetics
+- end-gas thermodynamic state
+- flame propagation timing
+- pressure wave resonance
+
+Knock occurs when:
+
+Ignition Delay (τ_ignition) ≤ Flame Arrival Time (τ_flame)
+
+AND simultaneously:
+- pressure rise rate exceeds stability threshold
+- acoustic resonance amplifies pressure oscillations
+
+**Where applied in PNG System:**
+- 11.0–11.6 Knock Formation Framework  
+- 13.0–13.5 Pressure Wave Dynamics  
+- 14.0 Knock Severity Classification  
+- 16.0 Combustion Stability Optimization Model  
+
+**Engineering role:**
+Provides the unified physical condition defining knock onset, severity, and system instability behavior.
+
+---
+
+## 24.7 Final Scope Statement
+
+Within the PNG Energy System, combustion stability and knock analysis are governed exclusively by the coupled interaction of:
+
+- chemical kinetics (ignition delay behavior)
+- end-gas thermodynamic evolution
+- flame propagation timing
+- pressure wave dynamics and resonance effects
+
+All system behavior in this scope is ultimately a balance between controlled energy release and instability-driven pressure amplification.
+
+
 
 
