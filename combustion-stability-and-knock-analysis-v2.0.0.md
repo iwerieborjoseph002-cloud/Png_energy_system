@@ -452,4 +452,561 @@ Key dependent variables include:
 
 ### 7.5 Knock Formation Criteria
 
-Knock formation is analyzed using thermo-ki
+Knock formation is analyzed using thermo-kinetic conditions:
+
+- High end-gas temperature
+- Short ignition delay time
+- Pressure wave amplification
+- Resonant chamber oscillations
+
+Knock is considered to occur when auto-ignition in the end-gas region precedes normal flame arrival, leading to rapid pressure release and wave propagation.
+
+---
+
+### 7.6 Evaluation Strategy
+
+The system is evaluated qualitatively and semi-quantitatively using:
+
+- Stability condition analysis (time-scale comparison)
+- Pressure wave behavior interpretation
+- Mixture formation quality assessment
+- Atomization effectiveness evaluation
+- System-level coupling interpretation
+
+This ensures that combustion stability is understood as an integrated system response rather than a single-variable outcome.
+
+---
+
+## 8.0 Research Questions 
+
+This section presents the key research questions guiding the study of combustion stability and knock formation within the PNG (Pure Natural Gas) Energy System, along with structured engineering responses.
+
+---
+
+### 8.1 What are the primary factors governing combustion stability in the PNG Energy System?
+
+Combustion stability is governed mainly by pre-combustion preparation processes rather than the combustion event itself.
+
+Key controlling factors include:
+
+- Fuel injection pressure and timing  
+- Atomization quality and droplet size distribution  
+- Air-fuel mixture homogeneity  
+- Ignition delay characteristics  
+- In-cylinder turbulence and temperature distribution  
+
+**Answer to the question:**  
+Combustion stability is achieved when the injected fuel is properly atomized, uniformly mixed with air, and ignited under controlled timing conditions, resulting in smooth and continuous heat release without pressure oscillations.
+
+---
+
+### 8.2 What causes knock formation in combustion systems?
+
+Knock is caused by abnormal auto-ignition of the end-gas region ahead of the advancing flame front.
+
+Primary contributing factors include:
+
+- High in-cylinder temperature and pressure  
+- Long residence time of unburned end-gas  
+- Poor air-fuel mixture distribution  
+- High compression ratio conditions  
+- Low fuel resistance to auto-ignition  
+
+**Answer to the question:**  
+Knock occurs when the ignition delay time of the end-gas becomes shorter than the flame propagation time, leading to rapid and uncontrolled energy release accompanied by strong pressure waves.
+
+---
+
+### 8.3 How does fuel injection influence combustion stability?
+
+Fuel injection defines the initial conditions of combustion through controlled fuel delivery into the chamber.
+
+Key influences include:
+
+- Jet velocity and penetration depth  
+- Injection timing (SOI, DOI, EOI)  
+- Pressure differential (ΔP)  
+- Nozzle geometry and flow structure  
+
+**Answer to the question:**  
+Fuel injection directly affects combustion stability by controlling how fuel is distributed, mixed, and prepared before ignition; poor injection leads to uneven mixing and unstable combustion.
+
+---
+
+### 8.4 How does atomization affect knock tendency?
+
+Atomization governs the breakup of liquid fuel into droplets, which determines evaporation and mixing rates.
+
+Key effects:
+
+- Fine droplets → rapid evaporation → uniform mixture → stable combustion  
+- Coarse droplets → slow evaporation → mixture stratification → knock-prone conditions  
+
+**Answer to the question:**  
+Improved atomization reduces knock tendency by ensuring faster evaporation and homogeneous air-fuel mixing, eliminating localized high-temperature zones that trigger premature ignition.
+
+---
+
+### 8.5 How does flame propagation relate to combustion stability?
+
+Flame propagation defines how the combustion front travels through the air–fuel mixture.
+
+Key behaviors include:
+
+- Uniform propagation supports stable pressure rise  
+- Irregular propagation increases pressure gradients  
+- Slow propagation increases risk of end-gas auto-ignition  
+
+**Answer to the question:**  
+Combustion remains stable when flame propagation is consistent and sufficiently fast to prevent unburned end-gas from reaching auto-ignition conditions.
+
+---
+
+### 8.6 How does the PNG Energy System reduce knock formation?
+
+The PNG Energy System reduces knock through coordinated control of pre-combustion processes.
+
+Key strategies include:
+
+- Optimized fuel injection pressure and timing  
+- Enhanced atomization for fine droplet formation  
+- Improved air–fuel mixing uniformity  
+- Stabilized combustion chamber conditions  
+
+**Answer to the question:**  
+Knock is reduced by ensuring that combustion begins under well-mixed, thermodynamically stable conditions achieved through controlled injection and atomization rather than relying solely on ignition timing control.
+
+---
+
+## 9.0 Results and Discussion
+
+### 9.1 Overview of Combustion Stability Behavior
+
+The analysis of combustion stability within the PNG Energy System shows that stable combustion is strongly dependent on pre-combustion preparation processes rather than post-ignition control.
+
+Key observed behaviors include:
+
+- Stable combustion occurs under homogeneous mixture conditions  
+- Instability increases with poor atomization quality  
+- Knock tendency increases with non-uniform fuel distribution  
+- Pressure oscillations correlate with mixture stratification  
+
+**Discussion:**  
+Combustion stability is therefore a system-level outcome of injection, atomization, and mixing processes rather than an isolated combustion chamber phenomenon.
+
+---
+
+### 9.2 Influence of Mixture Homogeneity
+
+Mixture homogeneity plays a central role in determining combustion quality.
+
+Key effects include:
+
+- Uniform mixture → smooth flame propagation  
+- Non-uniform mixture → localized rich/lean zones  
+- Rich zones → soot formation and delayed combustion  
+- Lean zones → misfire tendency and unstable ignition  
+
+**Discussion:**  
+Higher mixture uniformity reduces spatial temperature gradients, thereby minimizing the conditions that lead to knock formation.
+
+---
+
+### 9.3 Effect of Ignition Delay on Knock Formation
+
+Ignition delay (τign) determines whether combustion proceeds in a controlled or explosive manner.
+
+Key relationships:
+
+- τign > τflame → stable combustion  
+- τign < τflame → knock occurrence  
+
+**Discussion:**  
+When ignition delay becomes shorter than flame propagation time, the end-gas region auto-ignites, producing pressure waves that destabilize the system.
+
+---
+
+### 9.4 Role of Flame Propagation Dynamics
+
+Flame propagation governs the spatial and temporal evolution of combustion.
+
+Observed effects:
+
+- Fast flame propagation → reduced end-gas survival time  
+- Slow flame propagation → increased knock probability  
+- Irregular flame fronts → pressure wave amplification  
+
+**Discussion:**  
+Stable combustion requires controlled flame speed that ensures complete burning before end-gas reaches critical auto-ignition conditions.
+
+---
+
+### 9.5 Effect of Fuel Injection and Atomization
+
+Fuel injection and atomization directly determine combustion quality by controlling initial fuel distribution.
+
+Key effects:
+
+- Fine atomization → rapid evaporation → stable combustion  
+- Coarse atomization → uneven mixing → knock-prone conditions  
+- High injection pressure → improved spray breakup  
+- Poor nozzle design → spray wall impingement  
+
+**Discussion:**  
+Injection and atomization act as upstream control variables that define downstream combustion stability boundaries.
+
+---
+
+### 9.6 Pressure Wave Formation and System Instability
+
+Knock is associated with high-frequency pressure oscillations inside the combustion chamber.
+
+Key observations:
+
+- Uniform combustion → smooth pressure rise  
+- Knock condition → oscillatory pressure spikes  
+- Resonance effects amplify structural stress  
+
+**Discussion:**  
+Pressure wave formation is a direct consequence of uncontrolled auto-ignition in the end-gas region, leading to destructive mechanical vibrations.
+
+---
+
+### 9.7 System-Level Interpretation in PNG Energy System
+
+Within the PNG Energy System framework, combustion stability is governed by a tightly coupled chain:
+
+Fuel Injection → Atomization → Mixing → Ignition → Combustion Stability
+
+Key system insights:
+
+- Injection defines initial fuel momentum  
+- Atomization defines droplet structure  
+- Mixing defines chemical uniformity  
+- Combustion defines energy release behavior  
+
+**Discussion:**  
+System performance is maximized when all upstream processes are optimized to eliminate conditions that promote knock formation.
+
+---
+
+### 9.8 Engineering Implications
+
+The results demonstrate that combustion stability is a multi-variable control problem involving:
+
+- Thermodynamic conditions (T, P)  
+- Chemical kinetics (τign, reaction rates)  
+- Fluid mechanics (injection, atomization)  
+- System-level coupling effects  
+
+**Discussion:**  
+Therefore, knock prevention cannot rely on a single parameter but requires integrated optimization across all pre-combustion stages.
+
+---
+
+### 9.9 Summary of Key Findings
+
+- Combustion stability is primarily controlled before ignition  
+- Knock is caused by ignition delay mismatch and end-gas auto-ignition  
+- Fuel injection and atomization dominate combustion quality outcomes  
+- Pressure oscillations are a symptom of combustion instability  
+- System-level integration is required for stable energy conversion
+
+---
+
+Final Engineering Summary
+
+Core System Understanding
+
+Combustion stability within the PNG (Pure Natural Gas) Energy System is fundamentally a pre-combustion controlled phenomenon. It is not governed only by ignition or chamber conditions, but by the upstream quality of fuel preparation, injection, and atomization processes.
+
+The system behaves as a tightly coupled energy conversion chain:
+
+Fuel Injection → Atomization → Air–Fuel Mixing → Ignition → Combustion Stability → Energy Output
+
+---
+
+Primary Determinants of Stability
+
+The analysis confirms that combustion stability is primarily governed by:
+
+- Fuel injection pressure (ΔP)
+- Nozzle geometry and flow structure
+- Atomization efficiency and droplet size distribution
+- Air-fuel mixture homogeneity
+- Ignition delay time (τign) relative to flame propagation time (τflame)
+
+Engineering insight: Any disturbance in these parameters propagates downstream and directly affects combustion stability.
+
+---
+
+Knock Formation Mechanism (Unified View)
+
+Knock is a thermo-kinetic instability phenomenon caused by time-scale mismatch:
+
+τign < τflame
+
+This leads to:
+
+- End-gas auto-ignition
+- Rapid energy release
+- High-amplitude pressure oscillations
+- Structural vibration and efficiency loss
+
+Engineering interpretation: Knock is not a random event, but a predictable system response to poor pre-combustion conditioning.
+
+---
+
+Role of Fuel Injection and Atomization
+
+Fuel injection and atomization act as the first-order control layer of combustion stability:
+
+- Injection controls momentum and spatial distribution
+- Atomization controls droplet formation and evaporation rate
+- Together they determine mixture quality before ignition
+
+Key conclusion: Improved injection and atomization directly reduce knock probability by eliminating localized high-reactivity zones.
+
+---
+
+System-Level Stability Condition
+
+Combustion stability is achieved when the following conditions are simultaneously satisfied:
+
+- Uniform air-fuel mixture distribution
+- Controlled ignition delay (τign ≥ τflame)
+- Stable flame propagation
+- Minimal pressure oscillation amplitude
+- Absence of localized hot spots in end-gas region
+
+---
+
+PNG Energy System Interpretation
+
+Within the PNG Energy System architecture, combustion stability is not an isolated combustion chamber property, but a system-level emergent property resulting from coordinated upstream control.
+
+Therefore:
+
+- Injection = boundary condition generator
+- Atomization = phase transformation control layer
+- Combustion = energy release execution stage
+
+---
+
+Final Engineering Conclusion
+
+Combustion stability and knock behavior are governed by coupled fluid-thermodynamic-kinetic interactions. The dominant control lever is not ignition itself, but pre-combustion fuel preparation quality.
+
+Final statement:
+Stable combustion is achieved when fuel injection, atomization, and mixture formation are optimized to ensure controlled energy release, preventing premature auto-ignition and suppressing pressure wave resonance within the combustion chamber.
+
+---
+
+## 10.0 Fundamentals of Combustion Stability
+
+### 10.1 Stable Combustion Concept
+
+Stable combustion refers to a controlled and repeatable energy release process within a combustion chamber, where each cycle produces nearly identical pressure rise, flame propagation behavior, and heat release rate.
+
+In the PNG Energy System, stable combustion is achieved when upstream processes such as fuel injection and atomization produce a uniform air-fuel mixture that ignites consistently under similar thermodynamic conditions.
+
+---
+
+### 10.2 Heat Release Characteristics
+
+Heat release describes the rate at which chemical energy in the fuel is converted into thermal energy during combustion.
+
+Key characteristics include:
+
+- Smooth and continuous heat release indicates stable combustion  
+- Rapid or uneven heat release indicates instability  
+- Multi-stage heat release can occur due to stratified mixtures  
+
+Heat release behavior directly influences pressure rise rate and overall engine performance.
+
+---
+
+### 10.3 Cycle-to-Cycle Variations
+
+Cycle-to-cycle variation refers to differences in combustion behavior between successive engine cycles.
+
+Causes include:
+
+- Fluctuations in fuel injection quantity  
+- Variations in atomization quality  
+- Inconsistent air-fuel mixing  
+- Turbulence variations inside the chamber  
+
+High cycle-to-cycle variation reduces efficiency, increases emissions, and contributes to unstable operation.
+
+---
+
+### 10.4 Pressure Development
+
+Pressure development describes how in-cylinder pressure evolves during the combustion process.
+
+In stable combustion:
+
+- Pressure rises smoothly and predictably  
+- Peak pressure occurs at consistent crank angles  
+- Pressure traces overlap across cycles  
+
+In unstable combustion:
+
+- Pressure traces fluctuate significantly  
+- Irregular peaks and oscillations appear  
+- Knock-related spikes may occur  
+
+Pressure behavior is a direct indicator of combustion quality.
+
+---
+
+### 10.5 Stability Metrics
+
+Combustion stability is evaluated using several key metrics:
+
+- Coefficient of Variation of Indicated Mean Effective Pressure (COV of IMEP)  
+- Pressure fluctuation amplitude  
+- Heat release rate consistency  
+- Ignition delay variability  
+- Flame propagation uniformity  
+
+Lower variability in these parameters indicates higher combustion stability.
+
+---
+
+### 10.6 PNG Interpretation
+
+Within the PNG Energy System, combustion stability is interpreted as a downstream result of controlled fuel preparation and delivery processes.
+
+System relationship:
+
+Fuel Injection → Atomization → Mixing → Ignition → Combustion Stability
+
+Key interpretation:
+
+- Injection controls initial fuel distribution  
+- Atomization controls droplet formation quality  
+- Mixing controls air-fuel uniformity  
+- Combustion stability emerges from these coupled processes  
+
+Therefore, combustion stability is not an isolated phenomenon but a system-level response governed by upstream control variables.
+
+---
+
+## 11.0 Fundamentals of Knock Formation
+
+Knock formation in combustion systems refers to the spontaneous and uncontrolled auto-ignition of the unburned fuel-air mixture (end-gas) ahead of the normal flame front. It is a combustion instability phenomenon arising from coupled chemical kinetics, thermodynamic compression effects, and fuel reactivity characteristics.
+
+Knock results from the interaction of:
+- Chemical kinetics (radical formation and reaction acceleration)
+- Thermodynamic compression (pressure and temperature rise in end-gas)
+- Fluid confinement of unburned mixture
+- Fuel composition and ignition sensitivity
+
+Knock occurs when end-gas auto-ignition precedes normal flame front arrival, producing rapid pressure oscillations and abnormal combustion behavior.
+
+---
+
+## 11.1 End-Gas Auto-Ignition
+
+End-gas is the unburned portion of the fuel-air mixture ahead of the flame front. During combustion, it is compressed and heated by the expanding burned gases.
+
+Auto-ignition occurs when the end-gas reaches conditions where chemical reaction rates exceed the time required for flame propagation to reach it.
+
+Condition:
+τ_ignition ≤ τ_flame_arrival
+
+Fuel composition, temperature distribution, and mixture homogeneity strongly influence end-gas reactivity and ignition sensitivity.
+
+---
+
+## 11.2 Knock Condition
+
+Knock occurs when the end-gas undergoes rapid and uncontrolled exothermic reaction before flame arrival is completed.
+
+It is characterized by:
+- Rapid cylinder pressure rise
+- High-frequency pressure oscillations
+- Sudden localized heat release
+- Shockwave formation within the combustion chamber
+
+Knock intensity is linked to steep pressure gradients and unstable combustion wave propagation.
+
+---
+
+## 11.3 Arrhenius Ignition Delay Model
+
+Ignition delay describes the time required for a fuel-air mixture to reach auto-ignition conditions.
+
+The ignition delay follows an Arrhenius-type relationship:
+
+τ_ignition = A · P^(-n) · exp(Ea / RT)
+
+Key dependencies:
+- Temperature increase reduces ignition delay exponentially
+- Pressure increase reduces ignition delay through higher molecular collision frequency
+- Activation energy governs reaction sensitivity
+
+This model explains the strong temperature sensitivity of knock formation.
+
+---
+
+## 11.4 Chemical Kinetics Perspective
+
+Knock is a chain-branching chemical kinetics phenomenon driven by radical reactions.
+
+Reaction pathway:
+- Radical initiation
+- Chain propagation
+- Chain branching
+- Thermal runaway leading to auto-ignition
+
+Knock onset occurs when:
+
+Rate_chain_branching > Rate_heat_dissipation
+
+When radical production exceeds radical consumption, the reaction system becomes unstable, leading to exponential acceleration of heat release.
+
+Fuel molecular structure determines radical formation pathways and overall reaction stability.
+
+---
+
+## 11.5 Thermodynamic Perspective
+
+Knock is a localized thermodynamic instability in the end-gas region.
+
+Energy accumulation occurs due to:
+- Compression work from piston motion
+- Heat transfer from flame front
+- Pre-reaction chemical heat release
+
+When internal energy exceeds a critical threshold, rapid exothermic decomposition occurs, resulting in:
+- Sudden pressure rise
+- Shockwave formation
+- Acoustic resonance inside the combustion chamber
+
+Knock is therefore an energy imbalance between heat release and dissipation processes.
+
+---
+
+## 11.6 PNG Interpretation
+
+Within the PNG Energy System, knock formation is treated as a downstream manifestation of fuel synthesis quality and catalyst-controlled hydrocarbon structure.
+
+Key system links:
+- Syngas conversion → determines hydrocarbon composition
+- Fe-Ni/C + K catalyst → governs chain growth and selectivity
+- Hydrocarbon distribution (C1–C20) → affects ignition sensitivity
+- Fuel atomization → influences local temperature gradients
+
+Knock tendency is therefore influenced by:
+- Light-end hydrocarbon fraction (C1–C4)
+- Fuel volatility distribution
+- Catalyst selectivity stability
+- Atomization uniformity
+- End-gas temperature profile
+
+In this framework, knock is not only a combustion event but a system-level o
+
+
