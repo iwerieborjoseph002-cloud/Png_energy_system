@@ -1602,66 +1602,89 @@ Stability is achieved when all three layers are synchronized to avoid localized 
 
 Within the PNG Energy System, combustion stability is directly linked to upstream fuel synthesis and catalytic control.
 
-System chain:
+---
+
+## System Chain
 
 Syngas Composition  
-→ Fe-Ni/C + K Catalyst Reaction Pathway  
+→ Fe–Ni/C + K Catalyst Reaction Pathway  
 → Hydrocarbon Distribution Control (C1–C20)  
 → Fuel Atomization Quality  
 → Ignition Delay Regulation  
 → Flame Propagation Stability  
+→ End-Gas Auto-Ignition Zone Behavior  
 → Controlled Pressure Dynamics  
 → Stable Combustion Output  
 
-Any instability in upstream stages propagates downstream into combustion behavior.
+Any instability in upstream stages propagates downstream into combustion behavior, while downstream pressure oscillations can feed back into mixture formation and injection control.
 
 ---
 
- 
 ## Figure 16.1: Combustion Stability Optimization
 
 ![Figure 16.1: Combustion Stability Optimization](https://raw.githubusercontent.com/iwerieborjoseph002-cloud/Png_energy_system/main/78d05e14bc28d2a49c3980f00470335f81897b30c630439fafec56c0a6dbdcfa.png)
 
 ### Figure Description
 
-Figure 16.1 illustrates the system-level optimization framework for combustion stability within the PNG Energy System. The model represents combustion stability as a controlled outcome of interacting subsystems rather than an isolated combustion event.
+Figure 16.1 illustrates the system-level optimization framework for combustion stability within the PNG Energy System. The model represents combustion stability as a coupled multi-variable outcome governed by interacting chemical, fluid, and thermodynamic subsystems rather than an isolated combustion event.
 
-The diagram integrates the key control layers:
+The diagram integrates the following control layers:
 
-- **Fuel Preparation Layer (Upstream Influence):**
-  Governs fuel quality through catalyst-driven hydrocarbon formation, defining fuel reactivity and composition characteristics.
+- Fuel Preparation Layer (Catalyst-Controlled):
+  Governs fuel composition through Fe–Ni/C + K catalytic reactions, determining hydrocarbon distribution (C1–C20), reactivity, and ignition characteristics.
 
-- **Delivery Layer:**
-  Represents fuel injection timing, mass flow control, and pressure-dependent delivery dynamics that determine mixture formation conditions inside the combustion chamber.
+- Injection Delivery Layer:
+  Controls fuel mass flow rate, injection timing, and pressure delivery into the combustion chamber, directly influencing local equivalence ratio formation.
 
-- **Atomization Layer:**
-  Describes the breakup of liquid fuel into fine droplets, influencing surface area, evaporation rate, and air–fuel mixing uniformity.
+- Atomization Layer:
+  Governs fuel breakup into droplets, determining surface area, evaporation rate, and air–fuel mixture homogeneity.
 
-- **Combustion Response Layer:**
-  Represents flame propagation behavior, ignition delay response, and heat release rate dynamics that define combustion stability.
+- Ignition Delay and End-Gas Layer:
+  Represents the competition between chemical ignition delay and flame arrival time in the end-gas region, defining knock initiation conditions.
 
-- **Feedback Control Loop:**
-  Captures system feedback from pressure rise rate, knock tendency, and combustion oscillations, which are used to regulate upstream injection and mixture formation parameters.
+- Flame Propagation Layer:
+  Governs flame front movement, combustion speed, and spatial heat release distribution.
+
+- Pressure Dynamics and Feedback Layer:
+  Represents pressure rise rate, acoustic wave formation, and knock-induced oscillations, which feed back into injection and mixture formation control.
+
+---
 
 ### Engineering Interpretation
 
-The optimization model shows that combustion stability is achieved when:
-- ignition delay is properly balanced with flame propagation time
-- fuel–air mixture homogeneity is maximized
-- pressure rise rate remains within controlled limits
-- knock-inducing conditions are suppressed through system-level coordination
+Combustion stability is achieved when the following conditions are satisfied:
 
-Overall, combustion stability is treated as an emergent property of a coupled multi-layer system involving fuel chemistry, fluid delivery, mixture formation, and reaction dynamics.
+- ignition delay remains greater than flame arrival time in the end-gas region
+- flame propagation remains spatially uniform and temporally controlled
+- fuel–air mixture homogeneity is maximized through optimized atomization
+- pressure rise rate (dP/dt) remains within stable mechanical limits
+- knock-induced pressure oscillations are minimized or damped
+
+---
+
+### Feedback Control Mechanism
+
+The PNG Energy System implements a closed-loop interaction where:
+
+Pressure oscillations and knock intensity  
+→ influence injection timing adjustment  
+→ modify atomization and mixture formation behavior  
+→ stabilize combustion conditions in subsequent cycles  
+
+This feedback loop ensures adaptive stabilization of combustion under varying operating conditions.
+
+---
 
 ### PNG Energy System Context
 
-Within the PNG Energy System, this figure establishes the relationship between:
-- catalyst process optimization (fuel quality control)
-- injection dynamics (temporal delivery control)
-- atomization behavior (spatial mixture control)
-- combustion stability (final energy release control)
+Within the PNG Energy System, this figure defines the integrated relationship between:
 
-This confirms that combustion stability is not a single-variable phenomenon but a multi-parameter optimization outcome.
+- catalyst process optimization (fuel chemical structure control)
+- injection dynamics (temporal and spatial fuel delivery control)
+- atomization behavior (mixture formation control)
+- combustion stability (energy release control)
+
+Combustion stability is therefore treated as an emergent system property arising from coordinated multi-layer interactions rather than a single-variable function.
 
 ---
 
