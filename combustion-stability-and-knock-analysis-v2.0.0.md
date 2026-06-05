@@ -1482,6 +1482,8 @@ Condition check:
 Interpretation:
 Auto-ignition occurs before flame arrival → knock is expected.
 
+The instability originates in the end-gas region, where the unburned fuel–air mixture reaches auto-ignition conditions before arrival of the propagating flame front. This produces rapid localized energy release and initiates knock formation.
+
 If instead:
 - τ_ignition = 1.2 ms
 
