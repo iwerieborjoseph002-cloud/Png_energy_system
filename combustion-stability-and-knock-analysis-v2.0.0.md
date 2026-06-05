@@ -1617,7 +1617,7 @@ Any instability in upstream stages propagates downstream into combustion behavio
 
 ---
 
-## 16.1 System Optimization Diagram (Figure 16.1)
+## FIGURE 16.1: System Optimization 
 
 ![Figure 16.1: Combustion Stability Optimization](https://raw.githubusercontent.com/iwerieborjoseph002-cloud/Png_energy_system/main/78d05e14bc28d2a49c3980f00470335f81897b30c630439fafec56c0a6dbdcfa.png)
 
