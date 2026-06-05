@@ -1368,155 +1368,149 @@ Within advanced energy systems, knock severity classification serves as a feedba
 
 ---
 
-## 15.0 Numerical Analysis
+## 15.0 Numerical Analysis (Illustrative Thermo-Kinetic Evaluation)
 
-This section provides worked numerical examples to quantify key relationships governing knock formation, ignition delay, and combustion stability within an idealized PNG Energy System framework. The examples are based on standard combustion and reaction kinetics models.
+This section presents illustrative numerical evaluations of ignition delay, temperature sensitivity, and knock tendency using a generalized Arrhenius-type framework.
+
+**Important scope definition:**  
+The following calculations are intended to demonstrate trend-level combustion behavior (sensitivity, proportionality, and stability conditions).  
+The parameters used are not calibrated to a specific fuel composition or experimentally validated syngas mechanism.
 
 ---
 
-## 15.1 Example 1: Ignition Delay Calculation (Arrhenius Model)
+## 15.1 Example 1: Ignition Delay (Generalized Arrhenius Form)
 
 Given:
 
 τ_ignition = A · P^(-n) · exp(Ea / RT)
 
 Assume:
-- A = 1.2 × 10^-3 s
-- P = 20 atm
-- n = 1.2
-- Ea = 120,000 J/mol
-- R = 8.314 J/mol·K
-- T = 900 K
+- A = 1.2 × 10⁻³ s  
+- P = 20 atm  
+- n = 1.2  
+- Ea = 120,000 J/mol  
+- R = 8.314 J/mol·K  
+- T = 900 K  
 
-Step 1: Pressure term
+### Step 1: Pressure term
+P^(-n) = 20^(-1.2) ≈ 0.027  
 
-P^(-n) = 20^(-1.2) ≈ 0.027
-
-Step 2: Exponential term
-
+### Step 2: Exponential term
 Ea / RT = 120000 / (8.314 × 900) ≈ 16.03  
-exp(16.03) ≈ 9.2 × 10^6
 
-Step 3: Combine
+exp(16.03) ≈ 9.2 × 10⁶  
 
-τ_ignition = (1.2 × 10^-3) × 0.027 × (9.2 × 10^6)
+### Step 3: Combine
+τ ≈ (1.2 × 10⁻³) × 0.027 × (9.2 × 10⁶)  
+τ ≈ 298 s  
 
-τ_ignition ≈ 298 seconds
+### Interpretation
+This result is not a realistic ignition delay value for engine-relevant combustion conditions.
 
-Interpretation:
-Very long ignition delay indicates low auto-ignition tendency under these conditions.
-
----
-
-## 15.2 Example 2: Effect of Temperature Increase on Ignition Delay
-
-Assume same system but temperature increases from:
-
-T₁ = 850 K → T₂ = 950 K
-
-Ea = 120,000 J/mol
-
-Compute ratio:
-
-τ₂ / τ₁ = exp[ Ea/R × (1/T₂ - 1/T₁) ]
-
-Step 1:
-
-Ea/R ≈ 14429
-
-Step 2:
-
-(1/950 - 1/850) ≈ -1.24 × 10^-4
-
-Step 3:
-
-Exponent:
-
-14429 × (-1.24 × 10^-4) ≈ -1.79
-
-Step 4:
-
-τ₂ / τ₁ = exp(-1.79) ≈ 0.167
-
-Interpretation:
-A 100 K temperature increase reduces ignition delay to ~16.7% of original value, significantly increasing knock risk.
+Instead, it demonstrates:
+- strong exponential sensitivity of ignition delay to temperature  
+- dominance of Arrhenius term in reaction-controlled regimes  
+- high sensitivity of τ to parameter selection in non-calibrated models  
 
 ---
 
-## 15.3 Example 3: Knock Intensity Estimation
-
-Assume pressure-time data:
-
-P₁ = 50 bar at t₁ = 1 ms  
-P₂ = 90 bar at t₂ = 1.2 ms  
-
-Step 1: Pressure rise rate
-
-dP/dt = (90 - 50) / (0.2 ms)
-
-dP/dt = 40 / 0.0002  
-dP/dt = 200,000 bar/s
-
-Interpretation:
-High pressure rise rate indicates strong knock tendency.
-
-Relative Knock Index:
-
-KI ∝ dP/dt
-
-Thus:
-KI is extremely high → severe knock condition.
-
----
-
-## 15.4 Example 4: Flame vs Ignition Delay Comparison
+## 15.2 Example 2: Temperature Sensitivity Effect
 
 Given:
-- Flame arrival time: τ_flame = 0.8 ms
-- Ignition delay: τ_ignition = 0.6 ms
+- T₁ = 850 K  
+- T₂ = 950 K  
+- Ea = 120,000 J/mol  
+- R = 8.314 J/mol·K  
 
-Condition check:
+\[
+\frac{\tau_2}{\tau_1} = \exp\left[\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)\right]
+\]
 
-τ_ignition ≤ τ_flame
+### Step 1:
+Ea/R ≈ 14429  
 
-0.6 ms ≤ 0.8 ms → TRUE
+### Step 2:
+(1/950 − 1/850) ≈ −1.24 × 10⁻⁴  
 
-Interpretation:
-Auto-ignition occurs before flame arrival → knock is expected.
+### Step 3:
+Exponent ≈ −1.79  
 
-The instability originates in the end-gas region, where the unburned fuel–air mixture reaches auto-ignition conditions before arrival of the propagating flame front. This produces rapid localized energy release and initiates knock formation.
+### Step 4:
+τ₂ / τ₁ ≈ exp(−1.79) ≈ 0.167  
+
+### Interpretation
+A 100 K temperature increase reduces ignition delay to ~16.7% of its original value, demonstrating:
+- exponential thermal sensitivity  
+- increased knock propensity at higher temperatures  
+- strong non-linear combustion response  
+
+---
+
+## 15.3 Example 3: Pressure Rise Rate and Knock Indicator
+
+Given:
+- P₁ = 50 bar at t₁ = 1.0 ms  
+- P₂ = 90 bar at t₂ = 1.2 ms  
+
+### Step 1: Pressure rise rate
+
+dP/dt = (90 − 50) / (0.2 ms)  
+dP/dt = 40 / 0.0002  
+dP/dt = 200,000 bar/s  
+
+### Interpretation
+This indicates a very high rate of pressure rise associated with:
+- strong combustion intensity  
+- potential onset of knock conditions  
+- rapid energy release events  
+
+### Knock indicator
+KI ∝ dP/dt  
+
+Higher dP/dt → higher knock intensity
+
+---
+
+## 15.4 Example 4: Stability Criterion (Time-Scale Comparison)
+
+Given:
+- τ_flame = 0.8 ms  
+- τ_ignition = 0.6 ms  
+
+Condition:
+τ_ignition ≤ τ_flame → TRUE  
+
+### Interpretation
+- end-gas auto-ignition occurs before flame arrival  
+- knock condition is expected  
+
+---
 
 If instead:
-- τ_ignition = 1.2 ms
+- τ_ignition = 1.2 ms  
 
 Then:
-1.2 ms > 0.8 ms → NO knock
+τ_ignition > τ_flame → stable combustion condition  
 
-Ignition timing line:
+---
 
-Case A (Knock)
+## Stability Rule (Unified)
 
-Ignition ── τ_ignition ──●──── τ_flame
+- τ_ignition < τ_flame → knock-prone regime  
+- τ_ignition ≥ τ_flame → stable combustion regime  
 
-                   ↑
-         End-gas auto-ignition
+---
 
-τ_ignition < τ_flame
+## 15.5 Summary Insight
 
-Case B (Stable)
+These examples demonstrate:
 
-Ignition ───── τ_flame ───── τ_ignition
+- ignition delay is exponentially temperature-sensitive  
+- small thermal changes produce large stability shifts  
+- knock is governed by time-scale mismatch, not isolated ignition timing  
+- pressure rise rate is a practical indicator of instability severity
 
-τ_ignition > τ_flame
 
-## Summary Insight
-
-These numerical examples show that knock formation is primarily governed by:
-- Exponential sensitivity to temperature
-- Strong pressure dependence of reaction rates
-- Critical timing mismatch between ignition delay and flame propagation
-
-Within the PNG Energy System framework, small variations in operating conditions can produce large nonlinear changes in combustion stability.
 
 ---
 
