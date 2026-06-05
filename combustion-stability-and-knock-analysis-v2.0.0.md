@@ -620,8 +620,8 @@ Ignition delay (τign) determines whether combustion proceeds in a controlled or
 
 Key relationships:
 
-- τign > τflame → stable combustion  
-- τign < τflame → knock occurrence  
+- τ_ignition > τ_flame → stable combustion  
+- τ_ignition < τ_flame → knock occurrence  
 
 **Discussion:**  
 When ignition delay becomes shorter than flame propagation time, the end-gas region auto-ignites, producing pressure waves that destabilize the system.
@@ -746,7 +746,7 @@ Knock Formation Mechanism (Unified View)
 
 Knock is a thermo-kinetic instability phenomenon caused by time-scale mismatch:
 
-τign < τflame
+τ_ignition < τ_flame
 
 This leads to:
 
