@@ -437,12 +437,13 @@ This relationship is used as a baseline condition for assessing knock tendency.
 
 The PNG Energy System is represented as a sequential energy transformation chain:
 
-Fuel Injection → Atomization → Mixing → Ignition → Combustion → Energy Output  
+Fuel Injection → Atomization → Mixing → Ignition → Combustion → Energy Output
+
+The present combustion stability analysis begins at the fuel injection stage, assuming that fuel properties, chemical composition, and reactivity characteristics have already been established through upstream syngas formation and catalyst process optimization processes within the PNG Energy System.
 
 Each stage is modeled as a boundary condition for the next stage. The output quality of each stage directly influences downstream combustion stability.
 
 Key dependent variables include:
-
 - Injection pressure (ΔP)
 - Droplet size distribution (SMD)
 - Air–fuel equivalence ratio (λ)
