@@ -1556,13 +1556,13 @@ These examples demonstrate:
 - knock is governed by time-scale mismatch, not isolated ignition timing  
 - pressure rise rate is a practical indicator of instability severity
 
-
-
 ---
 
 ## 16.0 Combustion Stability Optimization Model
 
 Combustion stability optimization in engine systems refers to the controlled regulation of chemical reaction rates, heat release profiles, and in-cylinder pressure dynamics to ensure repeatable, efficient, and knock-free combustion. Within the PNG Energy System framework, combustion stability is treated as a coupled optimization problem involving fuel chemistry, catalytic synthesis behavior, and thermodynamic operating conditions.
+
+The combustion system is modeled as a coupled thermo-chemical dynamical system that can be expressed both in kinetic form (Arrhenius/flame models) and in control-theoretic optimization form.
 
 The objective is to maximize combustion efficiency while minimizing cyclic variability and knock propensity.
 
