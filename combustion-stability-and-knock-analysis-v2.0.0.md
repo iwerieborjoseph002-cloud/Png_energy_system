@@ -1099,6 +1099,13 @@ The right side illustrates knock conditions characterized by:
 - High-frequency pressure oscillations
 - Shock wave formation and reflection within cylinder walls
 
+**Key components:**
+- Spark plug  
+- Flame front  
+- End-gas region  
+- Pressure waves  
+- Cylinder wall reflections  
+
 ### Engineering Significance
 This figure establishes the physical contrast between stable combustion and knocking instability. It visually demonstrates how combustion quality is governed by ignition timing, mixture preparation, and flame propagation behavior.
 
