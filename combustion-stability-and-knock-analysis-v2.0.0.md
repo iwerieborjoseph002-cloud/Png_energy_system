@@ -1520,6 +1520,31 @@ Ignition ───── τ_flame ──────── τ_ignition
 Condition:
 τ_ignition ≥ τ_flame → Stable combustion
 
+### Physical Interpretation
+
+The stability of combustion is governed by the competition between:
+
+- Flame propagation time (τ_flame)
+- Ignition delay time (τ_ignition)
+
+### Knock Mechanism:
+When τ_ignition < τ_flame:
+- End-gas auto-ignition occurs before flame arrival
+- Multiple ignition kernels form in the unburned mixture
+- Rapid localized energy release occurs in confined volume
+- Pressure waves are generated and amplified
+- Acoustic resonance leads to knock
+
+### Stable Combustion Mechanism:
+When τ_ignition ≥ τ_flame:
+- Flame front consumes mixture before auto-ignition occurs
+- Energy release remains spatially controlled
+- Pressure rise is smooth and continuous
+- No destructive pressure oscillations develop
+
+### Key Insight:
+Combustion stability is determined by the ordering of chemical ignition time and flame arrival time, not by either parameter alone.
+
 ---
 
 ## 15.5 Summary Insight
