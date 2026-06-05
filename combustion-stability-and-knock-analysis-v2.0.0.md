@@ -1494,20 +1494,18 @@ Ignition timing line:
 
 Case A (Knock)
 
-Ignition ── τ_ign ──●──── τ_flame
+Ignition ── τ_ignition ──●──── τ_flame
 
-                  ↑
-        End-gas auto-ignition
+                   ↑
+         End-gas auto-ignition
 
-τ_ign < τ_flame
+τ_ignition < τ_flame
 
 Case B (Stable)
 
-Ignition ───── τ_flame ───── τ_ign
+Ignition ───── τ_flame ───── τ_ignition
 
-τ_ign > τ_flame
-
----
+τ_ignition > τ_flame
 
 ## Summary Insight
 
