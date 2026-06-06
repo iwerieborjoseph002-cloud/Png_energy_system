@@ -1562,7 +1562,12 @@ These examples demonstrate:
 
 Combustion stability optimization in engine systems refers to the controlled regulation of chemical reaction rates, heat release profiles, and in-cylinder pressure dynamics to ensure repeatable, efficient, and knock-free combustion. Within the PNG Energy System framework, combustion stability is treated as a coupled optimization problem involving fuel chemistry, catalytic synthesis behavior, and thermodynamic operating conditions.
 
-The combustion system is modeled as a coupled thermo-chemical dynamical system that can be expressed both in kinetic form (Arrhenius/flame models) and in control-theoretic optimization form.
+The combustion system is modeled as a coupled thermo-chemical dynamical system that can be expressed in two complementary representations:
+
+(i) kinetic formulation based on Arrhenius reaction rates and flame propagation models, and  
+(ii) control-theoretic optimization formulation based on stability-constrained performance maximization.
+
+This dual representation links chemical reaction dynamics with system-level control objectives, enabling both predictive combustion modeling and stability optimization design.
 
 The objective is to maximize combustion efficiency while minimizing cyclic variability and knock propensity.
 
