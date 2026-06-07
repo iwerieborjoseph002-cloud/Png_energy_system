@@ -1212,21 +1212,23 @@ Interpretation:
 
 ### FIGURE 12.1 Sensor-Based Atomization Monitoring System
 
-System-level representation:
+![Figure 12.1](./41ad20f7d33b0e5704448d0d55590898bc00f0a0b03265622a0b53d1fb9bc67f.png)
 
-Injector System → Spray Formation Zone → Droplet Field → Sensor Array → Signal Processor → Diagnostic Engine → Feedback Controller
+The Sensor and Atomization Alert System operates as a downstream monitoring layer connected to engine utilization modules within the PNG Energy System.
 
-Sensor modalities:
-- Optical imaging sensors (spray geometry capture)
-- Pressure transducers (injection dynamics)
-- Acoustic/vibration sensors (breakup noise signature)
-- Thermal sensors (evaporation behavior estimation)
+### Monitoring Flow Structure
 
-Output signals:
-- Spray geometry map
-- Droplet size distribution curve
-- Stability index time-series
-- Atomization alert signal
+    Fuel Injection
+            ↓
+    Atomization Monitoring
+            ↓
+    Combustion Observation
+            ↓
+    Fault Detection
+            ↓
+    System Alert Output
+
+The architecture supports continuous operational observation and diagnostic feedback processing during PNG fuel utilization.
 
 ---
 
