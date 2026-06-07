@@ -2411,28 +2411,28 @@ Where:
 
 ---
 
-### 23.2 Module Linkage (Clickable References)
+## 23.2 Module Linkage (v2.0.0 Corrected References)
 
-#### C1 - Catalyst Process Optimization  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization.md  
+### C1 - Catalyst Process Optimization  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization-v2.0.0.md  
 
-#### C2 - Fuel Injection Dynamics  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics.md  
+### C2 - Fuel Injection Dynamics  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics-v2.0.0.md  
 
-#### C3 - Fuel Atomization  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/Fuel-atomization.md  
+### C3 - Fuel Atomization  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md  
 
-#### C4 - Combustion Stability & Knock Analysis  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combustion-stability-and-knock-analysis.md  
+### C4 - Combustion Stability & Knock Analysis  
+https://github.com/iwerieboribejoseph002-cloud/Png_energy_system/blob/main/combustion-stability-and-knock-analysis-v2.0.0.md  
 
-#### C5 - Sensor & Diagnostic System (Current Module)  
+### C5 - Sensor & Diagnostic System  
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-atomization-alert-system.md  
 
-#### C6 - Expansion Layer  
+### C6 - Expansion Layer  
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-level-expansion-framework.md  
 
-#### C7 - Advanced Process Optimization  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/advanced-process-optimization.md  
+### C7 - Advanced Process Optimization  
+https://github.com/iwerieboribejoseph002-cloud/Png_energy_system/blob/main/advanced-process-optimization.md
 
 ---
 
