@@ -1234,21 +1234,31 @@ The architecture supports continuous operational observation and diagnostic feed
 
 ### 12.5 PNG Interpretation
 
-Within the PNG Energy System, atomization monitoring functions as a diagnostic bridge between fuel injection and combustion stability.
+Within the PNG Energy System, Atomization Monitoring functions as the diagnostic representation of the Fuel Atomization Module (C3).
+
+The monitoring framework evaluates whether the fuel spray produced by the Fuel Injection Dynamics Module (C2) satisfies the mixture preparation requirements needed for stable combustion within the Combustion Stability and Knock Analysis Module (C4).
 
 System interpretation:
-- Improves predictability of combustion onset
-- Reduces variability in ignition delay
-- Enhances flame propagation uniformity
-- Directly influences knock suppression potential
+- Validates spray formation quality
+- Evaluates droplet distribution uniformity
+- Assesses combustion readiness of the fuel-air mixture
+- Identifies atomization-related instability sources
+- Provides diagnostic feedback to downstream monitoring and optimization layers
 
 Inter-module linkage:
-- Fuel Injection Dynamics → defines initial boundary conditions
-- Atomization Monitoring → transforms injection into combustion-ready mixture
-- Combustion Stability Module → consumes atomization output as input state variable
+
+C2 Fuel Injection Dynamics
+          ↓
+C3 Fuel Atomization
+          ↓
+C4 Combustion Stability & Knock Analysis
+          ↓
+C5 Sensor & Diagnostic System
+
+The Sensor and Diagnostic System does not perform atomization directly. Instead, it observes, quantifies, and evaluates atomization performance using measurable indicators such as spray geometry, droplet distribution, atomization efficiency, and stability metrics.
 
 Conclusion:
-Atomization monitoring is not an isolated diagnostic layer but a state-transition validator within the PNG fuel-to-energy conversion pipeline.
+Atomization Monitoring serves as the observability layer for the Fuel Atomization Module, providing the diagnostic information required for combustion assessment, expansion-layer validation, and advanced process optimization.
 
 ---
 
