@@ -2414,8 +2414,8 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-inj
 ### C3 — Fuel Atomization  
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md  
 
-### C4 — Combustion Stability & Knock Analysis  
-https://github.com/iwerieboribejoseph002-cloud/Png_energy_system/blob/main/combustion-stability-and-knock-analysis-v2.0.0.md  
+## C4 — Combustion Stability & Knock Analysis
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/eb93d9d68291435e54007e81d0c7bd8814742e8a/combustion-stability-and-knock-analysis-v2.0.0.md
 
 ### C5 — Sensor & Diagnostic System  
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-atomization-alert-system.md  
