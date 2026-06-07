@@ -1111,4 +1111,687 @@ Fuel injection is not an isolated subsystem but the **first controllable state v
 
 ---
 
+## 12.0 Atomization Monitoring
+
+Atomization monitoring refers to the systematic measurement and evaluation of fuel breakup behavior as it transitions from bulk liquid injection to fine droplet dispersion within the combustion environment. In the PNG Energy System, atomization is treated as a critical intermediate stage between injection dynamics and combustion stability, directly influencing flame propagation efficiency, ignition delay, and knock propensity.
+
+The monitoring layer captures spatial and temporal spray characteristics and converts them into diagnostic indicators for system-level evaluation.
+
+---
+
+### 12.1 Spray Formation Monitoring
+
+Spray formation monitoring evaluates the initial breakup of liquid fuel at the injector nozzle exit.
+
+Key monitored parameters include:
+- Spray cone angle evolution over time
+- Primary breakup length (liquid core length)
+- Spray penetration depth into combustion chamber
+- Initial jet velocity decay profile
+- Instability in jet breakup pattern
+
+Mathematical representation (conceptual form):
+
+Spray Penetration ∝ √(Injector Pressure × Time / Ambient Density)
+
+Where:
+- Injector Pressure influences momentum flux
+- Ambient Density resists penetration
+- Time defines transient spray development
+
+Diagnostic output:
+- Stable spray → uniform cone expansion
+- Unstable spray → asymmetric breakup and jet collapse
+
+---
+
+### 12.2 Droplet Distribution Monitoring
+
+Droplet distribution monitoring evaluates the spatial and statistical spread of fuel droplets after primary atomization.
+
+Key indicators:
+- Sauter Mean Diameter (SMD)
+- Droplet size variance
+- Spatial homogeneity index
+- Cluster formation probability
+- Evaporation readiness factor
+
+Distribution behavior classification:
+- Fine distribution → high surface-area-to-volume ratio → efficient combustion
+- Coarse distribution → incomplete mixing → potential soot formation
+
+Statistical model:
+
+Droplet Efficiency Index = 1 / (Mean Diameter × Variance)
+
+Higher values indicate improved atomization quality.
+
+---
+
+### 12.3 Atomization Quality Indicators
+
+Atomization quality is defined through a multi-parameter diagnostic vector combining spray geometry, droplet distribution, and temporal stability.
+
+Core indicators include:
+- Atomization Efficiency Index (AEI)
+- Spray Stability Coefficient (SSC)
+- Fuel-Air Mixing Potential (FAMP)
+- Evaporation Rate Proxy (ERP)
+- Combustion Readiness Score (CRS)
+
+System-level interpretation:
+- High AEI → optimal fuel breakup and mixing
+- Low SSC → fluctuating spray geometry and unstable injection
+- Low CRS → delayed ignition and incomplete combustion risk
+
+---
+
+### 12.4 Atomization Stability Assessment
+
+Atomization stability evaluates the repeatability of spray characteristics over successive injection cycles.
+
+Stability is assessed using:
+- Cycle-to-cycle spray variance
+- Temporal fluctuation in cone angle
+- Injector response delay consistency
+- Pressure-driven spray deviation index
+
+Stability metric:
+
+Atomization Stability Index (ASI) = 1 / σ(spray parameters over N cycles)
+
+Where:
+- σ represents standard deviation across injection cycles
+- Lower variance corresponds to higher stability
+
+Interpretation:
+- ASI → high: repeatable atomization behavior
+- ASI → low: stochastic spray disruption and instability risk
+
+---
+
+### FIGURE 12.1 Sensor-Based Atomization Monitoring System
+
+System-level representation:
+
+Injector System → Spray Formation Zone → Droplet Field → Sensor Array → Signal Processor → Diagnostic Engine → Feedback Controller
+
+Sensor modalities:
+- Optical imaging sensors (spray geometry capture)
+- Pressure transducers (injection dynamics)
+- Acoustic/vibration sensors (breakup noise signature)
+- Thermal sensors (evaporation behavior estimation)
+
+Output signals:
+- Spray geometry map
+- Droplet size distribution curve
+- Stability index time-series
+- Atomization alert signal
+
+---
+
+### 12.5 PNG Interpretation
+
+Within the PNG Energy System, atomization monitoring functions as a diagnostic bridge between fuel injection and combustion stability.
+
+System interpretation:
+- Improves predictability of combustion onset
+- Reduces variability in ignition delay
+- Enhances flame propagation uniformity
+- Directly influences knock suppression potential
+
+Inter-module linkage:
+- Fuel Injection Dynamics → defines initial boundary conditions
+- Atomization Monitoring → transforms injection into combustion-ready mixture
+- Combustion Stability Module → consumes atomization output as input state variable
+
+Conclusion:
+Atomization monitoring is not an isolated diagnostic layer but a state-transition validator within the PNG fuel-to-energy conversion pipeline.
+
+---
+
+## 13.0 Combustion Stability Monitoring
+
+Combustion stability monitoring evaluates the temporal consistency, thermodynamic smoothness, and chemical reaction repeatability of in-cylinder combustion events. Within the PNG Energy System, this module quantifies how reliably the air–fuel mixture releases energy across repeated engine cycles, with emphasis on pressure evolution, heat release behavior, and ignition timing stability.
+
+It acts as a core diagnostic layer between atomization quality and knock formation analysis.
+
+---
+
+### 13.1 Pressure Monitoring
+
+Pressure monitoring tracks in-cylinder pressure evolution as a primary descriptor of combustion dynamics.
+
+Key monitored variables:
+- Peak cylinder pressure (Pmax)
+- Crank-angle resolved pressure trace (P(θ))
+- Pressure rise rate (dP/dθ)
+- Motoring reference deviation
+- Cycle-to-cycle pressure variation
+
+Core metric:
+
+Combustion Pressure Stability Index (CPSI) = 1 / σ(Pmax over N cycles)
+
+Where:
+- σ represents standard deviation of peak pressure
+- Lower variability indicates higher combustion stability
+
+Interpretation:
+- Stable combustion → smooth, repeatable pressure curves
+- Unstable combustion → oscillatory or erratic pressure spikes
+
+---
+
+### 13.2 Heat Release Monitoring
+
+Heat release monitoring evaluates the rate and completeness of chemical energy conversion into thermal energy.
+
+Key indicators:
+- Apparent Heat Release Rate (AHRR)
+- Cumulative heat release fraction
+- Combustion phasing (CA10, CA50, CA90)
+- Burn duration interval
+- Heat release symmetry index
+
+Conceptual relation:
+
+dQ/dθ → function of pressure, volume, and crank angle
+
+Where:
+- Q represents heat released
+- θ represents crank angle
+
+Interpretation:
+- Early heat release → potential knock tendency
+- Delayed heat release → incomplete combustion efficiency loss
+- Smooth bell-shaped curve → optimal combustion stability
+
+---
+
+### 13.3 Ignition Delay Monitoring
+
+Ignition delay monitoring measures the temporal lag between fuel injection and the onset of combustion.
+
+Key parameters:
+- Physical ignition delay (injection → visible combustion start)
+- Chemical delay (pre-flame reactions)
+- Crank angle ignition delay (CA-ID)
+- Temperature-dependent ignition sensitivity
+
+Conceptual expression:
+
+Ignition Delay ∝ f(Temperature, Pressure, Fuel Reactivity)
+
+Interpretation:
+- Short delay → high reactivity, increased knock risk
+- Long delay → poor combustion efficiency and misfire tendency
+- Controlled delay → optimal combustion phasing
+
+---
+
+### 13.4 Combustion Stability Indicators
+
+Combustion stability is quantified using a multi-variable diagnostic vector combining pressure, heat release, and ignition timing behavior.
+
+Key indicators:
+- Coefficient of Variation of IMEP (COV_IMEP)
+- Cycle-to-cycle pressure variation index
+- Heat release consistency score
+- Combustion phasing deviation index
+- Stability envelope boundary condition
+
+Composite metric:
+
+Combustion Stability Index (CSI) = weighted function of:
+- Pressure stability
+- Heat release uniformity
+- Ignition delay consistency
+
+Interpretation:
+- High CSI → repeatable, efficient combustion cycles
+- Low CSI → unstable combustion with high variability and inefficiency
+
+---
+
+### 13.5 PNG Interpretation
+
+Within the PNG Energy System, combustion stability monitoring represents the central validation stage of the fuel-to-energy conversion process.
+
+System-level role:
+- Receives optimized fuel structure from atomization stage
+- Converts fuel state into measurable thermodynamic response
+- Provides feedback signals for knock prediction and system optimization
+
+Inter-module linkage:
+- Fuel Atomization → defines mixture quality entering combustion chamber
+- Combustion Stability Module → evaluates energy release consistency
+- Knock Detection System → identifies instability thresholds
+- Sensor Layer → captures real-time combustion state variables
+
+Conclusion:
+Combustion stability monitoring functions as a dynamic equilibrium evaluator, ensuring that chemical energy release remains controlled, repeatable, and within safe thermodynamic boundaries.
+
+---
+
+## 14.0 Knock Detection and Alert Logic
+
+Knock detection and alert logic defines the analytical and signal-processing framework used to identify abnormal combustion phenomena characterized by rapid, uncontrolled energy release. Within the PNG Energy System, knock is treated as a high-frequency instability event arising from excessive end-gas auto-ignition, pressure wave amplification, or combustion phasing misalignment.
+
+This module transforms raw sensor signals into classified diagnostic alerts for system protection and optimization feedback.
+
+---
+
+### 14.1 Knock Detection Principles
+
+Knock detection is based on identifying deviations from normal combustion pressure evolution caused by spontaneous auto-ignition in the unburned end-gas region.
+
+Primary principles:
+- Knock originates from auto-ignition before flame front arrival
+- It generates high-frequency pressure oscillations
+- It is superimposed on normal combustion pressure trace
+- It is sensitive to temperature, pressure, and fuel reactivity
+
+Key conceptual condition:
+
+Knock Condition → End-gas auto-ignition rate > Flame propagation rate
+
+Detection targets:
+- Abnormal pressure spikes
+- High-frequency oscillatory components
+- Phase-shifted combustion energy release
+
+---
+
+### 14.2 Pressure Oscillation Analysis
+
+Pressure oscillation analysis isolates knock-induced fluctuations from the baseline combustion pressure signal.
+
+Signal decomposition:
+
+P(θ) = P_mean(θ) + P_knock(θ)
+
+Where:
+- P_mean(θ) = smooth combustion pressure component
+- P_knock(θ) = high-frequency oscillatory component
+
+Knock intensity metric:
+
+Knock Intensity Index (KII) = RMS(P_knock) over combustion window
+
+Frequency characteristics:
+- Normal combustion: low-frequency smooth variation
+- Knock combustion: high-frequency oscillations (typically > 3-5 kHz equivalent band)
+
+Interpretation:
+- Low KII → stable combustion
+- High KII → severe knock presence
+
+---
+
+### 14.3 Vibration-Based Detection
+
+Vibration-based detection utilizes structural and acoustic responses of the engine system to identify knock events indirectly.
+
+Sensor modalities:
+- Accelerometers (engine block vibration)
+- Acoustic emission sensors
+- Structural resonance monitors
+
+Key indicators:
+- Vibration amplitude spikes
+- Resonant frequency excitation
+- Time-aligned vibration-pressure correlation
+- Signal coherence between cylinder events
+
+Diagnostic relation:
+
+Knock signature ↔ synchronized pressure oscillation + structural vibration resonance
+
+Interpretation:
+- Strong correlation → confirmed knock event
+- Weak correlation → non-knock mechanical noise
+
+---
+
+### 14.4 Alert Classification
+
+Knock alerts are classified based on severity, frequency, and persistence of detected instability.
+
+Classification levels:
+
+- Level 0: No Knock
+  - Normal combustion behavior
+  - Stable pressure and vibration signals
+
+- Level 1: Trace Knock
+  - Minor high-frequency components detected
+  - No structural risk
+
+- Level 2: Moderate Knock
+  - Repeated oscillatory pressure spikes
+  - Efficiency loss and thermal stress risk
+
+- Level 3: Severe Knock
+  - Strong pressure wave amplification
+  - High mechanical stress on piston and cylinder walls
+
+Alert decision function:
+
+Alert Level = f(KII, frequency magnitude, cycle persistence)
+
+---
+
+### 14.5 Engineering Implications
+
+Knock detection directly influences engine safety, efficiency, and long-term structural integrity within the PNG Energy System.
+
+System-level implications:
+- Limits maximum achievable compression ratio
+- Constrains ignition timing optimization
+- Impacts fuel formulation and catalytic design
+- Drives feedback control in injection and atomization systems
+
+Inter-module linkage:
+- Combustion Stability Module → provides baseline pressure dynamics
+- Sensor Module → captures high-resolution knock signatures
+- Control System → adjusts injection timing and mixture quality
+- Optimization Layer → reduces knock probability through system tuning
+
+Conclusion:
+Knock detection serves as a protective diagnostic boundary layer, ensuring that energy release remains within structurally safe and thermodynamically controlled limits.
+
+---
+
+## 15.0 Mathematical Monitoring Models
+
+The mathematical monitoring models define the quantitative backbone of the PNG Sensor System. They formalize the transformation of physical combustion phenomena into measurable stability, efficiency, and safety indicators. Each model corresponds to a specific stage in the fuel-to-energy pipeline and is structured to support diagnostic evaluation, control feedback, and system optimization.
+
+---
+
+### 15.1 Injection Stability Model
+
+The injection stability model evaluates the repeatability and consistency of fuel delivery into the combustion chamber.
+
+Primary variables:
+- Injection pressure (P_inj)
+- Injection duration (t_inj)
+- Mass flow rate (ṁ_f)
+- Cycle number (n)
+
+Injection stability is defined as cycle-to-cycle variance:
+
+Injection Stability Index (ISI) = 1 / σ(ṁ_f(n))
+
+Where:
+- σ(ṁ_f(n)) is the standard deviation of fuel mass flow across cycles
+
+Extended form:
+
+ISI ∝ 1 / (σ(P_inj) + σ(t_inj))
+
+Interpretation:
+- High ISI → stable injector performance and consistent fuel delivery
+- Low ISI → irregular injection causing combustion variability
+
+---
+
+### 15.2 Atomization Efficiency Model
+
+The atomization efficiency model quantifies how effectively liquid fuel is broken into fine droplets for combustion readiness.
+
+Key variables:
+- Sauter Mean Diameter (SMD)
+- Spray cone angle (θ_s)
+- Droplet dispersion variance (σ_d²)
+- Evaporation potential (E_p)
+
+Atomization Efficiency Index (AEI):
+
+AEI = (1 / SMD) × θ_s × (1 / σ_d²)
+
+Interpretation:
+- High AEI → fine, well-distributed droplets with high surface area
+- Low AEI → coarse spray and poor air-fuel mixing
+
+Physical meaning:
+Efficient atomization increases evaporation rate and improves combustion uniformity.
+
+---
+
+### 15.3 Pressure Fluctuation Model
+
+The pressure fluctuation model describes deviations in in-cylinder pressure from ideal combustion behavior.
+
+Pressure decomposition:
+
+P(θ) = P_avg(θ) + P'(θ)
+
+Where:
+- P_avg(θ) = mean combustion pressure curve
+- P'(θ) = fluctuation component
+
+Pressure Fluctuation Index (PFI):
+
+PFI = RMS(P'(θ)) / P_max
+
+Interpretation:
+- Low PFI → smooth combustion with minimal cyclic variation
+- High PFI → unstable combustion with possible knock or misfire tendencies
+
+This model is directly linked to combustion stability evaluation.
+
+---
+
+### 15.4 Knock Index Model
+
+The knock index model quantifies the severity of abnormal combustion events based on high-frequency pressure oscillations.
+
+Signal representation:
+
+P_knock(t) = high-frequency component of pressure signal
+
+Knock Index (KI):
+
+KI = ∫ |P_knock(f)| df over knock frequency band
+
+Where:
+- f represents frequency domain
+- Integration captures total oscillation energy
+
+Interpretation:
+- KI ≈ 0 → no knock
+- Low KI → trace knock activity
+- High KI → severe knock condition
+
+This model is essential for engine protection logic.
+
+---
+
+### 15.5 Alert Threshold Model
+
+The alert threshold model defines decision boundaries for system warnings based on combined diagnostic indices.
+
+Core variables:
+- ISI (Injection Stability Index)
+- AEI (Atomization Efficiency Index)
+- PFI (Pressure Fluctuation Index)
+- KI (Knock Index)
+
+General alert function:
+
+Alert Level = f(ISI, AEI, PFI, KI)
+
+Threshold structure:
+
+- Safe Region:
+  KI < K1 AND PFI < P1
+
+- Warning Region:
+  K1 ≤ KI < K2 OR PFI rising
+
+- Critical Region:
+  KI ≥ K2 OR rapid PFI escalation
+
+Decision logic:
+- If stability indices decrease while KI increases → immediate corrective action required
+- If AEI is high but KI increases → combustion phasing mismatch likely
+
+Engineering interpretation:
+The alert system acts as a multi-dimensional constraint boundary ensuring safe and efficient operation of the PNG combustion system.
+
+---
+
+### Conclusion of Section 15.0
+
+The mathematical monitoring models unify injection dynamics, atomization quality, combustion stability, and knock behavior into a single quantitative diagnostic framework. This enables predictive control, real-time monitoring, and system-wide optimization within the PNG Energy System architecture.
+
+---
+
+## 16.0 Numerical Analysis
+
+The numerical analysis section demonstrates the practical evaluation of the PNG Sensor and Diagnostic Models using representative numerical datasets. Each example illustrates how raw physical measurements are transformed into diagnostic indices for injection, atomization, combustion stability, and knock detection.
+
+---
+
+### 16.1 Injection Stability Example
+
+Given injection mass flow rate data over 5 cycles (arbitrary units):
+
+ṁ_f = [10.0, 10.2, 9.8, 10.1, 9.9]
+
+Step 1: Compute mean
+
+ṁ_mean = (10.0 + 10.2 + 9.8 + 10.1 + 9.9) / 5  
+ṁ_mean = 10.0
+
+Step 2: Compute standard deviation
+
+σ(ṁ_f) ≈ 0.158
+
+Step 3: Injection Stability Index (ISI)
+
+ISI = 1 / σ(ṁ_f)  
+ISI = 1 / 0.158 ≈ 6.33
+
+Interpretation:
+- Moderate-high stability
+- Small cycle-to-cycle variation
+- Acceptable injector consistency
+
+---
+
+### 16.2 Atomization Monitoring Example
+
+Given droplet SMD and spray parameters:
+
+SMD = 25 μm  
+Spray cone angle θ_s = 65°  
+Droplet variance σ_d² = 9
+
+Atomization Efficiency Index (AEI):
+
+AEI = (1 / SMD) × θ_s × (1 / σ_d²)
+
+AEI = (1 / 25) × 65 × (1 / 9)
+
+Step-by-step:
+
+(1 / 25) = 0.04  
+0.04 × 65 = 2.6  
+2.6 / 9 ≈ 0.289
+
+Interpretation:
+- Moderate atomization quality
+- Acceptable spray breakup
+- Some improvement needed for finer dispersion
+
+---
+
+### 16.3 Pressure Fluctuation Example
+
+Given pressure peak data:
+
+P_max values = [52, 50, 53, 51, 54] bar
+
+Step 1: Mean pressure
+
+P_mean = 52 bar
+
+Step 2: Standard deviation
+
+σ(P_max) ≈ 1.41 bar
+
+Step 3: Pressure Fluctuation Index (PFI)
+
+PFI = σ(P_max) / P_max  
+PFI = 1.41 / 52 ≈ 0.027
+
+Interpretation:
+- Low fluctuation
+- Stable combustion behavior
+- Minimal cyclic variability
+
+---
+
+### 16.4 Knock Index Example
+
+Given frequency-domain knock energy values (arbitrary units):
+
+P_knock(f) = [2, 3, 4, 3, 2]
+
+Step 1: Approximate integral (sum)
+
+KI = ∑ |P_knock(f)|  
+KI = 2 + 3 + 4 + 3 + 2 = 14
+
+Interpretation thresholds:
+- KI < 5 → no knock
+- 5 ≤ KI < 12 → trace knock
+- KI ≥ 12 → moderate to severe knock
+
+Result:
+- KI = 14 → Moderate knock condition
+
+Implication:
+- High-frequency pressure oscillations present
+- Requires ignition timing or mixture adjustment
+
+---
+
+### 16.5 Alert Classification Example
+
+Given computed indices:
+
+ISI = 6.33  
+AEI = 0.289  
+PFI = 0.027  
+KI = 14
+
+Decision logic:
+
+- ISI: acceptable stability
+- AEI: moderate atomization
+- PFI: stable combustion
+- KI: elevated knock level
+
+Alert classification:
+
+→ LEVEL 2: Moderate Knock Warning
+
+System interpretation:
+- Combustion is generally stable
+- Knock phenomena dominate risk profile
+- Corrective control action required (e.g., injection timing adjustment or mixture enrichment)
+
+---
+
+### Conclusion of Section 16.0
+
+The numerical analysis confirms that the PNG Sensor Framework can convert raw physical combustion data into structured diagnostic indices. These indices provide a consistent basis for evaluating injection stability, atomization efficiency, combustion fluctuation, and knock severity within a unified engineering system.
+
+---
+
+
+
 
