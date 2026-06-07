@@ -2432,7 +2432,7 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-a
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-level-expansion-framework.md  
 
 ### C7 - Advanced Process Optimization  
-https://github.com/iwerieboribejoseph002-cloud/Png_energy_system/blob/main/advanced-process-optimization.md
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/advanced-process-optimization.md
 
 ---
 
