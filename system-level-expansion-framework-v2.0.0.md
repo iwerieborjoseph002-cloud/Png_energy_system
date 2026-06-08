@@ -1363,22 +1363,23 @@ This section defines the internal module dependency structure of the PNG (Pure N
 
 ---
 
-## 22.1 Core Module Dependencies  
+## 22.1 Core Module Dependencies
 
 The Expansion Layer depends on the full PNG system architecture:
 
-- [C1 - Catalyst Process Optimization System] (https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/catalyst-process-optimization-v2.0.0.md)
-- [C2 - Fuel Injection Dynamics]
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-injection-dynamics-v2.0.0.md
-- [C3 - Fuel Atomization System]
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md
-- [C4 - Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md
-- [C5 - Sensor Atomization Alert System (Observability Core)]
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md
-- [C6 - Expansion Layer (Current Module)]
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md
-- [C7 - Advanced Process Optimization System v1.0.0]
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/advanced-process-optimization.md
+- [C1 – Catalyst Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/catalyst-process-optimization-v2.0.0.md)
+
+- [C2 – Fuel Injection Dynamics](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-injection-dynamics-v2.0.0.md)
+
+- [C3 – Fuel Atomization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md)
+
+- [C4 – Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md)
+
+- [C5 – Sensor Atomization Alert System (Observability Core)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md)
+
+- [C6 – Expansion Layer (Current Module)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md)
+
+- [C7 – Advanced Process Optimization System v1.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/advanced-process-optimization.md)
 
 ---
 
