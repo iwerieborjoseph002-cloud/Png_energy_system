@@ -1211,7 +1211,7 @@ Interpretation:
 ---
 
 ### FIGURE 12.1 Sensor-Based Atomization Monitoring System
-*(Adapted from Figure in Sensor Atomization and Alert System v1.0.0)*
+*(Source: PNG Sensor and Atomization Alert System v1.0.0)*
 
 ![Figure 12.1](./41ad20f7d33b0e5704448d0d55590898bc00f0a0b03265622a0b53d1fb9bc67f.png)
 
