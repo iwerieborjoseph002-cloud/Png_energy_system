@@ -1654,6 +1654,14 @@ The alert system acts as a multi-dimensional constraint boundary ensuring safe a
 
 ---
 
+### Figure 15.1 Mathematical Monitoring and Diagnostic Framework
+
+![Figure 15.1 Mathematical Monitoring and Diagnostic Framework](fe87eb2d40d54a156e19fa581a62b5c6d843299eb6d9389c78af578557401db6.png)
+
+**Figure 15.1.** Integration of injection stability, atomization efficiency, pressure fluctuation monitoring, knock detection, and alert threshold decision logic within the PNG Sensor and Atomization Alert System. The framework illustrates the transformation of sensor measurements into diagnostic indices (ISI, AEI, PFI, and KI), which are subsequently evaluated by the alert threshold model to support real-time monitoring, predictive control, and combustion optimization.
+
+---
+
 ### Conclusion of Section 15.0
 
 The mathematical monitoring models unify injection dynamics, atomization quality, combustion stability, and knock behavior into a single quantitative diagnostic framework. This enables predictive control, real-time monitoring, and system-wide optimization within the PNG Energy System architecture.
