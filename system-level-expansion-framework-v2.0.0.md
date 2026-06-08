@@ -1377,7 +1377,8 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md
 - [C6 - Expansion Layer (Current Module)]
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md
-- [C7 - Advanced Process Optimization System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C7_Advanced_Process_Optimization)
+- [C7 - Advanced Process Optimization System v1.0.0]
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/advanced-process-optimization.md
 
 ---
 
