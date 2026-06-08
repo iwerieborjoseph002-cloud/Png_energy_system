@@ -1370,7 +1370,7 @@ The Expansion Layer depends on the full PNG system architecture:
 - [C1 - Catalyst Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C1_Catalyst_Process_Optimization)
 - [C2 - Fuel Injection Dynamics](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C2_Fuel_Injection_Dynamics)
 - [C3 - Fuel Atomization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C3_Fuel_Atomization_System)
-- [C4 - Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C4_Combustion_System)
+- [C4 - Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md
 - [C5 - Sensor Atomization Alert System (Observability Core)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C5_Sensor_Atomization_Alert_System)
 - [C6 - Expansion Layer (Current Module)](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C6_Expansion_Layer)
 - [C7 - Advanced Process Optimization System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C7_Advanced_Process_Optimization)
