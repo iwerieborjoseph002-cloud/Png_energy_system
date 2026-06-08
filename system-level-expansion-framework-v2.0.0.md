@@ -1373,7 +1373,8 @@ https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7
 - [C3 - Fuel Atomization System]
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md
 - [C4 - Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md
-- [C5 - Sensor Atomization Alert System (Observability Core)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C5_Sensor_Atomization_Alert_System)
+- [C5 - Sensor Atomization Alert System (Observability Core)]
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md
 - [C6 - Expansion Layer (Current Module)](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C6_Expansion_Layer)
 - [C7 - Advanced Process Optimization System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C7_Advanced_Process_Optimization)
 
