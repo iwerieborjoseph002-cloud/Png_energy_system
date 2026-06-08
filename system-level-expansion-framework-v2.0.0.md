@@ -1448,6 +1448,12 @@ All modules in the PNG Energy System v2.0.0 operate as a **hierarchical feedback
 
 ## Figure 23.1: PNG Expansion Layer Architecture
 
+![PNG Expansion Layer Architecture](1949f53c7c68443fdcee9e0859ba38137603b55dd5d03cfb0ff36c4722fd4da3.png)
+
+**Figure 23.1.** PNG Expansion Layer Architecture showing the relationship between the Physical Transformation Layer (C1–C4), Observability Layer (C5), and Intelligence and Scaling Layer (C6–C7), including system feedback pathways.
+
+---
+
 Description:
 
 A hierarchical system diagram showing the complete PNG architecture:
