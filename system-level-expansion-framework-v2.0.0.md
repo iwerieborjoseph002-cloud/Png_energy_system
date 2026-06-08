@@ -1492,6 +1492,10 @@ To illustrate the complete PNG v2.0.0 architecture and the position of the Expan
 
 ## Figure 23.2: Multi-Node Expansion and Distributed Network Framework
 
+[![Multi-Node Expansion and Distributed Network Framework](0205492e91da29622e4740fb2d07f3200b13dcfa5f5254a31abbdf300bfb5b80.png)](0205492e91da29622e4740fb2d07f3200b13dcfa5f5254a31abbdf300bfb5b80.png)
+
+**Figure 23.2.** Distributed multi-node architecture showing node replication, synchronization control, feedback coordination, load balancing, observability pathways, and network-level scaling through the Expansion Layer (C6).
+
 Description:
 
 A network diagram showing:
