@@ -2707,7 +2707,7 @@ The diagram further shows the interaction between:
 
 ## Figure 23.2 Closed-Loop Optimization and Feedback Framework
 
-![Figure 23.2: Closed Loop Feedback Framework](0501ec5b03966943486bff3bec27a149a98978fbed637f08450ca37cf47d84fa.png)
+![Figure 23.2 Closed-Loop Optimization and Feedback Framework](0501ec5b03966943486bff3bec27a149a98978fbed637f08450ca37cf47d84fa.png)
 
 Figure 23.2 represents the closed-loop feedback architecture governing system stability, adaptation, and real-time correction within the PNG Energy System.
 
