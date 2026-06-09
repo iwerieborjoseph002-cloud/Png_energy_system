@@ -908,6 +908,66 @@ The objective is to determine how adaptive control mechanisms contribute to the 
 
 ---
 
+## 8.0 Research Questions (C7 – Advanced Process Optimization System)
+
+This section addresses key performance and control challenges within the C7 optimization layer, focusing on efficiency enhancement, scaling behaviour, and adaptive system stability.
+
+---
+
+### 8.1 How can system efficiency be maximized?
+
+**Answer to the question:** System efficiency can be maximized by reducing energy losses across all transformation and transfer stages while improving output yield per unit input. This can be achieved through:
+
+- **Catalytic and reaction optimization:** improving conversion rates in core processing stages to reduce unreacted input losses  
+- **Flow and injection control optimization:** ensuring optimal timing, pressure, and distribution of inputs (e.g., fuel/agent injection uniformity)  
+- **Thermodynamic loss reduction:** minimizing heat dissipation through insulation, controlled combustion environments, and recovery mechanisms  
+- **Feedback-based control systems:** implementing real-time monitoring and adjustment to maintain operation near optimal performance points  
+- **Multi-stage optimization alignment:** ensuring each subsystem operates at its local optimum while maintaining global system efficiency  
+
+Overall, efficiency maximization depends on coordinated optimization across chemical, mechanical, and control subsystems.
+
+---
+
+### 8.2 How can scaling losses be minimized?
+
+**Answer to the question:** Scaling losses occur when system performance degrades as system size, throughput, or complexity increases. Minimization strategies include:
+
+- **Modular system architecture:** dividing the system into independent but interconnected units to prevent nonlinear loss accumulation  
+- **Distributed processing and control:** avoiding centralized bottlenecks by distributing workload across subsystems  
+- **Nonlinear behaviour compensation:** modelling and correcting for scaling-induced inefficiencies such as turbulence, heat loss, and reaction imbalance  
+- **Material and structural optimization:** selecting materials and geometries that maintain performance consistency under scaling conditions  
+- **Predictive scaling models:** using simulation and analytical models to anticipate performance degradation before physical scaling  
+
+The objective is to maintain near-constant efficiency ratios as system size increases.
+
+---
+
+### 8.3 How can adaptive optimization improve stability?
+
+**Answer to the question:** Adaptive optimization improves stability by continuously adjusting system parameters in response to internal and external disturbances. This is achieved through:
+
+- **Real-time feedback loops:** continuous monitoring of system state variables (pressure, temperature, flow rate, output quality)  
+- **Dynamic parameter tuning:** automatic adjustment of operational variables to maintain equilibrium conditions  
+- **Disturbance rejection mechanisms:** identification and suppression of oscillations, fluctuations, or instabilities  
+- **Predictive control models:** forecasting system behaviour and adjusting parameters before instability occurs  
+- **Self-correcting algorithms:** enabling the system to learn optimal responses over repeated cycles of operation  
+
+Adaptive optimization ensures that the system remains within stable operational boundaries despite changing conditions and nonlinear system behaviour.
+
+---
+
+## Summary
+
+The C7 Advanced Process Optimization System relies on three core pillars:
+
+- **Efficiency maximization through integrated subsystem optimization**
+- **Scaling loss reduction via modular and predictive system design**
+- **Stability enhancement through adaptive feedback and control mechanisms**
+
+Together, these principles form a closed-loop optimization architecture capable of maintaining performance consistency under varying operational conditions.
+
+---
+
 # 9.0 Results and Discussion
 
 ## 9.1 Optimization Performance Evaluation
