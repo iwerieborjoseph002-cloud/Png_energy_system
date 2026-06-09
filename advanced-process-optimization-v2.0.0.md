@@ -2569,13 +2569,19 @@ The energy backbone (C1–C4) remains strictly unidirectional, while the control
 
 ### Module Repository Links
 
-- [C1 - Catalyst Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C1_Catalyst_Process_Optimization)  
-- [C2 - Fuel Injection Dynamics](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C2_Fuel_Injection_Dynamics)  
-- [C3 - Fuel Atomization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C3_Fuel_Atomization_System)  
-- [C4 - Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C4_Combustion_System)  
-- [C5 - Sensor Atomization Alert System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C5_Sensor_Atomization_Alert_System)  
-- [C6 - Expansion Layer System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C6_Expansion_Layer)  
-- [C7 - Advanced Process Optimization System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C7_Advanced_Process_Optimization)
+- [C1 – Catalyst Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/catalyst-process-optimization-v2.0.0.md)
+
+- [C2 – Fuel Injection Dynamics](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-injection-dynamics-v2.0.0.md)
+
+- [C3 – Fuel Atomization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md)
+
+- [C4 – Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md)
+
+- [C5 – Sensor Atomization Alert System (Observability Core)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md)
+
+- [C6 – Expansion Layer (Current Module)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md)
+
+- [C7 – Advanced Process Optimization System v1.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/advanced-process-optimization.md)
 
 ---
 
