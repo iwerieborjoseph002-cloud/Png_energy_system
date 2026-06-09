@@ -1052,4 +1052,465 @@ These constraints ensure that optimization remains physically realizable and doe
 System performance is evaluated using a set of quantitative and semi-quantitative metrics aligned with C1–C7 functionality:
 
 - Fuel Conversion Efficiency (C1–C2 effectiveness)
-- Atomization Quality Index (C3 perf
+- Atomization Quality Index (C3 performance indicator)
+- Combustion Completeness Ratio (C4 output quality)
+- Pressure Stability Index (cycle-to-cycle variance)
+- Sensor Response Time (C5 diagnostic efficiency)
+- Synchronization Coefficient (C6 system alignment metric)
+- Adaptive Efficiency Ratio (C7 scalability performance)
+
+These metrics collectively define the operational health of the PNG Energy System and are used for continuous optimization feedback.
+
+---
+
+## 10.5 Optimization Stability
+
+Optimization stability refers to the system’s ability to maintain near-optimal performance under dynamic and uncertain operating conditions.
+
+Stability is achieved through:
+
+- Closed-loop feedback control (C5–C6 integration)
+- Real-time adaptive parameter tuning (C7 functionality)
+- Reduction of nonlinear combustion instability through improved atomization (C3)
+- Stabilization of pressure oscillations via controlled combustion propagation (C4)
+
+The system is considered stable when variance in key performance metrics remains within acceptable thresholds across multiple operating cycles.
+
+Instability is typically introduced by:
+- Fuel variability
+- Delayed sensor feedback
+- Injection timing drift
+- Poor atomization quality
+
+These are mitigated through hierarchical control coordination across all modules.
+
+---
+
+## 10.6 PNG Interpretation
+
+Within the PNG Energy System framework, process optimization is interpreted as a hierarchical energy refinement process rather than a single-step efficiency improvement.
+
+- C1 represents chemical-level optimization (fuel transformation efficiency)
+- C2 represents mechanical precision optimization (delivery control)
+- C3 represents physical dispersion optimization (atomization quality)
+- C4 represents thermodynamic optimization (combustion efficiency)
+- C5 represents informational optimization (sensing and correction)
+- C6 represents structural/system coordination optimization (synchronization)
+- C7 represents adaptive intelligence optimization (scaling and dynamic control)
+
+Together, these layers form a vertically integrated optimization architecture where each stage refines system performance before passing it to the next.
+
+This interpretation positions the PNG Energy System as a multi-layer adaptive optimization engine rather than a conventional combustion model, with each module contributing to a progressively refined energy transformation pathway.
+
+---
+
+# 11.0 Optimization Layer Definition and Architecture
+
+This section defines the structural and functional architecture of the optimization layer within the PNG Energy System. It formalizes how optimization is distributed across the modular framework (C1–C7), integrating both the acyclic energy transformation pathway and the recursive control intelligence layer.
+
+The system is designed as a hybrid architecture consisting of:
+- A Directed Acyclic Energy Transformation Network (C1–C4)
+- A Closed-Loop Control and Optimization Network (C5–C7)
+
+---
+
+## 11.1 Structural Definition
+
+The optimization layer is structurally defined as a distributed, multi-tier architecture embedded across the PNG Energy System rather than localized in a single module.
+
+It consists of two primary structural domains:
+
+### (i) Energy Transformation Backbone (Acyclic Structure)
+- C1: Catalyst Process Optimization (chemical transformation initiation)
+- C2: Fuel Injection Dynamics (mechanical delivery control)
+- C3: Fuel Atomization System (physical dispersion refinement)
+- C4: Combustion System (thermodynamic energy release)
+
+This backbone forms a **Directed Acyclic Energy Graph (DAEG)** where energy conversion progresses strictly in one forward direction.
+
+### (ii) Control and Intelligence Overlay (Recursive Structure)
+- C5: Sensor Atomization Alert System (state observation and diagnostics)
+- C6: System Integration Layer (synchronization and coherence control)
+- C7: Adaptive Control & Scaling Layer (dynamic optimization and scaling)
+
+This overlay forms a **recursive feedback control network** operating on system parameters rather than energy flow.
+
+---
+
+## 11.2 Functional Role
+
+The functional role of the optimization layer is to maximize energy conversion efficiency while maintaining system stability under dynamic operating conditions.
+
+Key functions include:
+
+- Enhancement of energy transformation efficiency across C1–C4
+- Continuous monitoring and correction of combustion anomalies (C5)
+- Synchronization of subsystem interactions to reduce phase mismatch (C6)
+- Adaptive tuning of system parameters under varying load conditions (C7)
+- Reduction of energy loss due to instability, delay, and inefficiency
+
+The optimization layer therefore functions simultaneously as:
+- A performance enhancement mechanism
+- A real-time regulatory control system
+
+---
+
+## 11.3 Layer Hierarchy Positioning
+
+The PNG Energy System is organized into a vertically integrated hierarchy:
+
+- **Level 1 (Chemical):** C1 – catalyst optimization
+- **Level 2 (Mechanical):** C2 – fuel injection control
+- **Level 3 (Physical):** C3 – atomization process control
+- **Level 4 (Thermodynamic):** C4 – combustion optimization
+- **Level 5 (Informational):** C5 – sensing and feedback
+- **Level 6 (System Coordination):** C6 – synchronization layer
+- **Level 7 (Adaptive Intelligence):** C7 – scaling and control intelligence
+
+However, this hierarchy is not strictly linear; it is **cross-coupled through feedback interactions while preserving acyclic energy flow integrity**.
+
+---
+
+## 11.4 Optimization Logic Structure
+
+The optimization logic operates through a continuous closed-loop control process embedded around an acyclic energy backbone:
+
+### Step 1: Input Initialization (C1–C2)
+Fuel composition is processed and delivered under controlled injection dynamics.
+
+### Step 2: Physical Transformation (C3–C4)
+Fuel is atomized and combusted, producing thermal energy output.
+
+### Step 3: State Observation (C5)
+Sensors evaluate combustion quality, atomization consistency, and pressure stability.
+
+### Step 4: System Synchronization (C6)
+Inter-module timing and coordination are adjusted to eliminate phase mismatches.
+
+### Step 5: Adaptive Correction (C7)
+System parameters are dynamically tuned to optimize performance under current conditions.
+
+This logic forms a **recursive optimization loop operating on control variables**, while the energy pathway remains strictly forward-directed.
+
+---
+
+## 11.5 Stability Conditions
+
+Optimization stability is achieved when the system satisfies the following constraints:
+
+- **Acyclic Energy Integrity:** C1–C4 must maintain unidirectional energy transformation without reversal
+- **Bounded Variance Condition:** pressure, temperature, and combustion output remain within defined thresholds
+- **Feedback Convergence:** C5-driven corrections reduce system error over time
+- **Synchronization Coherence:** C6 ensures minimal inter-module timing deviation
+- **Adaptive Equilibrium:** C7 maintains stable performance under variable load conditions
+- **Combustion Consistency:** C3–C4 interaction avoids knock, instability, and incomplete combustion
+
+Violation of any condition results in transient instability requiring corrective feedback intervention.
+
+---
+
+## 11.6 PNG Interpretation
+
+Within the PNG Energy System framework, optimization is interpreted as a **multi-layer refinement process**:
+
+- C1: chemical optimization (reaction enhancement)
+- C2: mechanical optimization (precision delivery control)
+- C3: physical optimization (atomization refinement)
+- C4: thermodynamic optimization (energy release maximization)
+- C5: informational optimization (system awareness and correction)
+- C6: structural optimization (synchronization and coherence)
+- C7: adaptive optimization (dynamic scaling intelligence)
+
+This establishes the system as a **hierarchical adaptive energy optimization architecture** where performance emerges from coordinated multi-layer interaction rather than isolated component efficiency.
+
+---
+
+## 11.7 System Flow Topology (Acyclic Architecture Constraint)
+
+The PNG Energy System is formally defined as a **hybrid directed system architecture** composed of:
+
+1. **Directed Acyclic Energy Transformation Network (C1–C4)**
+2. **Closed-Loop Control and Optimization Network (C5–C7)**
+
+---
+
+### 11.7.1 Directed Acyclic Energy Graph (DAEG)
+
+The primary energy pathway is:
+
+C1 → C2 → C3 → C4 → Output
+
+This structure is acyclic because:
+
+- Energy transformation proceeds in one irreversible direction
+- No downstream module reprocesses upstream energy states
+- Each stage represents a monotonic progression in energy conversion
+- Output energy is terminal within the transformation chain
+
+---
+
+### 11.7.2 Control-Loop Overlay
+
+The control architecture introduces recursive loops:
+
+- C5: sensing and diagnostic feedback
+- C6: system synchronization adjustments
+- C7: adaptive scaling and optimization control
+
+These loops operate on:
+- control signals
+- timing parameters
+- correction coefficients
+
+NOT on physical energy flow.
+
+---
+
+### 11.7.3 Acyclic Integrity Principle (AIP)
+
+Energy transfer must remain strictly forward-directed, while feedback may be recursive provided it does not reintroduce energy into upstream physical states.
+
+This ensures:
+- No reversal of combustion progression
+- No re-entry of output energy into fuel processing stages
+- Preservation of causal ordering in physical transformations
+
+---
+
+### 11.7.4 Control-Backbone Separation Theorem
+
+A coupled energy-control system preserves acyclicity if:
+
+Feedback loops operate only on control variables and not on energy state variables.
+
+Applied to PNG:
+- C1–C4 → energy domain (acyclic)
+- C5–C7 → control domain (cyclic)
+
+Thus, the system is a **dual-layer hybrid graph**:
+- Directed Acyclic Graph (energy)
+- Recursive Control Graph (optimization)
+
+---
+
+### 11.7.5 PNG Interpretation
+
+The optimization layer represents a **dual-domain intelligence architecture**:
+
+- The acyclic domain ensures physical correctness of energy conversion
+- The recursive domain ensures continuous performance optimization
+
+Together, they define the PNG Energy System as:
+
+A Directed Acyclic Energy Transformation System with Embedded Recursive Optimization Intelligence.
+
+---
+
+# 12.0 Multi-Level Optimization Framework
+
+The Multi-Level Optimization Framework defines how performance enhancement is structured across hierarchical scales of the PNG Energy System. Optimization is implemented as a stratified control mechanism operating across local, system, and global levels within the C1–C7 architecture.
+
+A critical governing principle of this framework is the preservation of the **Directed Acyclic Energy Transformation structure (C1 → C2 → C3 → C4 → Output)**. All optimization activities operate within this constraint and are restricted to control-space variables, ensuring that energy flow directionality is never violated.
+
+---
+
+## 12.1 Local Optimization
+
+Local optimization refers to intra-module performance refinement occurring within individual components of the system (C1–C7). Each module independently reduces inefficiencies based on its functional role while remaining constrained by the global acyclic energy pathway.
+
+### Local optimization functions:
+
+- **C1:** enhancement of catalytic reaction efficiency and activation rate stability  
+- **C2:** refinement of injection timing precision and pressure consistency  
+- **C3:** improvement of atomization quality, droplet uniformity, and spray dispersion  
+- **C4:** enhancement of combustion completeness and reduction of incomplete oxidation  
+- **C5:** reduction of sensor latency and improvement of detection resolution  
+- **C6:** improvement of synchronization accuracy between system modules  
+- **C7:** refinement of adaptive response sensitivity and control resolution  
+
+Local optimization does not alter energy directionality; it only improves efficiency within each functional node.
+
+---
+
+## 12.2 System-Level Optimization
+
+System-level optimization operates across module interactions, focusing on coordination between C1–C7 rather than isolated performance.
+
+It governs inter-module dependencies such as:
+
+- Fuel transformation alignment (C1 → C2 → C3 → C4 consistency)  
+- Feedback correction loops between C5 and physical subsystems (C2–C4)  
+- Synchronization enforcement through C6 to eliminate temporal mismatch  
+- Adaptive parameter balancing through C7 to stabilize cross-module performance  
+
+System-level optimization ensures that subsystem interactions improve efficiency without introducing instability into the acyclic energy pathway.
+
+---
+
+## 12.3 Global Optimization
+
+Global optimization represents the highest abstraction layer of system improvement, where the PNG Energy System is treated as a unified energy transformation architecture.
+
+At this level, optimization targets include:
+
+- Maximization of total energy conversion efficiency  
+- Minimization of cumulative system losses (thermal, mechanical, chemical)  
+- Stabilization of long-term operational behavior under varying load conditions  
+- Maintenance of system-wide equilibrium across all C1–C7 modules  
+
+Global optimization is primarily governed by **C7 (Adaptive Control & Scaling Layer)**, with structural coordination support from C6 and feedback intelligence from C5.
+
+Importantly, global optimization does not alter the C1 → C4 energy directionality but only adjusts control parameters governing system behavior.
+
+---
+
+## 12.4 Optimization Coordination
+
+Optimization coordination defines how local, system, and global optimization layers interact without violating structural or energetic constraints.
+
+Coordination is achieved through:
+
+- **C6 (System Integration Layer):** ensures temporal and functional synchronization across all modules  
+- **C5 (Sensor Atomization Alert System):** provides real-time feedback for correction and validation  
+- **C7 (Adaptive Control & Scaling Layer):** resolves conflicts between competing optimization objectives  
+
+Coordination guarantees that:
+
+- Local improvements propagate upward without destabilizing global performance  
+- Global adjustments propagate downward without reversing or disrupting energy flow  
+- System coherence is maintained under dynamic and transient conditions  
+
+This establishes a hierarchical coordination mechanism operating strictly within control space.
+
+---
+
+## 12.5 Optimization Constraints
+
+The optimization process is bounded by physical, chemical, and system-level constraints that define feasible operating limits.
+
+### Physical constraints:
+- Maximum combustion chamber pressure limits  
+- Thermal resistance thresholds of engine materials  
+- Mechanical stress limits under dynamic loading conditions  
+
+### Chemical constraints:
+- Fuel composition boundaries (C5–C10 hydrocarbon range)  
+- Catalyst saturation limits and reaction efficiency thresholds (C1)  
+- Stable air-fuel ratio operating window  
+
+### System constraints:
+- Sensor response latency limitations (C5)  
+- Synchronization delay bounds between modules (C6)  
+- Control stability limits under high dynamic variability (C7)  
+
+These constraints ensure that optimization remains physically realizable and does not exceed safe operational boundaries.
+
+---
+
+## 12.6 PNG Interpretation
+
+Within the PNG Energy System framework, multi-level optimization is interpreted as a hierarchical refinement process operating under a strict acyclic energy constraint.
+
+The system is composed of two coupled but distinct domains:
+
+### 1. Acyclic Energy Transformation Domain
+- C1 → C2 → C3 → C4 → Output  
+- Strictly unidirectional energy conversion pathway  
+- No reversal or re-entry of energy states into upstream processes  
+
+### 2. Recursive Control Optimization Domain
+- C5–C7 feedback structure  
+- Operates on control variables, not energy states  
+- Enables adaptation, correction, and synchronization  
+
+Across all optimization levels:
+
+The Directed Acyclic Energy Transformation structure (C1–C4) is strictly preserved, while recursive optimization is permitted only within the control domain (C5–C7).
+
+This ensures that all improvements enhance system performance without violating the fundamental energy directionality constraint.
+
+---
+
+### Acyclic Integrity Principle in Multi-Level Optimization
+
+At all optimization scales (local, system, and global), the PNG Energy System satisfies the Acyclic Integrity Principle:
+
+Energy flow must remain strictly forward-directed, while optimization feedback may be recursive provided it operates exclusively on control variables.
+
+This principle guarantees:
+
+- Preservation of thermodynamic directionality  
+- Prevention of energy state reversal  
+- Stability of the transformation chain under adaptive optimization  
+
+---
+
+### Final Interpretation
+
+The PNG Energy System is therefore defined as a **multi-level, acyclic energy transformation architecture with embedded recursive optimization intelligence**, where performance emerges from controlled interaction between a directed energy backbone and a feedback-driven control system.
+
+---
+
+# 13.0 Adaptive Control Framework
+
+The Adaptive Control Framework defines the real-time regulatory mechanism of the PNG Energy System, responsible for maintaining operational stability, performance consistency, and efficiency under dynamic conditions.
+
+It operates exclusively within the control and intelligence layers (C5–C7), while the energy transformation backbone (C1–C4) remains strictly governed by the Directed Acyclic Energy Transformation structure defined in Section 11.7.
+
+This framework ensures continuous system stabilization through feedback-driven adaptation without altering the unidirectional energy flow.
+
+---
+
+## 13.1 Feedback Regulation
+
+Feedback regulation is the continuous monitoring and correction process that maintains system performance within optimal thresholds.
+
+- **C5 (Sensor Atomization Alert System):** provides real-time measurements of combustion quality, atomization behavior, and pressure dynamics  
+- **C6 (System Integration Layer):** aligns and synchronizes feedback signals across all modules  
+- **C7 (Adaptive Control Layer):** applies corrective actions based on deviation magnitude and system response  
+
+This loop ensures continuous correction of system deviations without disrupting the acyclic energy transformation chain (C1–C4).
+
+---
+
+## 13.2 Error Detection
+
+Error detection identifies deviations between actual system behavior and expected operational states.
+
+Detected deviations include:
+
+- Injection timing drift (C2 inconsistency)  
+- Atomization non-uniformity (C3 deviation)  
+- Combustion inefficiency or incomplete oxidation (C4 instability)  
+- Catalyst performance variation (C1 degradation effects)  
+- Sensor latency and signal distortion (C5 limitations)  
+- Synchronization mismatch between modules (C6 timing error)  
+
+C5 acts as the primary detection layer, while C6 validates cross-module consistency before corrective action is applied.
+
+---
+
+## 13.3 System Recalibration
+
+System recalibration is the controlled adjustment of operational parameters to restore optimal system performance.
+
+Recalibration actions include:
+
+- Adjustment of injection timing parameters (C2)  
+- Refinement of atomization pressure and spray behavior (C3)  
+- Correction of combustion timing and efficiency (C4)  
+- Optimization of catalytic activity levels (C1)  
+- Realignment of inter-module synchronization (C6)  
+- Adaptive tuning of control response sensitivity (C7)  
+
+Recalibration is iterative and continues until system deviation converges within acceptable operational limits.
+
+---
+
+## 13.4 Adaptive Response Mechanisms
+
+Adaptive response mechanisms define how the system reacts dynamically to changes in load, fuel variability, temperature variation, and operational disturbances.
+
+Key mechanisms include:
+
+- Real-time parameter ad
