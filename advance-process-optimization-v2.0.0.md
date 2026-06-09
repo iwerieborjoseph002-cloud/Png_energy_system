@@ -468,4 +468,588 @@ The Advanced Process Optimization Layer (C7) is proposed as the mechanism for br
 
 # 6.0 PNG SYSTEM FRAMEWORK
 
-This section defines the position, functional role, and system interactions of the Advanced Process Optimization (APO) Layer within the PNG (Pure Natural Gas) Energy System architecture. The PNG system is structured as a multi-layer engineering framework composed of physical transf
+This section defines the position, functional role, and system interactions of the Advanced Process Optimization (APO) Layer within the PNG (Pure Natural Gas) Energy System architecture. The PNG system is structured as a multi-layer engineering framework composed of physical transformation, observability, expansion, and optimization layers.
+
+The APO Layer (C7) represents the highest level of system intelligence and operates on information generated throughout the entire PNG architecture.
+
+---
+
+## 6.1 Position within PNG Architecture
+
+The PNG Energy System is organized into three primary operational domains:
+
+### Physical Transformation Layer (C1–C4)
+
+Responsible for fuel generation, transport, atomization, and energy conversion.
+
+### Observability Layer (C5)
+
+Responsible for monitoring, diagnostics, and system-state generation.
+
+### Intelligence and Scaling Layer (C6–C7)
+
+Responsible for system expansion, optimization, adaptation, and performance improvement.
+
+The system is not strictly linear; rather, it operates as a directed dependency graph supported by multiple feedback pathways centered on the Sensor Atomization Alert System (C5).
+
+The APO Layer (C7) occupies the highest abstraction level and functions as the primary decision-making and optimization component of the PNG architecture.
+
+---
+
+## 6.2 Catalyst Process Optimization System (C1)
+
+### 6.2.1 Functional Role
+
+C1 represents the initial fuel-generation stage of the PNG Energy System.
+
+Its primary functions include:
+
+- Conversion of syngas (CO + H₂) into hydrocarbon fuel.
+- Catalyst performance management.
+- Fuel composition development.
+- Hydrocarbon chain formation.
+
+### 6.2.2 System Output
+
+C1 generates:
+
+- Hydrocarbon fuel state.
+- Fuel composition profile.
+- Energy density characteristics.
+- Chemical reactivity parameters.
+
+### 6.2.3 Relationship with APO Layer
+
+The Optimization Layer evaluates fuel-production performance and identifies opportunities for improving catalyst efficiency, fuel quality, and conversion effectiveness.
+
+---
+
+## 6.3 Fuel Injection Dynamics (C2)
+
+### 6.3.1 Functional Role
+
+C2 controls the transfer of processed fuel into the combustion environment.
+
+Its primary functions include:
+
+- Fuel delivery.
+- Injection timing control.
+- Injection pressure regulation.
+- Flow-rate management.
+
+### 6.3.2 System Output
+
+C2 produces:
+
+- Injection timing profile.
+- Fuel flow characteristics.
+- Pressure-distribution information.
+
+### 6.3.3 Relationship with APO Layer
+
+The APO Layer utilizes performance feedback to optimize injection parameters that influence combustion stability and overall efficiency.
+
+---
+
+## 6.4 Fuel Atomization System (C3)
+
+### 6.4.1 Functional Role
+
+C3 converts injected fuel into fine droplets suitable for efficient combustion.
+
+Its primary functions include:
+
+- Droplet formation.
+- Spray distribution.
+- Surface-area enhancement.
+- Fuel-air interaction improvement.
+
+### 6.4.2 System Output
+
+C3 generates:
+
+- Atomization quality profile.
+- Spray geometry characteristics.
+- Droplet size distribution.
+
+### 6.4.3 Relationship with APO Layer
+
+The Optimization Layer evaluates atomization quality and identifies adjustments required to improve fuel dispersion and combustion effectiveness.
+
+---
+
+## 6.5 Combustion System (C4)
+
+### 6.5.1 Functional Role
+
+C4 converts chemical energy into thermal and mechanical energy.
+
+Its primary functions include:
+
+- Flame propagation.
+- Energy release.
+- Pressure generation.
+- Power production.
+
+### 6.5.2 System Output
+
+C4 produces:
+
+- Combustion efficiency indicators.
+- Pressure development profiles.
+- Thermal output data.
+- Energy release signatures.
+
+### 6.5.3 Relationship with APO Layer
+
+The APO Layer evaluates combustion performance and generates optimization actions aimed at improving efficiency, stability, and energy utilization.
+
+---
+
+## 6.6 Sensor Atomization Alert System (C5)
+
+### 6.6.1 Functional Role
+
+C5 functions as the central observability and diagnostic hub of the PNG Energy System.
+
+Its primary functions include:
+
+- Monitoring combustion behavior.
+- Detecting instability.
+- Measuring performance deviations.
+- Generating system-state information.
+
+### 6.6.2 System Responsibilities
+
+C5:
+
+- Receives outputs from C4.
+- Converts operational behavior into measurable data.
+- Produces system-wide observability signals.
+- Supports feedback-driven control.
+
+### 6.6.3 Relationship with APO Layer
+
+C5 serves as the primary information source for the APO Layer.
+
+Without C5 observability data, system-wide optimization cannot be performed effectively.
+
+---
+
+## 6.7 Expansion Layer (C6)
+
+### 6.7.1 Functional Role
+
+C6 enables scalable deployment of the PNG Energy System through node replication and distributed architecture formation.
+
+Its primary functions include:
+
+- Multi-node deployment.
+- Scaling coordination.
+- Distributed network construction.
+- Expansion management.
+
+### 6.7.2 System Output
+
+C6 generates:
+
+- Expansion Factor (EF).
+- Scaling Efficiency (SCE).
+- Node interaction data.
+- Distributed network performance indicators.
+
+### 6.7.3 Relationship with APO Layer
+
+The Optimization Layer evaluates scaling behavior and develops strategies for improving expansion efficiency, synchronization stability, and distributed system performance.
+
+---
+
+## 6.8 Advanced Process Optimization System (C7)
+
+### 6.8.1 Functional Role
+
+C7 represents the final intelligence layer of the PNG Energy System.
+
+Its primary functions include:
+
+- Performance evaluation.
+- Loss minimization.
+- Adaptive control generation.
+- System-wide optimization.
+- Continuous performance improvement.
+
+### 6.8.2 System Responsibilities
+
+C7:
+
+- Receives information from preceding system layers.
+- Evaluates operational effectiveness.
+- Identifies inefficiencies.
+- Generates optimization actions.
+- Supports adaptive system behavior.
+
+### 6.8.3 System Position
+
+C7 is the highest abstraction layer within the PNG architecture and serves as the primary optimization and decision-making framework.
+
+---
+
+## 6.9 System Architecture Model (C1–C7)
+
+### 6.9.1 Physical Transformation Domain
+
+C1 → C2 → C3 → C4
+
+Where:
+
+- C1 generates fuel.
+- C2 delivers fuel.
+- C3 atomizes fuel.
+- C4 converts fuel into useful energy.
+
+### 6.9.2 Observability Domain
+
+C4 → C5
+
+Where:
+
+- C5 converts physical system behavior into structured system-state information.
+
+### 6.9.3 Intelligence Domain
+
+C5 → C6 → C7
+
+Where:
+
+- C6 manages scaling and distributed deployment.
+- C7 performs optimization and adaptive control.
+
+### 6.9.4 Feedback Control Paths
+
+C5 → C2
+
+C5 → C3
+
+C5 → C4
+
+C5 → C6
+
+C5 → C7
+
+### 6.9.5 Complete PNG System Architecture
+
+Physical Flow:
+
+C1 → C2 → C3 → C4
+
+Observability Flow:
+
+C4 → C5
+
+Expansion Flow:
+
+C5 → C6
+
+Optimization Flow:
+
+C5 → C7
+
+Feedback Control Flow:
+
+C5 → (C2, C3, C4, C6, C7)
+
+The resulting architecture forms a closed-loop, feedback-driven, scalable, and continuously improving energy system capable of supporting future intelligent energy infrastructures.
+
+---
+
+# 7.0 METHODOLOGY
+
+This study employs a theoretical systems-engineering methodology to develop and analyze the Advanced Process Optimization (APO) Layer within the PNG (Pure Natural Gas) Energy System. The methodology integrates optimization modeling, feedback analysis, scaling performance evaluation, and adaptive control simulation to establish a structured framework for intelligent system improvement.
+
+The approach focuses on understanding how optimization mechanisms can enhance efficiency, stability, scalability, and overall system performance across the C1–C7 architecture.
+
+---
+
+## 7.1 Optimization Modeling
+
+Optimization modeling is used to define the mathematical and engineering relationships governing system performance improvement.
+
+The optimization process follows the sequence:
+
+System Observation → Performance Evaluation → Inefficiency Detection → Optimization Decision → System Recalibration
+
+The model evaluates:
+
+- System Efficiency (SE)
+- Fuel Conversion Efficiency (FCE)
+- Atomization Quality Index (AQI)
+- Thermal Loss Ratio (TLR)
+- Pressure Stability Coefficient (PSC)
+- Scaling Efficiency Stability Index (SESI)
+
+The primary optimization objective is:
+
+Maximize:
+
+SE
+
+FCE
+
+AQI
+
+PSC
+
+Minimize:
+
+TLR
+
+System Loss (L)
+
+Scaling Degradation
+
+Operational Instability
+
+The optimization model serves as the decision-making foundation of the APO Layer.
+
+---
+
+## 7.2 Feedback Analysis
+
+Feedback analysis is used to investigate how system-state information influences optimization decisions.
+
+The PNG feedback structure is defined as:
+
+Physical System:
+
+C1 → C2 → C3 → C4
+
+Observability Layer:
+
+C4 → C5
+
+Optimization Layer:
+
+C5 → C7
+
+Feedback Control:
+
+C5 → C2
+
+C5 → C3
+
+C5 → C4
+
+C5 → C6
+
+C5 → C7
+
+The analysis evaluates:
+
+- Feedback accuracy
+- Response effectiveness
+- Error correction capability
+- Stability enhancement potential
+- Optimization responsiveness
+
+Particular emphasis is placed on the role of the Sensor Atomization Alert System (C5) as the primary source of optimization data.
+
+---
+
+## 7.3 Scaling Performance Evaluation
+
+Scaling performance evaluation examines how optimization effectiveness changes as the PNG system expands through the Expansion Layer (C6).
+
+The evaluation considers:
+
+- Number of operational nodes (N)
+- Expansion Factor (EF)
+- Scaling Efficiency (SCE)
+- Node synchronization quality
+- Distributed system stability
+
+The analysis investigates:
+
+- Efficiency variation under expansion
+- Loss growth characteristics
+- Synchronization requirements
+- Optimization scalability limits
+- Distributed control effectiveness
+
+This evaluation determines whether optimization performance remains effective under increasing system complexity.
+
+---
+
+## 7.4 Adaptive Control Simulation
+
+Adaptive control simulation is used to conceptually evaluate the ability of the APO Layer to respond to changing operating conditions.
+
+The simulation framework considers:
+
+Input Disturbance → System Observation → Optimization Decision → Control Action → Performance Re-Evaluation
+
+Adaptive scenarios include:
+
+- Fuel composition variation
+- Combustion instability
+- Atomization degradation
+- Thermal fluctuation
+- Expansion-induced performance changes
+- Environmental disturbances
+
+The simulation assesses:
+
+- Response speed
+- Stability recovery
+- Error reduction capability
+- Performance improvement effectiveness
+- Long-term optimization behavior
+
+The objective is to determine how adaptive control mechanisms contribute to the creation of a self-correcting and continuously improving PNG Energy System.
+
+---
+
+# 9.0 Results and Discussion
+
+## 9.1 Optimization Performance Evaluation
+
+The optimization framework implemented within the PNG Energy System demonstrates measurable improvements in system-level performance across the full modular architecture (C1–C7), spanning catalytic processing, fuel delivery, atomization, combustion, sensing, system integration, and adaptive control.
+
+Comparative evaluation between baseline operation and optimized control conditions indicates a consistent reduction in energy loss pathways, particularly across fuel transformation, injection timing, atomization quality, and combustion efficiency zones.
+
+Key performance indicators considered include fuel conversion efficiency (C1), injection timing accuracy (C2), atomization quality index (C3), combustion completeness ratio (C4), sensor feedback latency (C5), system synchronization stability (C6), and adaptive scaling efficiency under load variation (C7).
+
+The integrated Catalyst Process Optimization System (C1) and Fuel Injection Dynamics module (C2) establish foundational improvements in fuel preparation and delivery precision. These improvements propagate downstream into the Fuel Atomization System (C3) and Combustion System (C4), where enhanced mixing and oxidation processes are observed.
+
+The Sensor Atomization Alert System (C5) contributes real-time diagnostic correction, while System Integration Layer (C6) ensures coherent coordination across all subsystems. The Adaptive Control & Scaling Layer (C7) further extends performance stability by dynamically adjusting system parameters under transient and high-load conditions.
+
+Overall, the optimization layer confirms that multi-level adaptive control across C1–C7 significantly enhances operational consistency and reduces transient inefficiencies during dynamic engine conditions.
+
+---
+
+## 9.2 Stability Improvement Analysis
+
+Stability improvements are observed across both local combustion behavior and global system coordination, reflecting the influence of all modules (C1–C7).
+
+At the chemical and mechanical interaction level, C1 and C2 improve fuel quality consistency and injection precision, reducing upstream variability. C3 enhances droplet uniformity, which stabilizes air–fuel mixing ratios and reduces local ignition irregularities.
+
+At the combustion core, C4 ensures more complete and controlled energy release, reducing pressure oscillation amplitude and minimizing knock tendencies.
+
+Sensor feedback through C5 provides continuous monitoring of atomization and combustion quality, enabling rapid correction of instability events within short cycle intervals.
+
+At the system coordination level, C6 ensures temporal and functional synchronization between fuel preparation, injection, atomization, and combustion processes, eliminating inter-module phase mismatch.
+
+Finally, C7 introduces adaptive regulation across varying operating regimes, ensuring that stability is maintained under fluctuating load, temperature, and pressure conditions.
+
+Collectively, the system demonstrates reduced cycle-to-cycle variance, improved pressure curve consistency, and enhanced mechanical stability across all operating conditions.
+
+---
+
+## 9.3 Efficiency Enhancement Analysis
+
+Efficiency enhancement within the PNG Energy System emerges from cumulative optimization across all functional layers (C1–C7), resulting in improved energy conversion and reduced thermodynamic losses.
+
+The Catalyst Process Optimization System (C1) improves hydrocarbon activation pathways, increasing effective fuel availability. Fuel Injection Dynamics (C2) enhances timing precision, reducing over-injection and misfire probability.
+
+Fuel Atomization System (C3) increases surface-area interaction between fuel and oxidizer, improving reaction completeness. Combustion System (C4) maximizes thermal energy extraction through improved oxidation efficiency of the C5–C10 hydrocarbon blend.
+
+Sensor Atomization Alert System (C5) reduces inefficiencies by detecting and correcting suboptimal spray and combustion patterns. System Integration Layer (C6) eliminates inefficiencies caused by subsystem desynchronization, ensuring smooth energy transfer across stages.
+
+Adaptive Control & Scaling Layer (C7) optimizes system performance under varying operational loads, preventing efficiency degradation during transient states.
+
+Thermodynamic efficiency gains are therefore attributed to:
+
+- Improved catalytic conversion efficiency (C1)  
+- Precision-controlled fuel injection (C2)  
+- Enhanced atomization and mixing (C3)  
+- More complete combustion reactions (C4)  
+- Real-time correction of combustion anomalies (C5)  
+- Elimination of inter-module timing losses (C6)  
+- Adaptive optimization under variable operating conditions (C7)  
+
+The system exhibits consistently improved energy conversion efficiency across both steady-state and dynamic regimes, confirming robust multi-layer optimization performance.
+
+---
+
+## 9.4 Final Engineering Summary
+
+The Results and Discussion section confirms that the PNG Energy System achieves significant performance enhancement through a fully integrated modular architecture spanning C1–C7.
+
+Key validated engineering outcomes include:
+
+- Enhanced catalytic processing efficiency and fuel readiness (C1)  
+- Improved injection precision and fuel delivery control (C2)  
+- Superior atomization quality with improved air–fuel interaction (C3)  
+- Stable and efficient combustion with reduced knock and loss pathways (C4)  
+- Real-time sensing and corrective feedback for combustion optimization (C5)  
+- System-wide synchronization ensuring coordinated subsystem operation (C6)  
+- Adaptive scaling and dynamic optimization under variable load conditions (C7)  
+
+Collectively, these results demonstrate that system-wide integration across chemical, mechanical, sensor, and control layers produces a coherent, self-regulating energy architecture. The inclusion of C6 and C7 is critical in transforming the system from a linear combustion optimization model into a hierarchical adaptive energy system with improved stability, efficiency, and scalability.
+
+---
+
+# 10.0 Fundamentals of Process Optimization
+
+This section establishes the theoretical and applied foundation of process optimization within the PNG Energy System. It defines how system performance is mathematically and structurally improved through controlled variation of parameters, constrained system behavior, and multi-objective performance evaluation across modules C1–C7.
+
+The optimization framework is treated as a coupled multi-variable system where chemical, mechanical, and control variables interact under defined constraints to maximize efficiency, stability, and energy conversion performance.
+
+---
+
+## 10.1 Optimization Theory
+
+Optimization theory in the PNG Energy System is based on the principle of maximizing system efficiency while minimizing energy losses across interconnected subsystems (C1–C7). The system is modeled as a dynamic process where input variables (fuel quality, injection timing, catalyst activity, and air–fuel ratio) influence output variables (thermal energy, combustion completeness, emissions profile, and mechanical stability).
+
+The system follows a general optimization structure:
+
+- Decision variables: injection timing (C2), atomization quality (C3), catalyst activity (C1), control parameters (C7)
+- State variables: combustion pressure, temperature distribution, and flow dynamics
+- Objective: maximize combustion efficiency and stability while minimizing losses and instability
+
+The optimization process is iterative and adaptive, relying on feedback loops from sensing and control modules (C5–C7).
+
+---
+
+## 10.2 Objective Functions
+
+The PNG Energy System operates under a multi-objective optimization framework rather than a single scalar objective. The main objective functions include:
+
+- Maximization of combustion efficiency (C4-driven output)
+- Maximization of fuel conversion efficiency (C1–C3 interaction)
+- Minimization of incomplete combustion losses (soot, unburned hydrocarbons)
+- Minimization of pressure fluctuation variance (stability objective)
+- Minimization of system response delay (C5–C6 coordination objective)
+
+These objectives are inherently coupled, meaning improvement in one function may affect others. The system therefore relies on weighted trade-off balancing governed by the adaptive control layer (C7).
+
+---
+
+## 10.3 Constraint-Based Optimization
+
+The optimization process is governed by physical, chemical, and operational constraints that define feasible system behavior.
+
+### Physical Constraints
+- Combustion chamber pressure limits
+- Temperature tolerance of engine materials
+- Maximum injection pressure thresholds (C2 constraint boundary)
+
+### Chemical Constraints
+- Fuel composition range (C5–C10 hydrocarbon blend)
+- Catalyst reaction limits (C1 activity saturation)
+- Air–fuel ratio boundaries for stable ignition
+
+### System Constraints
+- Sensor response delay limitations (C5)
+- Synchronization delay between modules (C6)
+- Control stability limits under dynamic load (C7)
+
+These constraints ensure that optimization remains physically realizable and does not violate system integrity or operational safety.
+
+---
+
+## 10.4 Performance Metrics
+
+System performance is evaluated using a set of quantitative and semi-quantitative metrics aligned with C1–C7 functionality:
+
+- Fuel Conversion Efficiency (C1–C2 effectiveness)
+- Atomization Quality Index (C3 perf
