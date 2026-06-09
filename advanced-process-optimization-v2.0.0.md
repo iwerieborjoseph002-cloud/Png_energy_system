@@ -2684,7 +2684,7 @@ This section defines the graphical representation of the PNG (Pure Natural Gas) 
 
 ## Figure 23.1 Optimization Layer Architecture
 
-Figure 23.1: Optimization layer architecture — 2bcdf86639a90fc422391d0cf7556021dd3e528e84452033dc299db59577baa5.png
+![Figure 23.1: Optimization layer architecture](2bcdf86639a90fc422391d0cf7556021dd3e528e84452033dc299db59577baa5.png)
 
 Figure 23.1 represents the hierarchical optimization structure of the PNG Energy System, showing how optimization is distributed across multiple layers of system operation.
 
