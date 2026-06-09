@@ -2550,6 +2550,154 @@ Collectively, these advancements aim to transform the PNG Energy System into a f
 
 ---
 
+# 22.0 System References and Module Linkages
+
+## 22.1 Core Module Dependencies
+
+The PNG Energy System core architecture is defined by two primary dependency chains:
+
+- C1 → C2 → C3 → C4 → Output (Energy Transformation Backbone)  
+- C5 → C6 → C7 (Control and Optimization Backbone)  
+
+These dependencies are structurally defined in:
+
+- Section 11.0 –11.7 (System Architecture Definition)  
+- Section 17.1 (Physical Flow Dependency Chain)  
+- Section 13.1–13.5 (Adaptive Control Framework)  
+
+The energy backbone (C1–C4) remains strictly unidirectional, while the control backbone (C5–C7) operates as a recursive regulation system.
+
+### Module Repository Links
+
+- [C1 - Catalyst Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C1_Catalyst_Process_Optimization)  
+- [C2 - Fuel Injection Dynamics](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C2_Fuel_Injection_Dynamics)  
+- [C3 - Fuel Atomization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C3_Fuel_Atomization_System)  
+- [C4 - Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/tree/main/C4_Combustion_System)  
+- [C5 - Sensor Atomization Alert System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C5_Sensor_Atomization_Alert_System)  
+- [C6 - Expansion Layer System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C6_Expansion_Layer)  
+- [C7 - Advanced Process Optimization System](https://github.com/iwerieborerjoseph002-cloud/Png_energy_system/tree/main/C7_Advanced_Process_Optimization)
+
+---
+
+## 22.2 Optimization Layer Dependencies
+
+The optimization structure operates across three hierarchical levels:
+
+- Local Optimization: C1–C7 internal parameter tuning  
+- System Optimization: inter-module coordination between C5 and C6  
+- Global Optimization: system-wide efficiency regulation via C7  
+
+These are defined across:
+
+- Section 12.1–12.3 (Multi-Level Optimization Framework)  
+- Section 13.3–13.5 (System Recalibration and Stability Compensation)  
+- Section 16.1–16.5 (Energy Loss Minimization Framework)  
+
+Optimization does not alter energy directionality but modifies control variables within the C5–C7 domain.
+
+---
+
+## 22.3 Cross-System Interaction Map
+
+The interaction structure of the PNG Energy System is defined by directed coupling dependencies:
+
+- C1 → C2: catalyst - injection coupling  
+- C2 → C3: injection - atomization coupling  
+- C3 → C4: atomization - combustion coupling
+
+Control interactions:
+
+- C5 → C6 → C7: sensing → synchronization → adaptive control  
+- C7 → C2–C4: corrective adjustment pathway (control-only influence)  
+
+These interactions are defined in:
+
+- Section 15.5 (Multi-Node Optimization Mathematics)  
+- Section 17.2–17.4 (Sensor and Expansion Integration)  
+- Section 13.1–13.4 (Feedback and Adaptive Response)  
+
+---
+
+## 22.4 Feedback Loop Structure
+
+The system feedback loop operates as:
+
+C5 → C6 → C7 → (C2–C4 adjustment) → C5  
+
+This defines a continuous closed-loop control cycle that operates independently of the acyclic energy transformation backbone (C1–C4).
+
+The feedback structure is defined in:
+
+- Section 13.1 (Feedback Regulation)  
+- Section 14.5 (Scaling Performance Metrics)  
+- Section 17.4–17.5 (Optimization Feedback and Closed-Loop Control)  
+
+---
+
+## 22.5 PNG v2.0.0 Module Linkage Reference
+
+The full system structure is composed of interconnected layers:
+
+### Foundational Layer
+- Sections 10.0–11.0 (Optimization Theory and System Architecture)
+
+### Control Layer
+- Sections 12.0–13.0 (Optimization Framework and Adaptive Control)
+
+### Performance Layer
+- Sections 14.0–16.0 (Evaluation, Loss Minimization, Numerical Modeling)
+
+### Integration Layer
+- Sections 17.0–18.0 (Expansion Systems and Engineering Applications)
+
+### Constraint Layer
+- Section 19.0 (Limitations and Assumptions)
+
+### Conclusion Layer
+- Section 20.0 (System Summary and Engineering Insight)
+
+### Evolution Layer
+- Section 21.0 (Future Development Pathways)
+
+---
+
+The PNG Energy System v2.0.0 is therefore fully defined as a layered architecture consisting of:
+
+- C1–C4: Acyclic energy transformation backbone  
+- C5–C7: Recursive control and optimization backbone  
+
+All system modules operate within this structural boundary as defined in Section 11.0–11.7.
+
+---
+
+# 23.0 Figures and System Diagrams
+
+This section defines the graphical representation of the PNG (Pure Natural Gas) Energy System v2.0.0 architecture, focusing on structural visualization of optimization, control, and feedback mechanisms across the C1–C7 framework.
+
+---
+
+## Figure 23.1 Optimization Layer Architecture
+
+Figure 23.1 represents the hierarchical optimization structure of the PNG Energy System, showing how optimization is distributed across multiple layers of system operation.
+
+The architecture is structured into three primary optimization levels:
+
+- Local Optimization Layer (C1–C7 internal parameter tuning)  
+- System Optimization Layer (C5–C6 coordination and synchronization)  
+- Global Optimization Layer (C7 system-wide efficiency control)  
+
+This figure illustrates how optimization does not exist as a single module but is embedded across the entire system architecture, with C7 acting as the highest-level control intelligence governing global performance adjustment.
+
+The diagram further shows the interaction between:
+
+- Physical transformation backbone (C1 → C2 → C3 → C4)  
+- Observability layer (C5)  
+- Expansion interface (C6)  
+- Global optimization controller (C7)  
+
+---
+
+
 
 
 
