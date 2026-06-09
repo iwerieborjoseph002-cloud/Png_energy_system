@@ -1379,7 +1379,7 @@ The Expansion Layer depends on the full PNG system architecture:
 
 - [C6 – Expansion Layer (Current Module)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md)
 
-- [C7 – Advanced Process Optimization System v1.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/advanced-process-optimization.md)
+- [C7 – Advanced Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/c16a5b069548d38f4db604b3db596d0699d22eab/advanced-process-optimization-v2.0.0.md)
 
 ---
 
