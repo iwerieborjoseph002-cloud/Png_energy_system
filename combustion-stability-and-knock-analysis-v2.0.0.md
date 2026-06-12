@@ -2538,7 +2538,7 @@ Efficiency Output = h(C6 → C7)
 
 ---
 
-## 23.6 Engineering Interpretation (Corrected)
+## 23.6 Engineering Interpretation 
 
 The PNG Energy System is a **directed energy transformation chain with embedded physical observability**:
 
@@ -2550,7 +2550,7 @@ Apparent coupling effects arise from **shared physical causality**, not bidirect
 
 ---
 
-## 23.7 Final Integration Statement (Corrected)
+## 23.7 Final Integration Statement 
 
 System optimization is achieved through upstream parameter tuning along a single causal path:
 
