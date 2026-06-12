@@ -2470,6 +2470,84 @@ Each module functions as:
 - a downstream response of previous layers
 - an upstream controller of subsequent layers
 
+## 23.3 Cross-Module Functional Dependencies
+
+The PNG Energy System operates under a strict unidirectional causal architecture:
+
+C1 → C2 → C3 → C4 → C5 → C6 → C7
+
+Apparent bidirectional relationships observed in physical behavior are not structural feedback loops, but **output sensitivity effects**, where downstream states reflect upstream parameter changes.
+
+---
+
+### Dependency Mapping
+
+- Catalyst Process Optimization influences Combustion Stability through fuel reactivity characteristics.
+- Fuel Injection Dynamics influences Knock Formation through timing and fuel delivery structure.
+- Fuel Atomization influences Flame Propagation through mixture formation quality.
+- Pressure Wave Dynamics reflects Combustion Stability outcomes.
+- Flame Propagation reflects Knock Formation tendencies as a response signature.
+
+These relationships represent **forward-propagated response dependencies**, not reverse control loops.
+
+---
+
+## 23.4 System Interaction Architecture
+
+The PNG Energy System does not implement feedback control loops.
+
+Instead, it exhibits **forward-propagated state sensitivity**, where downstream modules encode the physical consequences of upstream conditions.
+
+### Module Roles
+
+- Catalyst Process Optimization defines fuel chemical reactivity characteristics.
+- Fuel Injection Dynamics defines spatial and temporal fuel delivery.
+- Fuel Atomization defines droplet distribution and mixture preparation quality.
+- Combustion System defines ignition and energy release dynamics.
+- Pressure Wave Dynamics encodes combustion response signatures.
+- Expansion Layer converts pressure energy into useful work output.
+- System Efficiency Output evaluates overall energy utilization performance.
+
+---
+
+## 23.5 Unified System Representation
+
+The system is expressed as a nested causal transformation:
+
+Combustion Output = f(C1 → C2 → C3 → C4)
+
+System State Signature = g(C5 | C1–C4 history)
+
+Efficiency Output = h(C6 → C7)
+
+where:
+
+- f represents the physical transformation operator.
+- g represents the observability and state-mapping operator.
+- h represents the efficiency evaluation operator.
+
+---
+
+## 23.6 Engineering Interpretation
+
+The PNG Energy System is a directed energy transformation chain with embedded physical observability:
+
+- C1–C4: Physical Transformation Domain
+- C5: Observability Domain
+- C6–C7: Expansion and Efficiency Evaluation Domain
+
+Apparent coupling effects arise from **shared physical causality**, not bidirectional control.
+
+---
+
+## 23.7 Final Integration Statement
+
+System optimization is achieved through upstream parameter tuning along a single causal path:
+
+C1 → C2 → C3 → C4 → C5 → C6 → C7
+
+All cross-module dependencies are interpreted as **forward-propagated physical effects**, not feedback loops or bidirectional control structures.
+
 ---
 
 ## 24.0 Theoretical Foundations and Engineering References (Combustion Stability and Knock Analysis Scope)
