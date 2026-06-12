@@ -1720,33 +1720,67 @@ This module is part of the PNG (Pure Natural Gas) Energy System v2.0.0 architect
 
 ---
 
-### 21.1 Upstream Module Reference
+## 21.0 System Reference and Interface Layer (v2.0.0)
 
-- Catalyst Process Optimization (v2.0.0)  
+This section defines supporting upstream and interface modules that influence or contextualize the core PNG Energy System architecture (C1–C7). It does not redefine system structure but provides interpretive and dependency context.
+
+---
+
+## 21.1 Upstream Module Reference
+
+### Catalyst Process Optimization (v2.0.0)
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization-v2.0.0.md  
 
-This module defines the syngas composition and hydrocarbon formation characteristics that directly influence fuel injection behavior.
+This module defines syngas composition and hydrocarbon formation characteristics that determine downstream fuel reactivity and influence fuel injection dynamics.
 
 ---
 
-### 21.2 Parallel Module Reference
+## 21.2 Downstream Interface Module Reference
 
-- Fuel Atomization Dynamics (v2.0.0)  
+### Fuel Atomization Dynamics (v2.0.0)
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md  
 
-This module describes the downstream breakup, spray formation, and droplet dynamics that are directly driven by injection conditions.
+This module describes spray breakup, droplet formation, and atomization behavior that are directly dependent on fuel injection conditions.
 
 ---
 
-### 21.3 System Architecture Relationship
+## 21.3 Core Module Linkage (C1–C7 System Architecture)
 
-PNG Energy System Flow:
+- C1 – Catalyst Process Optimization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/catalyst-process-optimization-v2.0.0.md  
 
-Catalyst Process Optimization → Fuel Formation → Fuel Injection Dynamics → Fuel Atomization → Combustion → Energy Output
+- C2 – Fuel Injection Dynamics  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-injection-dynamics-v2.0.0.md  
+
+- C3 – Fuel Atomization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md  
+
+- C4 – Combustion Stability & Knock Analysis  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md  
+
+- C5 – Sensor Atomization Alert System (Observability Core)  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md  
+
+- C6 – Expansion Layer  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md  
+
+- C7 – Advanced Process Optimization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/c16a5b069548d38f4db604b3db596d0699d22eab/advanced-process-optimization-v2.0.0.md  
 
 ---
 
-### 21.4 External System Linkage
+## 21.4 System Architecture Flow
+
+Catalyst Process Optimization  
+→ Fuel Formation  
+→ Fuel Injection Dynamics  
+→ Fuel Atomization  
+→ Combustion Stability  
+→ Energy Output  
+
+---
+
+## 21.5 External System Linkage
 
 - Full PNG Energy System Repository  
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system  
@@ -1756,9 +1790,13 @@ https://github.com/iwerieborjoseph002-cloud
 
 ---
 
-### 21.5 Engineering Interpretation
+## 21.6 Engineering Interpretation
 
-These modules collectively form a coupled multi-stage energy conversion system. Fuel injection acts as the intermediate boundary condition layer that translates catalytic fuel formation outputs into atomization-ready spray structures for combustion systems.
+The PNG Energy System operates as a coupled multi-stage energy conversion architecture.
+
+Catalyst optimization defines fuel composition at the molecular level. Fuel injection translates chemical properties into controlled physical delivery conditions. Atomization governs droplet-scale dispersion and mixing efficiency. Combustion stability evaluates thermo-kinetic energy release behavior.
+
+Each stage functions as a boundary-conditioned transformation layer, where the output of one module defines the initial conditions of the next. The system is strictly feedforward in physical causality, with downstream modules serving as observability and performance evaluation layers rather than causal feedback controllers.
 
 ---
 
