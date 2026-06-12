@@ -2476,30 +2476,38 @@ Each module functions as:
 
 ### Catalyst Process Optimization v2.0.0
 
-- Determines hydrocarbon molecular structure.
-- Defines fuel reactivity and energy density.
-- Influences injection behavior and timing response.
-- Governs atomization efficiency and spray formation.
-- Controls ignition delay and flame propagation stability.
-- Determines pressure wave formation and knock severity.
-- Defines combustion stability behavior.
-- Influences total system energy efficiency and losses.
+- Determines hydrocarbon molecular structure  
+- Defines fuel reactivity and energy density  
+- Influences injection behavior and timing response  
+- Governs atomization efficiency and spray formation  
+- Controls ignition delay and flame propagation stability  
+- Determines pressure wave formation and knock severity  
+- Defines combustion stability behavior  
+- Influences total system energy efficiency and losses  
 
 ---
 
 ### Dependency Sequence
 
-```text
-Catalyst Process Optimization
-→ Hydrocarbon Molecular Structure
-→ Fuel Reactivity & Energy Density
-→ Injection Behavior & Timing Response
-→ Atomization Efficiency & Spray Formation
-→ Ignition Delay & Flame Propagation Stability
-→ Pressure Wave Formation & Knock Severity
-→ Combustion Stability
-→ System Energy Efficiency & Losses
-```
+Catalyst Process Optimization  
+Hydrocarbon Molecular Structure  
+Fuel Reactivity and Energy Density  
+Injection Behavior and Timing Response  
+Atomization Efficiency and Spray Formation  
+Ignition Delay and Flame Propagation Stability  
+Pressure Wave Formation and Knock Severity  
+Combustion Stability  
+System Energy Efficiency and Losses  
+
+---
+
+### Engineering Interpretation
+
+The Catalyst Process Optimization module acts as the primary upstream dependency source within the PNG Energy System.
+
+Each stage represents a sequential causal transformation where outputs from one layer become the defining input conditions for the next layer.
+
+The system is strictly unidirectional, with no feedback loops or reverse coupling between modules.
 
 ---
 
