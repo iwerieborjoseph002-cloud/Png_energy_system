@@ -1294,13 +1294,53 @@ Therefore, optimization must begin at the catalytic layer.
 
 ---
 
-### 15.6 Internal Reference (PNG System Architecture)
+## 15.6 Internal Reference (PNG System Architecture)
 
-This module is functionally linked to:
+This module is functionally linked to downstream fuel preparation and combustion processes within the PNG Energy System. It operates as part of a sequential dependency chain where upstream catalyst optimization defines fuel composition, which subsequently influences injection, atomization, and combustion stability behavior.
 
-- [Fuel Atomization in Internal Combustion Engines (v2.0.0)](fuel-atomization-v2.0.0.md)
+---
 
-This relationship defines the downstream dependency where catalyst optimization influences fuel properties, which subsequently affect atomization quality and combustion performance within the PNG Energy System.
+## 15.7 Functional Dependency Reference
+
+### Fuel Atomization in Internal Combustion Engines (v2.0.0)
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md  
+
+This relationship defines a downstream dependency where catalyst optimization influences fuel molecular structure and reactivity, which directly affects atomization quality, spray formation, and combustion efficiency within the PNG Energy System.
+
+---
+
+## 15.8 Core PNG System Architecture (C1–C7 Modules)
+
+- C1 – Catalyst Process Optimization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/catalyst-process-optimization-v2.0.0.md  
+
+- C2 – Fuel Injection Dynamics  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-injection-dynamics-v2.0.0.md  
+
+- C3 – Fuel Atomization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md  
+
+- C4 – Combustion Stability & Knock Analysis  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md  
+
+- C5 – Sensor Atomization Alert System (Observability Core)  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md  
+
+- C6 – Expansion Layer  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md  
+
+- C7 – Advanced Process Optimization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/c16a5b069548d38f4db604b3db596d0699d22eab/advanced-process-optimization-v2.0.0.md  
+
+---
+
+## 15.9 System-Level Interpretation
+
+The PNG Energy System operates as a structured multi-stage energy conversion architecture.
+
+Catalyst Process Optimization defines fuel composition and reactivity at the molecular level. Fuel Injection Dynamics translates these properties into controlled delivery conditions. Fuel Atomization governs droplet dispersion and mixing efficiency. Combustion Stability evaluates thermo-kinetic energy release behavior and knock formation characteristics.
+
+Each module functions as a boundary-conditioned transformation layer in a strictly feedforward system. The output of each stage defines the initial conditions of the subsequent stage, while downstream modules operate as observational and diagnostic layers without causal feedback into upstream physical processes.
 
 ---
 
