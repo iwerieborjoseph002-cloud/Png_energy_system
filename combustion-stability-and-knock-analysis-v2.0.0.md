@@ -2470,6 +2470,39 @@ Each module functions as:
 - a downstream response of previous layers
 - an upstream controller of subsequent layers
 
+---
+
+## 23.2 Extended Module Dependency Chain
+
+### Catalyst Process Optimization v2.0.0
+
+- Determines hydrocarbon molecular structure.
+- Defines fuel reactivity and energy density.
+- Influences injection behavior and timing response.
+- Governs atomization efficiency and spray formation.
+- Controls ignition delay and flame propagation stability.
+- Determines pressure wave formation and knock severity.
+- Defines combustion stability behavior.
+- Influences total system energy efficiency and losses.
+
+---
+
+### Dependency Sequence
+
+```text
+Catalyst Process Optimization
+→ Hydrocarbon Molecular Structure
+→ Fuel Reactivity & Energy Density
+→ Injection Behavior & Timing Response
+→ Atomization Efficiency & Spray Formation
+→ Ignition Delay & Flame Propagation Stability
+→ Pressure Wave Formation & Knock Severity
+→ Combustion Stability
+→ System Energy Efficiency & Losses
+```
+
+---
+
 ## 23.3 Cross-Module Functional Dependencies
 
 The PNG Energy System operates under a strict unidirectional causal architecture:
