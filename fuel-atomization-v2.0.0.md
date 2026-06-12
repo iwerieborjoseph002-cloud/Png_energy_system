@@ -1066,54 +1066,90 @@ Future development of this module within the PNG Energy System will focus on:
 
 ## 20.0 External Integration and Knowledge Dissemination
 
-### 20.1 Knowledge Hierarchy within the PNG System
-This study represents a structured and detailed engineering-level development of fuel atomization within the PNG Energy System framework. The content presented in this paper forms the primary technical model, incorporating governing principles, mathematical formulations, and system-level interactions.
+## 20.1 Technical Scope and System Positioning
 
-External publications associated with this work serve as simplified dissemination outputs designed for broader accessibility rather than advanced technical depth.
+This study represents a structured engineering-level development of the Fuel Atomization module within the PNG Energy System framework. It defines the primary technical model, including governing principles, system interactions, and mechanistic behavior governing atomization processes.
 
----
-
-### 20.2 Role of External Blog Documentation
-The associated blog material provides a simplified overview of fuel atomization concepts, focusing on general principles such as spray formation, combustion performance, and basic engineering interpretation.
-
-While it supports knowledge dissemination, it does not contain the full mathematical, system-level, or mechanistic depth presented in this study.
+The document serves as the core technical reference for this module, incorporating system-level relationships, physical modeling considerations, and performance-dependent combustion interactions.
 
 ---
 
-### 20.3 System Integration Context (PNG Framework)
-Within the broader PNG Energy System architecture, fuel atomization is interconnected with other functional modules such as:
+## 20.2 External Knowledge Dissemination Layer
+
+External publications associated with this work serve as simplified dissemination outputs intended for broader accessibility.
+
+These materials focus on general engineering concepts such as spray formation, combustion behavior, and qualitative system interpretation. They do not contain full mathematical formulations, detailed mechanistic derivations, or system-level coupling models presented in this study.
+
+---
+
+## 20.3 System Integration within PNG Architecture
+
+Within the PNG Energy System architecture, fuel atomization operates as an intermediate transformation stage between fuel preparation and combustion processes.
+
+It is functionally coupled with:
 
 - Fuel Injection Dynamics  
 - Catalyst Process Optimization  
 
-These modules collectively define the progression of fuel processing, atomization behavior, and combustion performance within the system.
+These modules collectively define the progression from molecular fuel formation to spray dispersion, mixture preparation, and combustion stability behavior.
 
 ---
 
-### 20.4 External Reference (Supplementary Access)
+## 20.4 External References and Archival Records
 
-Supplementary resources related to this study are available at:
+Supplementary resources related to this study are provided for documentation and archival purposes:
 
-- Blog Overview:
-  https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html
+### Blog-Based Educational Overview
+https://iwerieborjoseph.blogspot.com/2026/04/fuel-atomization-principles-performance.html  
 
-- Zenodo Research Record:
-  https://zenodo.org/records/20056957
+This resource provides simplified conceptual explanations intended for general understanding and educational dissemination.
 
-The blog resource is intended for general understanding and accessibility, while the Zenodo record provides the archived research version associated with this work. The present document contains the detailed engineering formulation, system-level analysis, and technical development of the fuel atomization module within the PNG Energy System framework.
+### Zenodo Archival Record
+https://zenodo.org/records/20056957  
+
+This record serves as a permanent archived version of the research output associated with this module.
+
+The present document contains the complete engineering formulation, system-level analysis, and technical development of the Fuel Atomization module within the PNG Energy System framework.
 
 ---
 
-### 20.5 Engineering Note on Documentation Strategy
+## 20.5 Core PNG System Architecture (C1–C7 Modules)
 
-This multi-layer documentation approach distinguishes between:
+- C1 – Catalyst Process Optimization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/catalyst-process-optimization-v2.0.0.md  
 
-- Core technical research (this paper)
-- Archived research records (Zenodo)
-- System architecture development (PNG framework)
-- Public-facing simplified knowledge dissemination (blog content)
+- C2 – Fuel Injection Dynamics  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-injection-dynamics-v2.0.0.md  
 
-This structure ensures clarity between advanced engineering development, archived scholarly documentation, and accessible educational communication.
+- C3 – Fuel Atomization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md  
+
+- C4 – Combustion Stability & Knock Analysis  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md  
+
+- C5 – Sensor Atomization Alert System (Observability Core)  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md  
+
+- C6 – Expansion Layer  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md  
+
+- C7 – Advanced Process Optimization System  
+https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/c16a5b069548d38f4db604b3db596d0699d22eab/advanced-process-optimization-v2.0.0.md  
+
+---
+
+## 20.6 Documentation Strategy and Structural Hierarchy
+
+This documentation framework establishes a multi-layer communication structure separating technical depth, archival records, system architecture, and public dissemination.
+
+It distinguishes between:
+
+- Core engineering research (this document)
+- Archived scholarly records (Zenodo)
+- System architecture implementation (PNG Energy System modules)
+- Public-facing educational content (blog publications)
+
+This separation ensures clarity between advanced engineering formulation, reproducible research documentation, and simplified knowledge dissemination.
 
 ---
 
