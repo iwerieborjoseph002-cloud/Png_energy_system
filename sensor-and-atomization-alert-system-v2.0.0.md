@@ -2434,26 +2434,19 @@ Where:
 
 ## 23.2 Module Linkage Architecture (v2.0.0 – Corrected System Relationships)
 
-### C1 - Catalyst Process Optimization  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization-v2.0.0.md  
+- [C1 – Catalyst Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/catalyst-process-optimization-v2.0.0.md)
 
-### C2 - Fuel Injection Dynamics  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics-v2.0.0.md  
+- [C2 – Fuel Injection Dynamics](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-injection-dynamics-v2.0.0.md)
 
-### C3 - Fuel Atomization  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md  
+- [C3 – Fuel Atomization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/fuel-atomization-v2.0.0.md)
 
-### C4 - Combustion Stability & Knock Analysis  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combustion-stability-and-knock-analysis-v2.0.0.md  
+- [C4 – Combustion System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/f855d27e4000f5ca97e428e42d50978bcbaf446c/combustion-stability-and-knock-analysis-v2.0.0.md)
 
-### C5 - Sensor & Diagnostic System  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-atomization-alert-system.md  
+- [C5 – Sensor Atomization Alert System (Observability Core)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/sensor-and-atomization-alert-system-v2.0.0.md)
 
-### C6 - Expansion Layer  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/system-level-expansion-framework.md  
+- [C6 – Expansion Layer (Current Module)](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/5fe6a422202c7f106b5b405cbc4020433a5a1066/system-level-expansion-framework-v2.0.0.md)
 
-### C7 - Advanced Process Optimization  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/advanced-process-optimization.md
+- [C7 – Advanced Process Optimization System](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/c16a5b069548d38f4db604b3db596d0699d22eab/advanced-process-optimization-v2.0.0.md)
 
 ---
 
