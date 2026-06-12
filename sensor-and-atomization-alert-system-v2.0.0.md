@@ -2432,7 +2432,7 @@ Where:
 
 ---
 
-## 23.2 Module Linkage (v2.0.0 Corrected References)
+## 23.2 Module Linkage Architecture (v2.0.0 – Corrected System Relationships)
 
 ### C1 - Catalyst Process Optimization  
 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization-v2.0.0.md  
