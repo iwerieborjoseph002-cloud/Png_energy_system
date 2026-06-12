@@ -2486,75 +2486,77 @@ Catalyst Process Optimization v2.0.0
 
 ---
 
-## 23.3 Cross-Module Functional Linkages
+## 23.3 Cross-Module Functional Dependencies 
 
-The PNG system exhibits strong bidirectional coupling between modules:
+The PNG Energy System operates under a strict unidirectional causal architecture:
 
-- [Catalyst Process Optimization v2.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization-v2.0.0.md) ↔ Combustion Stability  
-- [Fuel Injection Dynamics v2.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics-v2.0.0.md) ↔ Knock Formation  
-- [Fuel Atomization v2.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md) ↔ Flame Propagation  
-- Pressure Wave Dynamics ↔ Combustion Stability  
-- Flame Propagation ↔ Knock Formation  
+C1 → C2 → C3 → C4 → C5 → C6 → C7
 
-These interactions introduce nonlinear system behavior and feedback coupling effects.
+Apparent bidirectional relationships observed in physical behavior are not structural feedback loops, but **output sensitivity effects**, where downstream states reflect upstream parameter changes.
 
 ---
 
-## 23.4 System Feedback Architecture
+### Dependency Mapping
 
-The PNG Energy System includes internal feedback loops:
+- Catalyst Process Optimization → influences Combustion Stability via fuel reactivity profile
+- Fuel Injection Dynamics → influences Knock Formation via timing and delivery structure
+- Fuel Atomization → influences Flame Propagation via mixture quality
+- Pressure Wave Dynamics → reflects Combustion Stability outcomes
+- Flame Propagation → reflects Knock tendency as a response signature
 
-Catalyst Feedback:
-- combustion efficiency informs fuel composition adjustment
-- knock tendency influences catalyst selectivity targets
-
-Injection Feedback:
-- pressure rise rate adjusts injection timing calibration
-- combustion delay modifies fuel delivery strategies
-
-Atomization Feedback:
-- mixture quality influences spray design parameters
-- flame stability affects droplet size optimization
+These are **response dependencies, not reverse control loops**.
 
 ---
 
-## 23.5 Unified System Representation
+## 23.4 System Interaction Architecture 
 
-The full system can be expressed as:
+The PNG Energy System does not implement feedback control loops.
 
-Combustion Output = f(
-[Catalyst Process Optimization v2.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization-v2.0.0.md),
-[Fuel Injection Dynamics v2.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics-v2.0.0.md),
-[Fuel Atomization v2.0.0](https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-atomization-v2.0.0.md),
-Combustion Physics,
-Pressure Wave Dynamics
-)
+Instead, it exhibits **forward-propagated state sensitivity**, where downstream modules encode the physical consequences of upstream conditions.
 
----
+### Module Roles:
 
-## 23.6 Engineering Interpretation
-
-The PNG Energy System behaves as a tightly coupled multi-domain energy conversion architecture where:
-
-- Catalyst defines chemical fuel structure
-- Injection defines temporal and spatial delivery
-- Atomization defines mixture formation quality
-- Combustion defines energy release dynamics
-
-System performance is an emergent property of these interacting layers.
+- Catalyst defines fuel chemical reactivity baseline  
+- Injection defines spatial and temporal delivery profile  
+- Atomization defines droplet distribution and mixture quality  
+- Combustion defines energy release dynamics  
+- Pressure dynamics encode system response signature  
+- Flame propagation reflects combustion outcome behavior  
+- Knock formation emerges as a downstream instability indicator  
 
 ---
 
-## 23.7 Final Integration Statement
+## 23.5 Unified System Representation (Corrected)
 
-True system optimization requires simultaneous tuning of:
+The system is expressed as a nested causal transformation:
 
-- catalyst chemistry  
-- fuel delivery dynamics  
-- atomization quality  
-- combustion stability  
+Combustion Output = f(C1 → C2 → C3 → C4)
 
-No single module independently determines performance; instead, system behavior emerges from their coupled interactions.
+System State Signature = g(C5 | C1–C4 history)
+
+Efficiency Output = h(C6 → C7)
+
+---
+
+## 23.6 Engineering Interpretation (Corrected)
+
+The PNG Energy System is a **directed energy transformation chain with embedded physical observability**:
+
+- C1 - C4: physical transformation domain  
+- C5: observational encoding of system dynamics  
+- C6 - C7: expansion and efficiency evaluation domain  
+
+Apparent coupling effects arise from **shared physical causality**, not bidirectional control.
+
+---
+
+## 23.7 Final Integration Statement (Corrected)
+
+System optimization is achieved through upstream parameter tuning along a single causal path:
+
+C1 → C2 → C3 → C4 → C5 → C6 → C7
+
+All cross-module influences are interpreted as **forward-propagated physical effects**, not feedback loops or bidirectional control structures
 
 ---
 
