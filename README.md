@@ -16,8 +16,8 @@ DOI: https://doi.org/10.5281/zenodo.20056957
 
 ## Version Roadmap
 
-- v2.0.0 – Engineering Expansion Framework (in development)
-- v3.0.0 – Simulation & Validation Framework (planned)
+- v2.0.0 – Engineering Expansion Framework (Release Preparation)
+- v3.0.0 – Simulation & Validation Framework (Planned)
 
 ---
 
