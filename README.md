@@ -1,108 +1,20 @@
-# PNG Energy System – GitHub Module Status
-
-## Citation (Primary System)
-
-PNG Energy System v1.1.0 – Modular Architecture Framework  
-DOI: https://doi.org/10.5281/zenodo.20402237
-
----
-
-## Version History / Previous Releases
-
-Fuel Atomization v2.0.0 (Archived Module Release)  
-DOI: https://doi.org/10.5281/zenodo.20056957
-
----
-
-## Version Roadmap
-
-- v2.0.0 – Engineering Expansion Framework (Release Preparation)
-- v3.0.0 – Simulation & Validation Framework (Planned)
-
----
-
-## Overview
-PNG (Pure Natural Gas) Energy System is a modular engineering research project.
-
-It focuses on:
-
-- fuel atomization
-- catalytic process optimization
-- combustion analysis
-- end-to-end fuel-to-energy conversion modeling
-
----
-
-## System Modules (7 Total)
-
-### 1. Fuel Atomization (Completed)
-- Spray angle and droplet formation  
-- Air–fuel mixing behavior  
-- Combustion efficiency impact  
-- PNG vs conventional fuel comparison  
-
-**Outcome:** Established baseline atomization model for combustion efficiency analysis.
-
-🔗 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/Fuel-atomization.md
-
----
-
-### 2. Catalyst Process Optimization (Completed)
-- Fe–Ni catalytic reactions  
-- Temperature and pressure tuning  
-- Hydrocarbon formation (C1–C20)  
-
-This module covers catalyst efficiency, reaction control, and system optimization within the PNG Energy System.
-
-🔗 https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/catalyst-process-optimization.md
-
----
-
-### 3. Fuel Injection Dynamics (Completed)
-- Injector nozzle flow behavior  
-- Pressure-based fuel dispersion  
-- Spray formation timing
-
-Reference Module: Fuel Injection Dynamics  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/fuel-injection-dynamics.md
-
----
-
-### 4. Combustion Stability and Knock Analysis (Completed)
-- Knock formation mechanisms  
-- Flame propagation behavior  
-- Pressure wave dynamics
-  
-🔗 Module Reference:  
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/combustion-stability-and-knock-analysis.md
-
----
-
-### 5. Sensor and Atomization Alert System (Completed)
-- Real-time fuel injection monitoring  
-- Atomization quality detection  
-- Combustion stability and fault alerts  
-- Engine performance feedback monitoring  
-
-Module Reference 
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system/blob/main/sensor-and-
-
-
 # PNG Energy System — v2.0.0
 
 ## Integrated Engineering Expansion Framework
 
-**PNG (Pure Natural Gas) Energy System** is a modular engineering research project focused on fuel conversion, catalytic process optimization, fuel injection, fuel atomization, combustion stability, sensing, system-level scaling, and advanced process optimization.
+**PNG (Pure Natural Gas) Energy System** is a modular engineering research framework focused on fuel conversion, catalytic process optimization, fuel injection, fuel atomization, combustion stability, sensing, system-level scaling, and intelligent process optimization.
 
 Version **2.0.0** expands the project from its foundational modular architecture toward a broader integrated engineering-system framework.
 
 ---
 
-## Citation — Primary System
+## Primary System Citation
 
 ### PNG Energy System v1.1.0 — Modular Architecture Framework
 
 **DOI:** https://doi.org/10.5281/zenodo.20402237
+
+This remains the primary archived system release until the PNG Energy System v2.0.0 release is formally published.
 
 ### Archived Module Release
 
@@ -114,12 +26,18 @@ Version **2.0.0** expands the project from its foundational modular architecture
 
 # Version History and Roadmap
 
+### v1.1.0 — Modular Architecture Framework
+
+Established the foundational PNG Energy System modular architecture.
+
 ### v2.0.0 — Engineering Expansion Framework
+
 **Release Preparation**
 
-Major expansion of the PNG Energy System into a seven-module engineering framework covering catalytic processing, fuel delivery, fuel atomization, combustion analysis, sensing, system-level scaling, and intelligent process optimization.
+Expands the PNG Energy System into a seven-module engineering framework covering catalytic processing, fuel delivery, fuel atomization, combustion analysis, sensing, system-level scaling, and intelligent process optimization.
 
 ### v3.0.0 — Simulation & Validation Framework
+
 **Planned**
 
 Future development will focus on expanded simulation, validation methodologies, system-level analysis, and further integration of engineering models.
@@ -128,7 +46,7 @@ Future development will focus on expanded simulation, validation methodologies, 
 
 # V2.0.0 System Modules
 
-The PNG Energy System consists of seven interconnected engineering modules.
+The PNG Energy System v2.0.0 framework consists of seven interconnected engineering modules.
 
 ## 1. Catalyst Process Optimization in the PNG Energy System
 
@@ -146,7 +64,7 @@ This module establishes the catalytic-processing layer of the PNG Energy System.
 
 ### V2.0.0 Module
 
-`catalyst-process-optimization-v2.0.0.md`
+[catalyst-process-optimization-v2.0.0.md](catalyst-process-optimization-v2.0.0.md)
 
 ---
 
@@ -165,13 +83,13 @@ This module establishes the fuel-delivery and injection layer of the PNG Energy 
 
 ### V2.0.0 Module
 
-`fuel-injection-dynamics-v2.0.0.md`
+[fuel-injection-dynamics-v2.0.0.md](fuel-injection-dynamics-v2.0.0.md)
 
 ---
 
 ## 3. Fuel Atomization in Internal Combustion Engines
 
-This module addresses the transformation of injected fuel into a dispersed spray for internal combustion engine applications.
+This module establishes the fuel-atomization layer for internal combustion engine applications.
 
 ### Key Areas
 
@@ -186,7 +104,7 @@ This module addresses the transformation of injected fuel into a dispersed spray
 
 ### V2.0.0 Module
 
-`fuel-atomization-v2.0.0.md`
+[fuel-atomization-v2.0.0.md](fuel-atomization-v2.0.0.md)
 
 ---
 
@@ -205,7 +123,7 @@ This module establishes the combustion-analysis layer of the PNG Energy System.
 
 ### V2.0.0 Module
 
-`combustion-stability-and-knock-analysis-v2.0.0.md`
+[combustion-stability-and-knock-analysis-v2.0.0.md](combustion-stability-and-knock-analysis-v2.0.0.md)
 
 ---
 
@@ -226,7 +144,7 @@ The module provides a framework for monitoring and diagnostic development across
 
 ### V2.0.0 Module
 
-`sensor-and-atomization-alert-system-v2.0.0.md`
+[sensor-and-atomization-alert-system-v2.0.0.md](sensor-and-atomization-alert-system-v2.0.0.md)
 
 ---
 
@@ -239,7 +157,7 @@ This module establishes the system-level scaling and future-architecture layer o
 - System-level scaling
 - Integration with external energy systems
 - Future system architectures
-- Conceptual hybrid-system modelling
+- Conceptual hybrid architecture modelling
 - System expansion pathways
 - Emission-reduction considerations
 - Future subsystem integration
@@ -248,7 +166,7 @@ Conceptual architectures are presented as engineering frameworks for future deve
 
 ### V2.0.0 Module
 
-`system-level-expansion-framework-v2.0.0.md`
+[system-level-expansion-framework-v2.0.0.md](system-level-expansion-framework-v2.0.0.md)
 
 ---
 
@@ -269,29 +187,29 @@ This module establishes the intelligent control and advanced optimization layer 
 
 ### V2.0.0 Module
 
-`advanced-process-optimization-v2.0.0.md`
+[advanced-process-optimization-v2.0.0.md](advanced-process-optimization-v2.0.0.md)
 
 ---
 
-# System Architecture
+# V2.0.0 System Architecture
 
-The V2.0.0 architecture follows a progressive engineering pathway:
+The seven-module architecture follows this engineering progression:
 
-**Catalyst Process Optimization**  
+**1. Catalyst Process Optimization in the PNG Energy System**  
 ↓  
-**Fuel Injection Dynamics**  
+**2. Fuel Injection Dynamics**  
 ↓  
-**Fuel Atomization in Internal Combustion Engines**  
+**3. Fuel Atomization in Internal Combustion Engines**  
 ↓  
-**Combustion Stability and Knock Analysis**  
+**4. Combustion Stability and Knock Analysis**  
 ↓  
-**Sensor and Atomization Alert System**  
+**5. Sensor and Atomization Alert System**  
 ↓  
-**Expansion Layer — System-Level Scaling and Future Architecture**  
+**6. Expansion Layer — System-Level Scaling and Future Architecture**  
 ↓  
-**Advanced Process Optimization — Intelligent System Control and Performance Optimization**
+**7. Advanced Process Optimization — Intelligent System Control and Performance Optimization**
 
-This architecture connects the major engineering layers from fuel conversion and delivery through atomization, combustion, monitoring, system-level scaling, and advanced optimization.
+This architecture connects the major engineering layers from fuel conversion and delivery through atomization, combustion, monitoring, system-level scaling, and intelligent optimization.
 
 ---
 
@@ -303,21 +221,21 @@ The overall process pathway can be represented as:
 
 **Catalytic Conversion → Fuel Injection → Fuel Atomization → Combustion Dynamics → Energy Output → Monitoring & Optimization Feedback**
 
-Each stage contributes to a continuous transformation chain from chemical fuel formation to usable energy output.
+Each stage contributes to the transformation chain from chemical fuel formation to usable energy output.
 
 The catalytic conversion stage defines the chemical production pathway of PNG fuel through syngas generation and catalytic hydrocarbon synthesis.
 
-Fuel injection establishes the controlled delivery of fuel.
+Fuel injection establishes controlled fuel delivery.
 
-Fuel atomization transforms the injected fuel into a dispersed spray and supports air–fuel mixing.
+Fuel atomization transforms injected fuel into a dispersed spray and supports air–fuel mixing.
 
 Combustion analysis evaluates combustion stability, flame behavior, pressure dynamics, and knock phenomena.
 
-The sensor and alert layer provides monitoring and feedback across relevant system conditions.
+The sensor and alert layer provides monitoring and diagnostic feedback.
 
-The expansion layer provides a framework for system-level scaling and future architectures.
+The expansion layer provides a framework for system-level scaling and future architecture.
 
-The advanced optimization layer evaluates system performance and provides a pathway toward intelligent system control and optimization.
+The advanced process optimization layer provides a pathway toward intelligent system control and performance optimization.
 
 ---
 
@@ -345,7 +263,7 @@ The project considers hydrocarbon formation within the broader **C₁–C₂₀*
 
 # Engineering Focus
 
-PNG Energy System v2.0.0 covers the following major engineering areas:
+PNG Energy System v2.0.0 covers:
 
 - Catalytic process optimization
 - Fuel injection dynamics
@@ -371,8 +289,8 @@ Each module is developed as a standalone technical document while contributing t
 
 The repository contains:
 
-- Core system documentation
 - Seven V2.0.0 engineering modules
+- Previous-version module documentation
 - System architecture documentation
 - Process-analysis documentation
 - Dependency and integration references
@@ -380,30 +298,26 @@ The repository contains:
 
 ---
 
-# Documentation Structure
+# Documentation
 
-The documentation layer provides system-level engineering analysis and architectural definitions.
+## V2.0.0 System Documentation
 
-## Dependency Graph
+[System-Level V2.0.0 Documentation](docs/v2.0.0.md)
 
-The dependency graph defines the relationships and process flow between the chemical conversion, fuel-delivery, atomization, combustion, monitoring, scaling, and optimization layers of the PNG Energy System.
-
-## Module Documentation
-
-Each V2.0.0 module is documented independently and contributes to the overall PNG Energy System architecture.
+[Dependency Graph](docs/dependency-graph.md)
 
 ---
 
 # Development Status
 
 **Project:** PNG Energy System  
-**Version:** 2.0.0  
+**Current Development:** v2.0.0  
 **Release:** Engineering Expansion Framework  
 **Status:** Release Preparation
 
 The project remains under active development.
 
-Future work will focus on:
+Future development will focus on:
 
 - System integration
 - Simulation
@@ -418,15 +332,14 @@ Future work will focus on:
 
 # Release Changelog
 
-Detailed changes introduced in Version 2.0.0 will be documented in:
+The detailed v2.0.0 changelog will be added to the repository as:
 
 `CHANGELOG.md`
 
+The changelog will document the major changes from v1.1.0 to v2.0.0.
+
 ---
 
-# Main Repository
+# Repository
 
-**PNG Energy System**
-
-https://github.com/iwerieborjoseph002-cloud/Png_energy_system
-
+[PNG Energy System — GitHub Repository](https://github.com/iwerieborjoseph002-cloud/Png_energy_system)
