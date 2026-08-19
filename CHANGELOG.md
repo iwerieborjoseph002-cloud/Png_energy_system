@@ -18,7 +18,7 @@ Established the catalytic-processing layer of the PNG Energy System.
 
 Key areas include:
 
-- Fe–Ni catalytic reactions
+- Fe-Ni catalytic reactions
 - Catalyst composition and performance
 - Temperature and pressure optimization
 - Hydrocarbon formation
@@ -52,7 +52,7 @@ Key areas include:
 - Spray angle
 - Droplet formation
 - Droplet characteristics
-- Air–fuel mixing behavior
+- Air-fuel mixing behavior
 - Atomization quality
 - Combustion-efficiency impact
 - Fuel spray behavior
@@ -139,7 +139,7 @@ Version 2.0.0 establishes the following engineering progression:
 ↓  
 **Expansion Layer - System-Level Scaling and Future Architecture**  
 ↓  
-**Advanced Process Optimization — Intelligent System Control and Performance Optimization**
+**Advanced Process Optimization - Intelligent System Control and Performance Optimization**
 
 ---
 
