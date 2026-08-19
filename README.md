@@ -1,4 +1,4 @@
-# PNG Energy System — v2.0.0
+# PNG Energy System - v2.0.0
 
 ## Integrated Engineering Expansion Framework
 
@@ -10,7 +10,7 @@ Version **2.0.0** expands the project from its foundational modular architecture
 
 ## Primary System Citation
 
-### PNG Energy System v1.1.0 — Modular Architecture Framework
+### PNG Energy System v1.1.0 - Modular Architecture Framework
 
 **DOI:** https://doi.org/10.5281/zenodo.20402237
 
@@ -26,17 +26,17 @@ This remains the primary archived system release until the PNG Energy System v2.
 
 # Version History and Roadmap
 
-### v1.1.0 — Modular Architecture Framework
+### v1.1.0 - Modular Architecture Framework
 
 Established the foundational PNG Energy System modular architecture.
 
-### v2.0.0 — Engineering Expansion Framework
+### v2.0.0 - Engineering Expansion Framework
 
 **Release Preparation**
 
 Expands the PNG Energy System into a seven-module engineering framework covering catalytic processing, fuel delivery, fuel atomization, combustion analysis, sensing, system-level scaling, and intelligent process optimization.
 
-### v3.0.0 — Simulation & Validation Framework
+### v3.0.0 - Simulation & Validation Framework
 
 **Planned**
 
@@ -205,7 +205,7 @@ The seven-module architecture follows this engineering progression:
 ↓  
 **5. Sensor and Atomization Alert System**  
 ↓  
-**6. Expansion Layer — System-Level Scaling and Future Architecture**  
+**6. Expansion Layer - System-Level Scaling and Future Architecture**  
 ↓  
 **7. Advanced Process Optimization — Intelligent System Control and Performance Optimization**
 
@@ -332,13 +332,11 @@ Future development will focus on:
 
 # Release Changelog
 
-The detailed v2.0.0 changelog will be added to the repository as:
+The detailed changes introduced in Version 2.0.0 are documented in:
 
-`CHANGELOG.md`
+[CHANGELOG.md](CHANGELOG.md)
 
-The changelog will document the major changes from v1.1.0 to v2.0.0.
-
----
+The changelog documents the major changes from v1.1.0 to v2.0.0.
 
 # Repository
 
