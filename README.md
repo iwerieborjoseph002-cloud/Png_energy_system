@@ -338,6 +338,12 @@ The detailed changes introduced in Version 2.0.0 are documented in:
 
 The changelog documents the major changes from v1.1.0 to v2.0.0.
 
+# License
+
+This project is released under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for the full license text.
+
 # Repository
 
 [PNG Energy System — GitHub Repository](https://github.com/iwerieborjoseph002-cloud/Png_energy_system)
