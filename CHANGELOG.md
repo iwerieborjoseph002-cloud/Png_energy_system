@@ -4,7 +4,7 @@ All notable changes to the PNG Energy System are documented in this file.
 
 ---
 
-# [v2.0.0] — Engineering Expansion Framework
+# [v2.0.0] - Engineering Expansion Framework
 
 **Status:** Released
 
