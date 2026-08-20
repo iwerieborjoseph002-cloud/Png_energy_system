@@ -313,9 +313,9 @@ The repository contains:
 **Project:** PNG Energy System  
 **Current Development:** v2.0.0  
 **Release:** Engineering Expansion Framework  
-**Status:** Active Development 
+**Status:** Active Development
 
-The project remains under active development.
+The project is under active development.
 
 Future development will focus on:
 
