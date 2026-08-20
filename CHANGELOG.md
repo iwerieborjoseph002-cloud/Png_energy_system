@@ -4,9 +4,9 @@ All notable changes to the PNG Energy System are documented in this file.
 
 ---
 
-# [v2.0.0] - Engineering Expansion Framework
+# [v2.0.0] — Engineering Expansion Framework
 
-**Status:** Release Preparation
+**Status:** Released
 
 Version 2.0.0 expands the PNG Energy System from its foundational modular architecture into a seven-module integrated engineering framework.
 
