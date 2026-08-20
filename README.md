@@ -32,7 +32,7 @@ Established the foundational PNG Energy System modular architecture.
 
 ### v2.0.0 - Engineering Expansion Framework
 
-**Release Preparation**
+**Released**
 
 Expands the PNG Energy System into a seven-module engineering framework covering catalytic processing, fuel delivery, fuel atomization, combustion analysis, sensing, system-level scaling, and intelligent process optimization.
 
