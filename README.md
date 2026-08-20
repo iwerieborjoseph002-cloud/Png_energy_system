@@ -8,13 +8,17 @@ Version **2.0.0** expands the project from its foundational modular architecture
 
 ---
 
-## Primary System Citation
+## Citation - Primary System
 
-### PNG Energy System v1.1.0 - Modular Architecture Framework
+### PNG Energy System v2.0.0 - Engineering Expansion Framework
+
+**DOI:** https://doi.org/10.5281/zenodo.22031989
+
+### Previous System Release
+
+**PNG Energy System v1.1.0 - Modular Architecture Framework**
 
 **DOI:** https://doi.org/10.5281/zenodo.20402237
-
-This remains the primary archived system release until the PNG Energy System v2.0.0 release is formally published.
 
 ### Archived Module Release
 
