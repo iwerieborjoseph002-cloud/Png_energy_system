@@ -313,7 +313,7 @@ The repository contains:
 **Project:** PNG Energy System  
 **Current Development:** v2.0.0  
 **Release:** Engineering Expansion Framework  
-**Status:** Release Preparation
+**Status:** Active Development 
 
 The project remains under active development.
 
