@@ -12,21 +12,19 @@ Version **2.0.0** expands the project from its foundational modular architecture
 
 ### PNG Energy System v2.0.0 - Engineering Expansion Framework
 
-**DOI:** https://doi.org/10.5281/zenodo.22031989
+**DOI:** [10.5281/zenodo.22031989](https://doi.org/10.5281/zenodo.22031989)
 
 ### Previous System Release
 
 **PNG Energy System v1.1.0 - Modular Architecture Framework**
 
-**DOI:** https://doi.org/10.5281/zenodo.20402237
+**DOI:** [10.5281/zenodo.20402237](https://doi.org/10.5281/zenodo.20402237)
 
 ### Archived Module Release
 
 **Fuel Atomization v2.0.0**
 
-**DOI:** https://doi.org/10.5281/zenodo.20056957
-
----
+**DOI:** [10.5281/zenodo.20056957](https://doi.org/10.5281/zenodo.20056957)
 
 ## Research Indexing and Discoverability
 
@@ -40,9 +38,7 @@ PNG Energy System v2.0.0 is indexed by OpenAIRE as Research Software.
 
 This indexing enhances the research discoverability of the PNG Energy System engineering framework and its seven interconnected modules.
 
----
-
-# Version History and Roadmap
+## Version History and Roadmap
 
 ### v1.1.0 - Modular Architecture Framework
 
