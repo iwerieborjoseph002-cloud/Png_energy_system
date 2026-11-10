@@ -32,10 +32,10 @@ Version **2.0.0** expands the project from its foundational modular architecture
 
 PNG Energy System v2.0.0 is indexed by OpenAIRE as Research Software.
 
-**Research Repository:** Zenodo  
-**DOI:** [10.5281/zenodo.22031989](https://doi.org/10.5281/zenodo.22031989)
+**Research Repository:** Zenodo
 
-**OpenAIRE Research Record:**  
+**OpenAIRE Research Record:**
+
 [PNG Energy System v2.0.0 – OpenAIRE](https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.22031989)
 
 This indexing enhances the research discoverability of the PNG Energy System engineering framework and its seven interconnected modules.
